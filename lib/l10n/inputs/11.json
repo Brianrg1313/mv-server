@@ -1,0 +1,9 @@
+{
+    "Comentario": "NOMBRE DEL PRODUCTO",
+    "es": {
+        "1": "Debe ingresar el nombre del producto",
+        "2": "El nombre del producto contiene caracteres inv\u00e1lidos",
+        "3": "El nombre del producto es muy corto",
+        "4": "El nombre del producto es muy largo"
+    }
+}

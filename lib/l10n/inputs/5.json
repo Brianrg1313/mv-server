@@ -1,0 +1,9 @@
+{
+    "Comentario": "CONTRASE\u00d1A",
+    "es": {
+        "1": "Debe ingresar su contrase\u00f1a",
+        "2": "Su contrase\u00f1a contiene caracteres inv\u00e1lidos",
+        "3": "Su contrase\u00f1a es muy corta",
+        "4": "Su contrase\u00f1a es muy larga"
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "code": 19,
+  "status": 500,
+  "serverName": "127.0.0.1:3333",
+  "url": "/trakhtenbrot/v1/authentication/",
+  "file": "FSReqCallback.oncomplete (node:fs:188:23)",
+  "headers": {
+    "device": "c89208ec-d15e-4dbc-9936-8a4346ba4e4d",
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.39.0",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "postman-token": "b7c15fce-c876-4436-811b-1685152db2db",
+    "host": "127.0.0.1:3333",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "73",
+    "accept-language": "es"
+  },
+  "body": {
+    "CONTRASENA": "090552bga",
+    "USUARIO": "brianrg1313"
+  },
+  "devTails": "No hay una contraseña relacionada a este cliente"
+}

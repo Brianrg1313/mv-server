@@ -1,0 +1,9 @@
+{
+    "Comentario": "TIPO DE MEDIDA",
+    "es": {
+        "1": "Debe ingresar el tipo de medida de la masa del producto",
+        "2": "El tipo de medida de la masa contiene caracteres inv\u00e1lidos",
+        "3": "El tipo de medida de la masa es muy corta",
+        "4": "El tipo de medida de la masa es muy larga"
+    }
+}

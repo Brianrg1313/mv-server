@@ -1,0 +1,9 @@
+{
+    "Comentario": "IMPUESTO",
+    "es": {
+        "1": "Debe ingresar el porcentaje de impuesto a descontar",
+        "2": "El porcentaje de impuesto contiene caracteres inv\u00e1lidos",
+        "3": "El porcentaje de impuesto es muy pequeño",
+        "4": "El porcentaje de impuesto contiene mas números de los permitidos, verifique que sea correcto"
+    }
+}

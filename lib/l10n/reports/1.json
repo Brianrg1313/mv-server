@@ -1,0 +1,22 @@
+{
+  "code": 1,
+  "status": 500,
+  "serverName": "127.0.0.1:1363",
+  "url": "/health/",
+  "file": "FSReqCallback.oncomplete (node:fs:188:23)",
+  "headers": {
+    "access": "$SSL5-XZBDgcLeib89i95-148-Uh5VDVQ7hVa30MlwavaI8ODVfguNhA0MgEaabGer0Iru6pqc9H0ZUXcGcOxcbhKDAAfkcU-X2",
+    "device": "{A5AD2CE7-9D62-4EF5-B7BD-F42AFE8F5911}",
+    "accept-language": "es",
+    "piote": "dsf4sdf56sd45fsdf",
+    "user-agent": "PostmanRuntime/7.39.0",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "postman-token": "49c1e3dc-f7c1-4f5d-80fa-f3891623060e",
+    "host": "127.0.0.1:1363",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive"
+  },
+  "body": {},
+  "devTails": "NP"
+}

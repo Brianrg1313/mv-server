@@ -1,0 +1,4 @@
+[
+    "GET - /health/",
+    "POST - /fomalhaut/v1/authentication/:CODIGO?"
+]

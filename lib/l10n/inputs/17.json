@@ -1,0 +1,9 @@
+{
+    "Comentario": "PRECIO DE VENTA",
+    "es": {
+        "1": "Debe ingresar el precio de venta",
+        "2": "El precio de venta contiene caracteres inv\u00e1lidos",
+        "3": "El precio de venta es un numero muy pequeño",
+        "4": "El precio de venta contiene mas números de los permitidos, verifique que sea correcto"
+    }
+}

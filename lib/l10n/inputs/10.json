@@ -1,0 +1,9 @@
+{
+    "Comentario": "IDENTIFICADOR DEL PRODUCTO",
+    "es": {
+        "1": "Debe ingresar el identificador del producto",
+        "2": "El identificador del producto contiene caracteres inv\u00e1lidos",
+        "3": "El identificador del producto es muy corto",
+        "4": "El identificador del producto es muy largo"
+    }
+}

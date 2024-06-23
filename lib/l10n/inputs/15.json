@@ -1,0 +1,9 @@
+{
+    "Comentario": "CANTIDAD",
+    "es": {
+        "1": "Debe ingresar la cantidad",
+        "2": "La cantidad contiene caracteres inv\u00e1lidos",
+        "3": "La cantidad es muy pequeña",
+        "4": "La cantidad supera el número máximo"
+    }
+}
