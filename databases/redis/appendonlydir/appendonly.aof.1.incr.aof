@@ -28,15 +28,3 @@ $11
 collections
 $1347
 [{"id":5,"titulo":"Actitudes","icono":null,"posicion":null},{"id":17,"titulo":"Administración","icono":null,"posicion":null},{"id":21,"titulo":"Antecedentes","icono":null,"posicion":null},{"id":4,"titulo":"Auditorias","icono":null,"posicion":null},{"id":10,"titulo":"Ejercicios","icono":null,"posicion":null},{"id":13,"titulo":"Enfermedades","icono":null,"posicion":null},{"id":1,"titulo":"Estado de salud","icono":null,"posicion":null},{"id":15,"titulo":"Estudios pendientes","icono":null,"posicion":null},{"id":16,"titulo":"Interconsultas","icono":null,"posicion":null},{"id":20,"titulo":"Lista de pacientes","icono":null,"posicion":null},{"id":19,"titulo":"Material utilizado","icono":null,"posicion":null},{"id":2,"titulo":"Mediciones biológicas","icono":null,"posicion":null},{"id":6,"titulo":"Medio ambiente","icono":null,"posicion":null},{"id":9,"titulo":"Nutrición","icono":null,"posicion":null},{"id":12,"titulo":"Órganos","icono":null,"posicion":null},{"id":3,"titulo":"Promedio semanal","icono":null,"posicion":null},{"id":8,"titulo":"PSI (Flores)","icono":null,"posicion":null},{"id":7,"titulo":"Reprogramación","icono":null,"posicion":null},{"id":11,"titulo":"Síntomas","icono":null,"posicion":null},{"id":18,"titulo":"Tienda virtual","icono":null,"posicion":null},{"id":14,"titulo":"Tratamientos","icono":null,"posicion":null}]
-*2
-$6
-SELECT
-$1
-0
-*3
-$4
-SADD
-$7
-devices
-$15
-TP1A.220624.014

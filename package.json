@@ -4,7 +4,7 @@
   "description": "",
   "main": "./lib/main.js",
   "scripts": {
-    "dev": "node --watch-path=./lib ./lib/main.js"
+    "dev": "set DEV=1 && node --watch-path=./lib ./lib/main.js"
   },
   "author": "Brian Rangel",
   "license": "ISC",
