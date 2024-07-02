@@ -1,0 +1,64 @@
+{
+    "CORREO": {
+        "error" : 1,
+        "key": "correo",
+        "type": "email",
+        "addr": "correo"
+    },
+    "USUARIO": {
+        "error" : 2,
+        "key": "usuario",
+        "addr": "usuario",
+        "min": 2,
+        "max": 125,
+        "pattern": "A-Za-z0-9_\\-."
+    },
+    "DNI": {
+        "error" : 3,
+        "key": "dni",
+        "addr": "Documento de identificación",
+        "min": 2,
+        "max": 35,
+        "pattern": "A-Za-z0-9\\."
+    },
+    "TELEFONO": {
+        "error" : 4,
+        "key": "telefono",
+        "addr": "teléfono",
+        "min": 10,
+        "max": 15,
+        "pattern": "+)(0-9\\-"
+    },
+    "CONTRASENA": {
+        "error" : 5,
+        "key": "contrasena",
+        "addr": "contraseña",
+        "min": 8,
+        "max": 50,
+        "pattern": "IGNORE"
+    },
+    "CODIGO": {
+        "error" : 6,
+        "key": "codigo",
+        "addr": "Código de verificación",
+        "type": "numeric",
+        "min": 6,
+        "max": 6
+    },
+    "TOKEN": {
+        "error" : 7,
+        "key": "token",
+        "addr": "token",
+        "min": 10,
+        "max": 2000,
+        "pattern": "IGNORE"
+    },
+    "TEXTO": {
+        "error" : 8,
+        "key": "texto",
+        "addr": "texto",
+        "min": 1,
+        "max": 200,
+        "pattern": "A-Za-z0-9\\. ,"
+    }
+}
