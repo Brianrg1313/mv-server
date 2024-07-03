@@ -30,20 +30,5 @@ services:
 
 volumes:
   mariadb:
-    driver: local
-    driver_opts:
-      type: none
-      device: ./databases/mysql
-      o: bind
   mongodb:
-    driver: local
-    driver_opts:
-      type: none
-      device: ./databases/mongo
-      o: bind
   redisdb:
-    driver: local
-    driver_opts:
-      type: none
-      device: ./databases/redis
-      o: bind
