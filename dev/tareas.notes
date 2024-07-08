@@ -1,0 +1,14 @@
+- La tabla `files` pasa a llamarse `archivos` y `folders` a `carpetas`.
+
+- Pasar los `id_usuario` a `uid`.
+
+- usar "SELECT * FROM `archivos` WHERE `area` NOT REGEXP '^[0-9]+$'" para buscar cualquier columna que no sea un id de una carpeta.
+
+- Correciones a la tabla de archvios
+"ALTER TABLE `archivos` CHANGE `area` `carpeta` INT(11) NULL DEFAULT NULL;"
+"ALTER TABLE `archivos` CHANGE `tipo` `tipo` INT(1) NULL DEFAULT NULL, CHANGE `estado` `estado` INT(1) NOT NULL DEFAULT '1';"
+
+- Correciones a la tabla de carpetas
+"ALTER TABLE `carpetas` CHANGE `estado` `estado` INT(1) NULL DEFAULT NULL, CHANGE `color` `color` INT(1) NULL DEFAULT NULL;"
+
+- La forma en que se generan los path de imagenes debe actualizarse cuando se actualice el sistema de cargar archivos

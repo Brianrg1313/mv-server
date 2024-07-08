@@ -10,7 +10,7 @@ Definiciones
 Estructura y configuración del archivo "config.json"
 
 - METHOD: [String] Es el método de la petición: [ POST, GET, PUT, DELETE ]. Todas las demas configuraciones
-deben estar dentro de un método (LOS METODOS DEBEN ESTAR ESCRITOS EN MAYUSCULAS).
+deben estar dentro de un método (LOS MÉTODOS DEBEN ESTAR ESCRITOS EN MAYÚSCULAS).
 
 - params: [Array<String>] Son los parametros que recibira esta petrición en su *URL* ordenados por índice.
     -- Ejemplo: "/url_de_ejemplo/:USUARIO/:EDAD?" -> "/url_de_ejemplo/brian/25"

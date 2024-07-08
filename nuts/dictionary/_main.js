@@ -17,6 +17,10 @@ async function main() {
 
     await connection.query("TRUNCATE `diccionario`")
 
+    for (const key in collections) {
+        await connection.query("INSERT INTO `colecciones`(`id`, `titulo`) VALUES (" + collections[key].id + ",'" + collections[key].titulo + "')")
+    }
+
     for (const key in variables) {
         const item = variables[key]
 
@@ -31,7 +35,6 @@ async function main() {
         }
 
         if (!collections[item.co]) {
-            console.log(item)
             continue
         } else {
             if (collections[item.co].id) {
