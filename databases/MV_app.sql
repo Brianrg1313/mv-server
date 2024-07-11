@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 02-07-2024 a las 14:07:24
+-- Tiempo de generación: 11-07-2024 a las 17:15:10
 -- Versión del servidor: 11.4.2-MariaDB-ubu2404
 -- Versión de PHP: 8.1.6
 
@@ -95,7 +95,7 @@ INSERT INTO `diccionario` (`id`, `icono`, `variable`, `titulo`, `subtitulo`, `ti
 (4, NULL, 'cintura', 'cintura/cadera', 'cintura/cadera', 1, 1, 2, 1, 'ek', '0-5', NULL, 1, 1),
 (5, NULL, 'pesoperdido', 'Peso perdido', 'Peso perdido', 1, 1, 20, 1, 'dñ', '0-5', NULL, 1, 1),
 (6, NULL, 'grasaperdida', 'grasa perdida', 'grasa perdida', 1, 1, 20, 1, 'du', '0-5', NULL, 1, 1),
-(7, NULL, 'peso', 'Peso', 'Peso corporal', 3, 1, 2, 1, 'p', '0-5', NULL, 1, 1),
+(7, NULL, 'peso', 'Peso', 'Peso corporal', 3, 1, 2, 1, 'p', '0-9.', NULL, 1, 11),
 (8, NULL, 'grasab', 'Grasa Corporal', 'Grasa Corporal', 3, 1, 2, 1, 'dp', '0-5', NULL, 1, 1),
 (9, NULL, 'musculo', 'Músculos', 'Músculos en kilos', 3, 1, 2, 1, NULL, '0-5', NULL, 1, 1),
 (10, NULL, 'pai', 'PAI 2', 'Inteligencia de Actividad Personal', 3, 1, 2, 1, NULL, '0-9', NULL, 1, 11),
@@ -426,13 +426,6 @@ CREATE TABLE `terminos` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_spanish2_ci;
 
 --
--- Volcado de datos para la tabla `terminos`
---
-
-INSERT INTO `terminos` (`id`, `uid`, `terminos`, `privacidad`) VALUES
-(1, 1, 1, 6);
-
---
 -- Índices para tablas volcadas
 --
 
@@ -478,7 +471,7 @@ ALTER TABLE `diccionario`
 -- AUTO_INCREMENT de la tabla `terminos`
 --
 ALTER TABLE `terminos`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

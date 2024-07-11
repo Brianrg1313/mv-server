@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 02-07-2024 a las 14:07:36
+-- Tiempo de generación: 11-07-2024 a las 17:15:26
 -- Versión del servidor: 11.4.2-MariaDB-ubu2404
 -- Versión de PHP: 8.1.6
 
@@ -131,7 +131,17 @@ INSERT INTO `sesiones` (`id`, `uid`, `accs`, `dispositivo`, `estado`, `fecha`) V
 (67, 1, 'do0rJO0G30fAmyLGHNKdmtYXKO4Lozd8tsXRJweN', 2, NULL, '2024-07-02 03:26:32'),
 (68, 1, 'SOMoC41V7h5h7EcMF0I97KCYovd1CmC2hRMllntZ', 2, NULL, '2024-07-02 03:27:05'),
 (69, 1, 'Omg43u7v0aBSjaaJwKQs5U1r7fVvn80GUFScLri4', 2, NULL, '2024-07-02 03:27:32'),
-(70, 1, '3Ip9VE6Q2t2mvuYc4F1qWuKpluyQdmeA04vo7PkD', 2, NULL, '2024-07-02 03:54:23');
+(70, 1, '3Ip9VE6Q2t2mvuYc4F1qWuKpluyQdmeA04vo7PkD', 2, NULL, '2024-07-02 03:54:23'),
+(71, 1, 'fWLdTLATpHdUGzL7QGRlNRudeim7gJRD8B9J0g4e', 2, NULL, '2024-07-04 13:36:23'),
+(72, 1, 'hu3TTUabtfx3vyz2b31Lzrg7RSS0Hg16IKtyU5nu', 2, NULL, '2024-07-04 13:37:30'),
+(73, 1, 'BR7SNXpxfElBOF9U44gv8k368QqQQUvDdz1edAmn', 2, NULL, '2024-07-04 14:20:54'),
+(74, 1, 'CnLfoJkgYeVdc1SMXGCfCjuj9MrDaBtE6HYNW6pr', 2, NULL, '2024-07-04 14:31:22'),
+(75, 1, 'G55Cx4RZEKTdIssPbmsiqTz8obWBCIod4OCHe2ZM', 1, NULL, '2024-07-06 15:40:32'),
+(76, 1, 'KucZFsn0sXeDgvEQBIZqXWD4ONuCoW5FLCLfv8Mq', 2, NULL, '2024-07-06 19:14:17'),
+(77, 1, '1mHp78IIvTSQsLQdDnNqBDASM95sSF5OPezkM1E6', 2, NULL, '2024-07-06 19:14:28'),
+(78, 1, 'C5kH660GjXd3d5FlGXiq5u6z9LeNx9wnXCXBy4ed', 2, NULL, '2024-07-06 19:16:44'),
+(79, 1, 'tL9fhCySTz3VFAJv73E4YvwrkaQvnxBWeZNu1Euh', 2, NULL, '2024-07-06 19:17:02'),
+(80, 1, 'SQsE5jFlQSAOaBoxSQ5u5piQMbSZ9R6WuwgRvksd', 1, NULL, '2024-07-07 02:46:20');
 
 --
 -- Índices para tablas volcadas
@@ -164,7 +174,7 @@ ALTER TABLE `dispositivos`
 -- AUTO_INCREMENT de la tabla `sesiones`
 --
 ALTER TABLE `sesiones`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=71;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=81;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
