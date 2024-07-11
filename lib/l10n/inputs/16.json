@@ -1,9 +1,0 @@
-{
-    "Comentario": "PRECIO DE COMPRA",
-    "es": {
-        "1": "Debe ingresar el precio de compra",
-        "2": "El precio de compra contiene caracteres inv\u00e1lidos",
-        "3": "El precio de compra es un numero muy pequeño",
-        "4": "El precio de compra contiene mas números de los permitidos, verifique que sea correcto"
-    }
-}

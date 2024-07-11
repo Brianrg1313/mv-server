@@ -1,9 +1,0 @@
-{
-    "Comentario": "LOTES DE PRODUCTOS",
-    "es": {
-        "1": "Debe ingresar la cantidad de lotes del mismo productos",
-        "2": "La cantidad de lotes de productos contiene caracteres inv\u00e1lidos",
-        "3": "La cantidad de lotes de productos es muy pequeña",
-        "4": "La cantidad de lotes de productos contiene mas números de los permitidos, verifique que sea correcto"
-    }
-}

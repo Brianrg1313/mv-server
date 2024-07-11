@@ -1,9 +1,0 @@
-{
-    "Comentario": "MASA DEL PRODUCTO",
-    "es": {
-        "1": "Debe ingresar la masa del producto",
-        "2": "La masa del producto contiene caracteres inv\u00e1lidos",
-        "3": "La masa del producto es muy pequeña",
-        "4": "La masa del producto es muy pesada"
-    }
-}

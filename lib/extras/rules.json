@@ -60,5 +60,13 @@
         "min": 1,
         "max": 200,
         "pattern": "A-Za-z0-9\\. ,"
+    },
+    "SEMANA": {
+        "error" : 11,
+        "key": "semana",
+        "addr": "Semana",
+        "min": 1,
+        "max": 11,
+        "pattern": "0-9"
     }
 }

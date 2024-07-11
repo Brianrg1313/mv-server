@@ -1,9 +1,9 @@
 {
-    "Comentario": "NOMBRE DEL PRODUCTO",
+    "Comentario": "Error general para campos con validador en mysql",
     "es": {
-        "1": "Debe ingresar el nombre del producto",
-        "2": "El nombre del producto contiene caracteres inv\u00e1lidos",
-        "3": "El nombre del producto es muy corto",
-        "4": "El nombre del producto es muy largo"
+        "1": "Hubo un error al validar la semana",
+        "2": "La semana es invalida",
+        "3": "Semana muy corta",
+        "4": "Semana muy larga"
     }
 }
