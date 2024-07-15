@@ -56,6 +56,7 @@ async function main() {
 
                 R[uid][newKey][item.semana] = {
                     v: value,
+                    a: 2,
                     f: new Date(item.fecha_r)
                 }
             }
@@ -77,7 +78,7 @@ async function main() {
 
     await client.connect()
     const mg = client.db("MV_pacientes")
-    const coll = mg.collection("record")
+    const coll = mg.collection("ficha")
 
     for (const uid in R) {
         await coll.insertOne(R[uid])
