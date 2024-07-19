@@ -16,6 +16,7 @@ async function main() {
     const connection = await mysql.createConnection(c)
 
     await connection.query("TRUNCATE `diccionario`")
+    await connection.query("TRUNCATE `colecciones`")
 
     for (const key in collections) {
         await connection.query("INSERT INTO `colecciones`(`id`, `titulo`) VALUES (" + collections[key].id + ",'" + collections[key].titulo + "')")
