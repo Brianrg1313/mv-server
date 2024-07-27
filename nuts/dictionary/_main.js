@@ -19,7 +19,7 @@ async function main() {
     await connection.query("TRUNCATE `colecciones`")
 
     for (const key in collections) {
-        await connection.query("INSERT INTO `colecciones`(`id`, `titulo`) VALUES (" + collections[key].id + ",'" + collections[key].titulo + "')")
+        await connection.query("INSERT INTO `colecciones`(`id`, `es`,`en`) VALUES (" + collections[key].id + ",'" + collections[key].titulo + "','" + collections[key].titulo + "')")
     }
 
     for (const key in variables) {
@@ -56,18 +56,30 @@ async function main() {
         }
 
         if (!item.va.max) {
-            item.va.max = 1
+            if (item.va.type === "tinyi") {
+                item.va.max = 1
+            } else if (item.va.type === "double") {
+                item.va.max = 11
+            } else {
+                item.va.max = 1
+            }
         }
 
         if (!item.va.pattern) {
-            item.va.pattern = "0-5"
+            if (item.va.type === "tinyi") {
+                item.va.pattern = "0-5"
+            } else if (item.va.type === "double") {
+                item.va.pattern = "0-9."
+            } else {
+                item.va.pattern = "0-5"
+            }
         }
 
         if (!types[key]) {
             types[key] = 3
         }
 
-        await connection.query("INSERT INTO `diccionario`(`id`, `icono`, `variable`, `titulo`, `subtitulo`, `tipo`, `modo`, `coleccion`, `editable`, `abreviacion`, `pattern`, `posicion`, `min`, `max`) VALUES (NULL,NULL,'" + key + "','" + item.ti + "','" + item.to + "'," + types[key] + ",1," + collections[item.co] + ",1," + item.sg + ",'" + item.va.pattern + "',NULL," + item.va.min + "," + item.va.max + ")")
+        await connection.query("INSERT INTO `diccionario`(`id`, `icono`, `variable`, `es`, `en`, `subes`, `suben`, `tipo`, `modo`, `coleccion`, `editable`, `abreviacion`, `pattern`, `posicion`, `min`, `max`) VALUES (NULL,NULL,'" + key + "','" + item.ti + "','" + item.ti + "','" + item.to + "','" + item.to + "'," + types[key] + ",1," + collections[item.co] + ",1," + item.sg + ",'" + item.va.pattern + "',NULL," + item.va.min + "," + item.va.max + ")")
     }
 
     await connection.end()
