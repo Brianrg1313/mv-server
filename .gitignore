@@ -1,3 +1,7 @@
 /lib/private/env
 /node_modules
 /package-lock.json
+/nuts/static_images/*.webp
+/nuts/static_images/*.png
+/nuts/static_images/*.jpg
+/nuts/static_images/*.svg

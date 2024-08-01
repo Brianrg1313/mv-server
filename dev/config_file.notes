@@ -26,3 +26,12 @@ deben estar dentro de un método (LOS MÉTODOS DEBEN ESTAR ESCRITOS EN MAYÚSCUL
         "rewrite": "/nueva_url_para_el_controlador"
     }
 }
+
+
+Significado de colores en la imagen de error
+
+- Amarillo: `1` Error de validación de token de sesión del paciente
+- Rojo: `2` Error de validación de device
+- Naranja: `3` Error al buscar la imagen en los archivos
+- Morado: `4` Origen de la petición no tiene permisos para acceder a los datos
+- verde: `5` El modo de imagen no es correcto
