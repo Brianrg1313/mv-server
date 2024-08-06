@@ -20,3 +20,7 @@
 - Hay una discrepancia entre los resumenes del paciente y los resumenes de administrador, en pacientes las actitudes y emociones son un solo resumen, mientras que en administrador son dos resumenes separados, para manterer la integridad de la interfaz del paciente los resumenes estan juntos en la variable `149` resumen de actitudes
 
 - Cambiar las imagenes para respuestas de errores de archivos
+
+- Los pacientes tendran 15 semanas como limite para no responder, el administrador puede liberar todo los datos
+
+- Hay algunas imaganes de variables a trabajar esta semana que estan mal, no existen

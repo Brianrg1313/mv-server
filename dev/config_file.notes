@@ -35,3 +35,9 @@ Significado de colores en la imagen de error
 - Naranja: `3` Error al buscar la imagen en los archivos
 - Morado: `4` Origen de la petición no tiene permisos para acceder a los datos
 - verde: `5` El modo de imagen no es correcto
+
+Significado de los formatos de las variables en el dicionario
+
+- String: `1`
+- double: `2`
+- int: `3`

@@ -47,7 +47,8 @@ async function main() {
             item.va = {
                 min: 1,
                 max: 1,
-                pattern: 1
+                type: "tinyi",
+                pattern: "0-5"
             }
         }
 
@@ -75,11 +76,23 @@ async function main() {
             }
         }
 
+        if (!item.format) {
+            if (item.va.type === "tinyi") {
+                item.format = 3
+            } else if (item.va.type === "double") {
+                item.format = 2
+            } else if (item.va.type === "text") {
+                item.format = 1
+            } else {
+                item.format = 1
+            }
+        }
+
         if (!types[key]) {
             types[key] = 3
         }
 
-        await connection.query("INSERT INTO `diccionario`(`id`, `icono`, `variable`, `es`, `en`, `subes`, `suben`, `tipo`, `modo`, `coleccion`, `editable`, `abreviacion`, `pattern`, `posicion`, `min`, `max`) VALUES (NULL,NULL,'" + key + "','" + item.ti + "','" + item.ti + "','" + item.to + "','" + item.to + "'," + types[key] + ",1," + collections[item.co] + ",1," + item.sg + ",'" + item.va.pattern + "',NULL," + item.va.min + "," + item.va.max + ")")
+        await connection.query("INSERT INTO `diccionario`(`id`, `icono`, `formato`, `variable`, `es`, `en`, `subes`, `suben`, `tipo`, `coleccion`, `abreviacion`, `pattern`, `posicion`, `min`, `max`) VALUES (NULL,NULL," + item.format + ",'" + key + "','" + item.ti + "','" + item.ti + "','" + item.to + "','" + item.to + "'," + types[key] + "," + collections[item.co] + "," + item.sg + ",'" + item.va.pattern + "',NULL," + item.va.min + "," + item.va.max + ")")
     }
 
     await connection.end()

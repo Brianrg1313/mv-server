@@ -67,6 +67,7 @@
         "addr": "Semana",
         "min": 1,
         "max": 11,
+        "type": "numeric",
         "pattern": "0-9"
     }
 }

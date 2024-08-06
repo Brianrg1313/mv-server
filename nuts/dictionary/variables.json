@@ -272,7 +272,7 @@
         "ed": true,
         "sg": "e",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "salud",
             "min": 1,
             "max": 1,
@@ -475,7 +475,7 @@
         "co": "resumen",
         "ed": false,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "ALIMENTACIóN",
             "min": 1,
             "max": 1,
@@ -492,7 +492,7 @@
         "co": "resumen",
         "ed": false,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "ACTITUDES",
             "min": 1,
             "max": 1,
@@ -509,7 +509,7 @@
         "co": "resumen",
         "ed": false,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "MEDIO AMBIENTE",
             "min": 1,
             "max": 1,
@@ -527,7 +527,7 @@
         "ed": false,
         "sg": "g",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "EJERCICIO",
             "min": 1,
             "max": 1,
@@ -581,7 +581,7 @@
         "ed": true,
         "sg": "DEL",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Eliminar",
             "min": 1,
             "max": 1,
@@ -599,7 +599,7 @@
         "ed": true,
         "sg": "bh",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "APS",
             "min": 1,
             "max": 1,
@@ -617,7 +617,7 @@
         "ed": true,
         "sg": "eg",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Estudio administrador",
             "min": 1,
             "max": 1,
@@ -635,7 +635,7 @@
         "ed": true,
         "sg": "dn",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "APS",
             "min": 1,
             "max": 1,
@@ -653,7 +653,7 @@
         "ed": true,
         "sg": "c",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Revisión Seguimiento",
             "min": 1,
             "max": 1,
@@ -671,7 +671,7 @@
         "ed": true,
         "sg": "dw",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Revisión Seguimiento",
             "min": 1,
             "max": 1,
@@ -689,7 +689,7 @@
         "ed": true,
         "sg": "dx",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Peso Semanal",
             "min": 1,
             "max": 1,
@@ -707,7 +707,7 @@
         "ed": true,
         "sg": "bi",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "APSI",
             "min": 1,
             "max": 1,
@@ -725,7 +725,7 @@
         "ed": true,
         "sg": "bj",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "ANU",
             "min": 1,
             "max": 1,
@@ -743,7 +743,7 @@
         "ed": true,
         "sg": "bk",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "AEJ",
             "min": 1,
             "max": 1,
@@ -760,7 +760,7 @@
         "co": "auditorias",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "AEA",
             "min": 1,
             "max": 1,
@@ -778,7 +778,7 @@
         "ed": true,
         "sg": "s",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "AMC",
             "min": 1,
             "max": 1,
@@ -796,7 +796,7 @@
         "ed": true,
         "sg": "bm",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "AMED",
             "min": 1,
             "max": 1,
@@ -814,7 +814,7 @@
         "ed": true,
         "sg": "bn",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "AREL",
             "min": 1,
             "max": 1,
@@ -832,7 +832,7 @@
         "ed": true,
         "sg": "bñ",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "ABAL",
             "min": 1,
             "max": 1,
@@ -850,7 +850,7 @@
         "ed": true,
         "sg": "o",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "AWHA",
             "min": 1,
             "max": 1,
@@ -868,7 +868,7 @@
         "ed": true,
         "sg": "au",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Estado auditoria WhatsApp",
             "min": 1,
             "max": 1,
@@ -886,7 +886,7 @@
         "ed": true,
         "sg": "ba",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "AAN",
             "min": 1,
             "max": 1,
@@ -904,7 +904,7 @@
         "ed": true,
         "sg": "bt",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "APC",
             "min": 1,
             "max": 1,
@@ -922,7 +922,7 @@
         "ed": true,
         "sg": "bu",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "APR",
             "min": 1,
             "max": 1,
@@ -940,7 +940,7 @@
         "ed": true,
         "sg": "cq",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "ALI",
             "min": 1,
             "max": 1,
@@ -958,7 +958,7 @@
         "ed": true,
         "sg": "cp",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "ABE",
             "min": 1,
             "max": 1,
@@ -976,7 +976,7 @@
         "ed": true,
         "sg": "cs",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "ATB",
             "min": 1,
             "max": 1,
@@ -994,7 +994,7 @@
         "ed": true,
         "sg": "ct",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "ATL",
             "min": 1,
             "max": 1,
@@ -1012,7 +1012,7 @@
         "ed": true,
         "sg": "cu",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Tiempo topiramato",
             "min": 1,
             "max": 1,
@@ -1030,7 +1030,7 @@
         "ed": true,
         "sg": "cr",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Topiramato dosis",
             "min": 1,
             "max": 1,
@@ -1048,7 +1048,7 @@
         "ed": true,
         "sg": "cv",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "ALG",
             "min": 1,
             "max": 1,
@@ -1066,7 +1066,7 @@
         "ed": true,
         "sg": "cw",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "TLITT",
             "min": 1,
             "max": 1,
@@ -1084,7 +1084,7 @@
         "ed": true,
         "sg": "cx",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "RBER",
             "min": 1,
             "max": 1,
@@ -1102,7 +1102,7 @@
         "ed": true,
         "sg": "bd",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "SNAKS",
             "min": 1,
             "max": 1,
@@ -1119,7 +1119,7 @@
         "co": "auditorias",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "LAB",
             "min": 1,
             "max": 1,
@@ -1137,7 +1137,7 @@
         "ed": true,
         "sg": "bc",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "ATFB",
             "min": 1,
             "max": 1,
@@ -1155,7 +1155,7 @@
         "ed": true,
         "sg": "ñ",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "PAU",
             "min": 1,
             "max": 1,
@@ -1173,7 +1173,7 @@
         "ed": true,
         "sg": "bv",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "PAR",
             "min": 1,
             "max": 1,
@@ -1191,7 +1191,7 @@
         "ed": true,
         "sg": "bo",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "AR",
             "min": 1,
             "max": 1,
@@ -1209,7 +1209,7 @@
         "ed": true,
         "sg": "bb",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "FPD",
             "min": 1,
             "max": 1,
@@ -1227,7 +1227,7 @@
         "ed": true,
         "sg": "dc",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "AFL",
             "min": 1,
             "max": 1,
@@ -1245,7 +1245,7 @@
         "ed": true,
         "sg": "cy",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "AFL",
             "min": 1,
             "max": 1,
@@ -1263,7 +1263,7 @@
         "ed": true,
         "sg": "bp",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "estrellas",
             "min": 1,
             "max": 1,
@@ -1280,7 +1280,7 @@
         "co": "actitudes",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "C0",
             "min": 1,
             "max": 1,
@@ -1298,7 +1298,7 @@
         "ed": true,
         "sg": "y",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "C1",
             "min": 1,
             "max": 1,
@@ -1316,7 +1316,7 @@
         "ed": true,
         "sg": "z",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "C2",
             "min": 1,
             "max": 1,
@@ -1334,7 +1334,7 @@
         "ed": true,
         "sg": "aa",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "C3",
             "min": 1,
             "max": 1,
@@ -1352,7 +1352,7 @@
         "ed": true,
         "sg": "ab",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "C4",
             "min": 1,
             "max": 1,
@@ -1370,7 +1370,7 @@
         "ed": true,
         "sg": "ac",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "C5",
             "min": 1,
             "max": 1,
@@ -1387,7 +1387,7 @@
         "co": "ambiente",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "B0",
             "min": 1,
             "max": 1,
@@ -1405,7 +1405,7 @@
         "ed": true,
         "sg": "ad",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "PAREJA",
             "min": 1,
             "max": 1,
@@ -1423,7 +1423,7 @@
         "ed": true,
         "sg": "ae",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "HIJOS",
             "min": 1,
             "max": 1,
@@ -1441,7 +1441,7 @@
         "ed": true,
         "sg": "af",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "FAMILIA",
             "min": 1,
             "max": 1,
@@ -1459,7 +1459,7 @@
         "ed": true,
         "sg": "ag",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "CASA",
             "min": 1,
             "max": 1,
@@ -1477,7 +1477,7 @@
         "ed": true,
         "sg": "ah",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "TRABAJO",
             "min": 1,
             "max": 1,
@@ -1494,7 +1494,7 @@
         "co": "ambiente",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Enfermedad",
             "min": 1,
             "max": 1,
@@ -1512,7 +1512,7 @@
         "ed": true,
         "sg": "bw",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "POLíTICA",
             "min": 1,
             "max": 1,
@@ -1530,7 +1530,7 @@
         "ed": true,
         "sg": "ax",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "PSC",
             "min": 1,
             "max": 1,
@@ -1548,7 +1548,7 @@
         "ed": true,
         "sg": "r",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "REP",
             "min": 1,
             "max": 1,
@@ -1565,7 +1565,7 @@
         "co": "reprogramacion",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "OPSI",
             "min": 1,
             "max": 1,
@@ -1582,7 +1582,7 @@
         "co": "reprogramacion",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "FEOM",
             "min": 1,
             "max": 1,
@@ -1599,7 +1599,7 @@
         "co": "reprogramacion",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "infidelidad",
             "min": 1,
             "max": 1,
@@ -1616,7 +1616,7 @@
         "co": "reprogramacion",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Infertilidad",
             "min": 1,
             "max": 1,
@@ -1633,7 +1633,7 @@
         "co": "reprogramacion",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "padres hijos",
             "min": 1,
             "max": 1,
@@ -1650,7 +1650,7 @@
         "co": "reprogramacion",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Trabajo",
             "min": 1,
             "max": 1,
@@ -1667,7 +1667,7 @@
         "co": "reprogramacion",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Traumas familiares",
             "min": 1,
             "max": 1,
@@ -1684,7 +1684,7 @@
         "co": "reprogramacion",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "No aceptación de vida actual",
             "min": 1,
             "max": 1,
@@ -1701,7 +1701,7 @@
         "co": "reprogramacion",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Enfermedad psiquiátrica",
             "min": 1,
             "max": 1,
@@ -1718,7 +1718,7 @@
         "co": "reprogramacion",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Hijo de padres psiquiátricos",
             "min": 1,
             "max": 1,
@@ -1735,7 +1735,7 @@
         "co": "reprogramacion",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "otros",
             "min": 1,
             "max": 1,
@@ -1752,7 +1752,7 @@
         "co": "reprogramacion",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "No entendió el protocolo",
             "min": 1,
             "max": 1,
@@ -1770,7 +1770,7 @@
         "ed": true,
         "sg": "bx",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Reprogramación rabia",
             "min": 1,
             "max": 1,
@@ -1788,7 +1788,7 @@
         "ed": true,
         "sg": "by",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Reprogramación ansiedad",
             "min": 1,
             "max": 1,
@@ -1806,7 +1806,7 @@
         "ed": true,
         "sg": "bz",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Reprogramación Miedo",
             "min": 1,
             "max": 1,
@@ -1824,7 +1824,7 @@
         "ed": true,
         "sg": "ai",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Reprogramación insight",
             "min": 1,
             "max": 1,
@@ -1841,7 +1841,7 @@
         "co": "bach",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "holly",
             "min": 1,
             "max": 1,
@@ -1858,7 +1858,7 @@
         "co": "bach",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "chicory",
             "min": 1,
             "max": 1,
@@ -1875,7 +1875,7 @@
         "co": "bach",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "agrimony",
             "min": 1,
             "max": 1,
@@ -1892,7 +1892,7 @@
         "co": "bach",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "rock_water",
             "min": 1,
             "max": 1,
@@ -1909,7 +1909,7 @@
         "co": "bach",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "aspen",
             "min": 1,
             "max": 1,
@@ -1926,7 +1926,7 @@
         "co": "bach",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "larch",
             "min": 1,
             "max": 1,
@@ -1943,7 +1943,7 @@
         "co": "bach",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "gorse",
             "min": 1,
             "max": 1,
@@ -1960,7 +1960,7 @@
         "co": "bach",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "wild_oat",
             "min": 1,
             "max": 1,
@@ -1977,7 +1977,7 @@
         "co": "bach",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "heather",
             "min": 1,
             "max": 1,
@@ -1994,7 +1994,7 @@
         "co": "bach",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "chesnut_bud",
             "min": 1,
             "max": 1,
@@ -2011,7 +2011,7 @@
         "co": "bach",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "white_chesnut",
             "min": 1,
             "max": 1,
@@ -2028,7 +2028,7 @@
         "co": "bach",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "sweet_chesnut",
             "min": 1,
             "max": 1,
@@ -2045,7 +2045,7 @@
         "co": "bach",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "red_chesnut",
             "min": 1,
             "max": 1,
@@ -2062,7 +2062,7 @@
         "co": "bach",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "centaury",
             "min": 1,
             "max": 1,
@@ -2079,7 +2079,7 @@
         "co": "bach",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "cherry_plum",
             "min": 1,
             "max": 1,
@@ -2096,7 +2096,7 @@
         "co": "bach",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "cerato",
             "min": 1,
             "max": 1,
@@ -2113,7 +2113,7 @@
         "co": "bach",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "clematis",
             "min": 1,
             "max": 1,
@@ -2130,7 +2130,7 @@
         "co": "bach",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "star_of_bethlehem",
             "min": 1,
             "max": 1,
@@ -2147,7 +2147,7 @@
         "co": "bach",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "gentian",
             "min": 1,
             "max": 1,
@@ -2164,7 +2164,7 @@
         "co": "bach",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "beech",
             "min": 1,
             "max": 1,
@@ -2181,7 +2181,7 @@
         "co": "bach",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "rock_rose",
             "min": 1,
             "max": 1,
@@ -2198,7 +2198,7 @@
         "co": "bach",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "hornbeam",
             "min": 1,
             "max": 1,
@@ -2215,7 +2215,7 @@
         "co": "bach",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "impatiens",
             "min": 1,
             "max": 1,
@@ -2232,7 +2232,7 @@
         "co": "bach",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "honeysuckle",
             "min": 1,
             "max": 1,
@@ -2249,7 +2249,7 @@
         "co": "bach",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "crab_apple",
             "min": 1,
             "max": 1,
@@ -2266,7 +2266,7 @@
         "co": "bach",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "mimulus",
             "min": 1,
             "max": 1,
@@ -2283,7 +2283,7 @@
         "co": "bach",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "mustard",
             "min": 1,
             "max": 1,
@@ -2300,7 +2300,7 @@
         "co": "bach",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "walnut",
             "min": 1,
             "max": 1,
@@ -2317,7 +2317,7 @@
         "co": "bach",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "olive",
             "min": 1,
             "max": 1,
@@ -2334,7 +2334,7 @@
         "co": "bach",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "elm",
             "min": 1,
             "max": 1,
@@ -2351,7 +2351,7 @@
         "co": "bach",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "pine",
             "min": 1,
             "max": 1,
@@ -2368,7 +2368,7 @@
         "co": "bach",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "oak",
             "min": 1,
             "max": 1,
@@ -2385,7 +2385,7 @@
         "co": "bach",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "wild_rose",
             "min": 1,
             "max": 1,
@@ -2402,7 +2402,7 @@
         "co": "bach",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "willow",
             "min": 1,
             "max": 1,
@@ -2419,7 +2419,7 @@
         "co": "bach",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "scleranthus",
             "min": 1,
             "max": 1,
@@ -2436,7 +2436,7 @@
         "co": "bach",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "verbain",
             "min": 1,
             "max": 1,
@@ -2453,7 +2453,7 @@
         "co": "bach",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "vine",
             "min": 1,
             "max": 1,
@@ -2470,7 +2470,7 @@
         "co": "bach",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "water_violet",
             "min": 1,
             "max": 1,
@@ -2487,7 +2487,7 @@
         "co": "bach",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "rescue_remedy",
             "min": 1,
             "max": 1,
@@ -2504,7 +2504,7 @@
         "co": null,
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "FASE",
             "min": 1,
             "max": 1,
@@ -2521,7 +2521,7 @@
         "co": "alimentos",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "CUMPLIMIENTO",
             "min": 1,
             "max": 1,
@@ -2539,7 +2539,7 @@
         "ed": true,
         "sg": "av",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Cita nutrición",
             "min": 1,
             "max": 1,
@@ -2556,7 +2556,7 @@
         "co": "alimentos",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Licenciada nutrición",
             "min": 1,
             "max": 1,
@@ -2574,7 +2574,7 @@
         "ed": true,
         "sg": "t",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Nutricionista 1",
             "min": 1,
             "max": 1,
@@ -2592,7 +2592,7 @@
         "ed": true,
         "sg": "az",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Nutricionista 2",
             "min": 1,
             "max": 1,
@@ -2610,7 +2610,7 @@
         "ed": true,
         "sg": "bq",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Nutricionista 3",
             "min": 1,
             "max": 1,
@@ -2628,7 +2628,7 @@
         "ed": true,
         "sg": "ay",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Nutrición F1",
             "min": 1,
             "max": 1,
@@ -2646,7 +2646,7 @@
         "ed": true,
         "sg": "u",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Nutricionista 2",
             "min": 1,
             "max": 1,
@@ -2664,7 +2664,7 @@
         "ed": true,
         "sg": "br",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Nutrición F3",
             "min": 1,
             "max": 1,
@@ -2682,7 +2682,7 @@
         "ed": true,
         "sg": "w",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "HARINAS",
             "min": 1,
             "max": 1,
@@ -2700,7 +2700,7 @@
         "ed": true,
         "sg": "v",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "DULCES",
             "min": 1,
             "max": 1,
@@ -2717,7 +2717,7 @@
         "co": "alimentos",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "APETITO",
             "min": 1,
             "max": 1,
@@ -2735,7 +2735,7 @@
         "ed": true,
         "sg": "bs",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "POR LAS HARINAS",
             "min": 1,
             "max": 1,
@@ -2871,7 +2871,7 @@
         "co": null,
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "POR LOS DULCES",
             "min": 1,
             "max": 1,
@@ -2888,7 +2888,7 @@
         "co": null,
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "POR LAS HARINAS",
             "min": 1,
             "max": 1,
@@ -2906,7 +2906,7 @@
         "ed": true,
         "sg": "x",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "COMER POR ANSIEDAD",
             "min": 1,
             "max": 1,
@@ -2923,7 +2923,7 @@
         "co": "listtable",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Ejercicios N básico",
             "min": 1,
             "max": 1,
@@ -2941,7 +2941,7 @@
         "ed": true,
         "sg": "aw",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "CitaJb (Cita entrenador básico)",
             "min": 1,
             "max": 1,
@@ -2959,7 +2959,7 @@
         "ed": true,
         "sg": "dd",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "NIVEL",
             "min": 1,
             "max": 1,
@@ -2977,7 +2977,7 @@
         "ed": true,
         "sg": "em",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Pasos",
             "min": 1,
             "max": 1,
@@ -2995,7 +2995,7 @@
         "ed": true,
         "sg": "aq",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Pasos",
             "min": 1,
             "max": 1,
@@ -3013,7 +3013,7 @@
         "co": "listtable",
         "sg": "d",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Pesos diario",
             "min": 1,
             "max": 1,
@@ -3030,7 +3030,7 @@
         "ta": "listtable",
         "co": "listtable",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Pesos con color diario",
             "min": 1,
             "max": 1,
@@ -3047,7 +3047,7 @@
         "ta": "listtable",
         "co": "listtable",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Avance",
             "min": 1,
             "max": 1,
@@ -3078,7 +3078,7 @@
         "ta": "listtable",
         "co": "listtable",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Avance ejercicios",
             "min": 1,
             "max": 1,
@@ -3113,7 +3113,7 @@
         "ed": false,
         "sg": "dt",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Pasos",
             "min": 1,
             "max": 1,
@@ -3131,7 +3131,7 @@
         "ed": false,
         "sg": "j",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Recalcular",
             "min": 1,
             "max": 1,
@@ -3149,7 +3149,7 @@
         "ed": true,
         "sg": "ar",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Bansas",
             "min": 1,
             "max": 1,
@@ -3167,7 +3167,7 @@
         "ed": false,
         "sg": "be",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Notificaciones",
             "min": 1,
             "max": 1,
@@ -3185,7 +3185,7 @@
         "ed": true,
         "sg": "as",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Pai",
             "min": 1,
             "max": 1,
@@ -3202,7 +3202,7 @@
         "co": "listtable",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Pisos",
             "min": 1,
             "max": 1,
@@ -3220,7 +3220,7 @@
         "ed": true,
         "sg": "de",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Sueño",
             "min": 1,
             "max": 1,
@@ -3238,7 +3238,7 @@
         "ed": true,
         "sg": "bl",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Cita para ejercicios avanzados",
             "min": 1,
             "max": 1,
@@ -3255,7 +3255,7 @@
         "co": "listtable",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "CalE",
             "min": 1,
             "max": 1,
@@ -3273,7 +3273,7 @@
         "ed": true,
         "sg": "df",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "FC max",
             "min": 1,
             "max": 1,
@@ -3291,7 +3291,7 @@
         "ed": true,
         "sg": "dg",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "FC Media",
             "min": 1,
             "max": 1,
@@ -3309,7 +3309,7 @@
         "ed": true,
         "sg": "dh",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "FC Reposo",
             "min": 1,
             "max": 1,
@@ -3326,7 +3326,7 @@
         "co": "listtable",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Historial del día A",
             "min": 1,
             "max": 1,
@@ -3343,7 +3343,7 @@
         "co": "listtable",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Km recorridos",
             "min": 1,
             "max": 1,
@@ -3360,7 +3360,7 @@
         "co": "listtable",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Historial del día B",
             "min": 1,
             "max": 1,
@@ -3378,7 +3378,7 @@
         "ed": true,
         "sg": "dk",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Oxi",
             "min": 1,
             "max": 1,
@@ -3395,7 +3395,7 @@
         "co": "listtable",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Medidor",
             "min": 1,
             "max": 1,
@@ -3412,7 +3412,7 @@
         "co": "listtable",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Historial del día C",
             "min": 1,
             "max": 1,
@@ -3430,7 +3430,7 @@
         "ed": true,
         "sg": "di",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Calorias",
             "min": 1,
             "max": 1,
@@ -3447,7 +3447,7 @@
         "co": "listtable",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Min 1",
             "min": 1,
             "max": 1,
@@ -3465,7 +3465,7 @@
         "ed": true,
         "sg": "dj",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "N Est",
             "min": 1,
             "max": 1,
@@ -3483,7 +3483,7 @@
         "ed": true,
         "sg": "dl",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "VO2 Max",
             "min": 1,
             "max": 1,
@@ -3501,7 +3501,7 @@
         "ed": true,
         "sg": "dy",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "De pie",
             "min": 1,
             "max": 1,
@@ -3518,7 +3518,7 @@
         "co": null,
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Entrenador avanzado",
             "min": 1,
             "max": 1,
@@ -3535,7 +3535,7 @@
         "co": null,
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Entrenador nivel básico",
             "min": 1,
             "max": 1,
@@ -3552,7 +3552,7 @@
         "co": "sintomas",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Cefalea",
             "min": 1,
             "max": 1,
@@ -3569,7 +3569,7 @@
         "co": "sintomas",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "ACIDEZ",
             "min": 1,
             "max": 1,
@@ -3586,7 +3586,7 @@
         "co": "sintomas",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "FLATULENCIA",
             "min": 1,
             "max": 1,
@@ -3603,7 +3603,7 @@
         "co": "sintomas",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "ESTREñIMIENTO",
             "min": 1,
             "max": 1,
@@ -3621,7 +3621,7 @@
         "ed": true,
         "sg": "an",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "RONQUIDOS",
             "min": 1,
             "max": 1,
@@ -3639,7 +3639,7 @@
         "ed": true,
         "sg": "añ",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "RODILLAS",
             "min": 1,
             "max": 1,
@@ -3656,7 +3656,7 @@
         "co": "sintomas",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "INSOMNIO",
             "min": 1,
             "max": 1,
@@ -3673,7 +3673,7 @@
         "co": "sintomas",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "PIERNAS",
             "min": 1,
             "max": 1,
@@ -3706,7 +3706,7 @@
         "ed": true,
         "sg": "aj",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "TIROIDES",
             "min": 1,
             "max": 1,
@@ -3724,7 +3724,7 @@
         "ed": true,
         "sg": "ch",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "duodeno",
             "min": 1,
             "max": 1,
@@ -3742,7 +3742,7 @@
         "ed": true,
         "sg": "ce",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "CAROTIDA",
             "min": 1,
             "max": 1,
@@ -3760,7 +3760,7 @@
         "ed": true,
         "sg": "ci",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "HíGADO",
             "min": 1,
             "max": 1,
@@ -3777,7 +3777,7 @@
         "co": "organos",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "FARINGE",
             "min": 1,
             "max": 1,
@@ -3795,7 +3795,7 @@
         "ed": true,
         "sg": "cd",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "LARINGE",
             "min": 1,
             "max": 1,
@@ -3812,7 +3812,7 @@
         "co": "organos",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "HIATO ESOFáGICO",
             "min": 1,
             "max": 1,
@@ -3830,7 +3830,7 @@
         "ed": true,
         "sg": "cf",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "ESóFAGO",
             "min": 1,
             "max": 1,
@@ -3848,7 +3848,7 @@
         "ed": true,
         "sg": "cg",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "ESTóMAGO",
             "min": 1,
             "max": 1,
@@ -3866,7 +3866,7 @@
         "ed": true,
         "sg": "ak",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "VESíCULA BILIAR",
             "min": 1,
             "max": 1,
@@ -3884,7 +3884,7 @@
         "ed": true,
         "sg": "cl",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "PáNCREAS",
             "min": 1,
             "max": 1,
@@ -3902,7 +3902,7 @@
         "ed": true,
         "sg": "cj",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "RIñONES",
             "min": 1,
             "max": 1,
@@ -3919,7 +3919,7 @@
         "co": "organos",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "BAZO",
             "min": 1,
             "max": 1,
@@ -3937,7 +3937,7 @@
         "ed": true,
         "sg": "ck",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "COLON",
             "min": 1,
             "max": 1,
@@ -3954,7 +3954,7 @@
         "co": "organos",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "MAMAS",
             "min": 1,
             "max": 1,
@@ -3971,7 +3971,7 @@
         "co": "organos",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "PRóSTATA",
             "min": 1,
             "max": 1,
@@ -3988,7 +3988,7 @@
         "co": "organos",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "OVARIOS/TESTíCULO",
             "min": 1,
             "max": 1,
@@ -4005,7 +4005,7 @@
         "co": "organos",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "RODILLA",
             "min": 1,
             "max": 1,
@@ -4022,7 +4022,7 @@
         "co": "organos",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "COLUMNA",
             "min": 1,
             "max": 1,
@@ -4040,7 +4040,7 @@
         "ed": true,
         "sg": "al",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "miocardio",
             "min": 1,
             "max": 1,
@@ -4057,7 +4057,7 @@
         "co": "enfermedades",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "miocardio",
             "min": 1,
             "max": 1,
@@ -4075,7 +4075,7 @@
         "ed": true,
         "sg": "am",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "DIABETES",
             "min": 1,
             "max": 1,
@@ -4092,7 +4092,7 @@
         "co": "enfermedades",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "APNEA",
             "min": 1,
             "max": 1,
@@ -4123,7 +4123,7 @@
         "co": "enfermedades",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "HIPOTIROIDISMO",
             "min": 1,
             "max": 1,
@@ -4141,7 +4141,7 @@
         "ed": true,
         "sg": "cm",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "CáNCER",
             "min": 1,
             "max": 1,
@@ -4158,7 +4158,7 @@
         "co": "enfermedades",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Familiar con cáncer",
             "min": 1,
             "max": 1,
@@ -4176,7 +4176,7 @@
         "ed": true,
         "sg": "ap",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Bariátrica previa",
             "min": 1,
             "max": 1,
@@ -4195,7 +4195,7 @@
         "ed": false,
         "sg": "b",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "REVISIÓN",
             "min": 1,
             "max": 1,
@@ -4215,7 +4215,7 @@
         "ed": false,
         "sg": "k",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "PI",
             "min": 1,
             "max": 1,
@@ -4235,7 +4235,7 @@
         "ed": false,
         "sg": "dq",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "PI",
             "min": 1,
             "max": 1,
@@ -4255,7 +4255,7 @@
         "ed": false,
         "sg": "dr",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "PI",
             "min": 1,
             "max": 1,
@@ -4275,7 +4275,7 @@
         "ed": false,
         "sg": "l",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "PP",
             "min": 1,
             "max": 1,
@@ -4294,7 +4294,7 @@
         "ed": false,
         "sg": "ei",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "peso color",
             "min": 1,
             "max": 1,
@@ -4313,7 +4313,7 @@
         "ed": false,
         "sg": "ej",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Grasa color",
             "min": 1,
             "max": 1,
@@ -4333,7 +4333,7 @@
         "ed": false,
         "sg": "ds",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "GP",
             "min": 1,
             "max": 1,
@@ -4353,7 +4353,7 @@
         "ed": false,
         "sg": "m",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "PM",
             "min": 1,
             "max": 1,
@@ -4373,7 +4373,7 @@
         "ed": false,
         "sg": "i",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Dias reportados",
             "min": 1,
             "max": 1,
@@ -4393,7 +4393,7 @@
         "ed": false,
         "sg": "iel",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Dias reportados",
             "min": 2,
             "max": 2,
@@ -4413,7 +4413,7 @@
         "ed": false,
         "sg": "n",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Dias pesados",
             "min": 1,
             "max": 1,
@@ -4486,7 +4486,7 @@
         "co": null,
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "INFARTO",
             "min": 1,
             "max": 1,
@@ -4503,7 +4503,7 @@
         "co": "tratamiento",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "LITIO",
             "min": 1,
             "max": 1,
@@ -4520,7 +4520,7 @@
         "co": "tratamiento",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "METFORMINA",
             "min": 1,
             "max": 1,
@@ -4537,7 +4537,7 @@
         "co": "tratamiento",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Topiramato",
             "min": 1,
             "max": 1,
@@ -4554,7 +4554,7 @@
         "co": "tratamiento",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "5HTP",
             "min": 1,
             "max": 1,
@@ -4571,7 +4571,7 @@
         "co": "tratamiento",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "BERBERINA",
             "min": 1,
             "max": 1,
@@ -4588,7 +4588,7 @@
         "co": "tratamiento",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "VELTRYX",
             "min": 1,
             "max": 1,
@@ -4605,7 +4605,7 @@
         "co": "tratamiento",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "selenio",
             "min": 1,
             "max": 1,
@@ -4622,7 +4622,7 @@
         "co": "tratamiento",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "zinc",
             "min": 1,
             "max": 1,
@@ -4639,7 +4639,7 @@
         "co": "tratamiento",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "MAGNESIO",
             "min": 1,
             "max": 1,
@@ -4656,7 +4656,7 @@
         "co": "tratamiento",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Espironolactona",
             "min": 1,
             "max": 1,
@@ -4673,7 +4673,7 @@
         "co": "tratamiento",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "EUTHIROX",
             "min": 1,
             "max": 1,
@@ -4690,7 +4690,7 @@
         "co": "tratamiento",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "LIGADURA",
             "min": 1,
             "max": 1,
@@ -4707,7 +4707,7 @@
         "co": "tratamiento",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "ALDACTONE",
             "min": 1,
             "max": 1,
@@ -4725,7 +4725,7 @@
         "ed": true,
         "sg": "cn",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "GASTROSCOPIA",
             "min": 1,
             "max": 1,
@@ -4743,7 +4743,7 @@
         "ed": true,
         "sg": "co",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Ultrasonido",
             "min": 1,
             "max": 1,
@@ -4761,7 +4761,7 @@
         "ed": true,
         "sg": "cñ",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "COLONOSCOPIA",
             "min": 1,
             "max": 1,
@@ -4778,7 +4778,7 @@
         "co": "evaluaciones",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Ecosonograma",
             "min": 1,
             "max": 1,
@@ -4796,7 +4796,7 @@
         "ed": true,
         "sg": "da",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Entrega de laboratorio",
             "min": 1,
             "max": 1,
@@ -4813,7 +4813,7 @@
         "co": "evaluaciones",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "revisión de laboratorio",
             "min": 1,
             "max": 1,
@@ -4830,7 +4830,7 @@
         "co": "evaluaciones",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "ABDOMINAL",
             "min": 1,
             "max": 1,
@@ -4847,7 +4847,7 @@
         "co": "evaluaciones",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "TIROIDES",
             "min": 1,
             "max": 1,
@@ -4864,7 +4864,7 @@
         "co": "evaluaciones",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "ELASTOGRAFíA",
             "min": 1,
             "max": 1,
@@ -4881,7 +4881,7 @@
         "co": "evaluaciones",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "ELASTOGRAFíA TIROIDES",
             "min": 1,
             "max": 1,
@@ -4898,7 +4898,7 @@
         "co": "evaluaciones",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "ELASTOGRAFíA HíGADO",
             "min": 1,
             "max": 1,
@@ -4915,7 +4915,7 @@
         "co": "evaluaciones",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "ELASTOGRAFíA PáNCREAS",
             "min": 1,
             "max": 1,
@@ -4932,7 +4932,7 @@
         "co": "interconsultas",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "CARDIOLOGíA",
             "min": 1,
             "max": 1,
@@ -4949,7 +4949,7 @@
         "co": "interconsultas",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "MEDICINA INTERNA",
             "min": 1,
             "max": 1,
@@ -4966,7 +4966,7 @@
         "co": "interconsultas",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Cirugía",
             "min": 1,
             "max": 1,
@@ -4983,7 +4983,7 @@
         "co": "interconsultas",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "TRAUMATóLOGO",
             "min": 1,
             "max": 1,
@@ -5000,7 +5000,7 @@
         "co": "interconsultas",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "FISIATRíA",
             "min": 1,
             "max": 1,
@@ -5017,7 +5017,7 @@
         "co": "interconsultas",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Psiquiatría",
             "min": 1,
             "max": 1,
@@ -5034,7 +5034,7 @@
         "co": "interconsultas",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Terapeuta emocional",
             "min": 1,
             "max": 1,
@@ -5051,7 +5051,7 @@
         "co": "interconsultas",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "GINECOLOGíA",
             "min": 1,
             "max": 1,
@@ -5068,7 +5068,7 @@
         "co": "interconsultas",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "OBSTETRICIA",
             "min": 1,
             "max": 1,
@@ -5085,7 +5085,7 @@
         "co": "interconsultas",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "PEDIATRíA",
             "min": 1,
             "max": 1,
@@ -5103,7 +5103,7 @@
         "ed": true,
         "sg": "bg",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Tipo de paciente",
             "min": 1,
             "max": 1,
@@ -5120,7 +5120,7 @@
         "co": "administracion",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "kit 1 mes",
             "min": 1,
             "max": 1,
@@ -5137,7 +5137,7 @@
         "co": "administracion",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "kit 3 meses",
             "min": 1,
             "max": 1,
@@ -5154,7 +5154,7 @@
         "co": "administracion",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Ligadura",
             "min": 1,
             "max": 1,
@@ -5171,7 +5171,7 @@
         "co": "administracion",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Consulta Médica",
             "min": 1,
             "max": 1,
@@ -5188,7 +5188,7 @@
         "co": "administracion",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Consulta Nutrición",
             "min": 1,
             "max": 1,
@@ -5205,7 +5205,7 @@
         "co": "administracion",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Consulta Psícologo",
             "min": 1,
             "max": 1,
@@ -5222,7 +5222,7 @@
         "co": "administracion",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Gimnasio",
             "min": 1,
             "max": 1,
@@ -5240,7 +5240,7 @@
         "ed": true,
         "sg": "cz",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Test nutrigenetico",
             "min": 1,
             "max": 1,
@@ -5257,7 +5257,7 @@
         "co": "administracion",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Litio",
             "min": 1,
             "max": 1,
@@ -5274,7 +5274,7 @@
         "co": "administracion",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Berberina",
             "min": 1,
             "max": 1,
@@ -5291,7 +5291,7 @@
         "co": "administracion",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Selenio",
             "min": 1,
             "max": 1,
@@ -5308,7 +5308,7 @@
         "co": "administracion",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Zinc",
             "min": 1,
             "max": 1,
@@ -5325,7 +5325,7 @@
         "co": "administracion",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Topiramato",
             "min": 1,
             "max": 1,
@@ -5342,7 +5342,7 @@
         "co": "administracion",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Magnesio",
             "min": 1,
             "max": 1,
@@ -5360,7 +5360,7 @@
         "ed": true,
         "sg": "db",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Pedido",
             "min": 1,
             "max": 1,
@@ -5377,7 +5377,7 @@
         "co": "tienda",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "gomas",
             "min": 1,
             "max": 1,
@@ -5394,7 +5394,7 @@
         "co": "tienda",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Chocolate",
             "min": 1,
             "max": 1,
@@ -5411,7 +5411,7 @@
         "co": "tienda",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Harina ALM",
             "min": 1,
             "max": 1,
@@ -5428,7 +5428,7 @@
         "co": "tienda",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Merengada",
             "min": 1,
             "max": 1,
@@ -5445,7 +5445,7 @@
         "co": "permisos",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "CLASIFICACIóN",
             "min": 1,
             "max": 1,
@@ -5462,7 +5462,7 @@
         "co": "permisos",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Tiempo de acceso",
             "min": 1,
             "max": 11,
@@ -5479,7 +5479,7 @@
         "co": "listtable",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "talla",
             "min": 2,
             "max": 6,
@@ -5497,7 +5497,7 @@
         "ed": true,
         "sg": "do",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "talla",
             "min": 1,
             "max": 1,
@@ -5515,7 +5515,7 @@
         "ed": true,
         "sg": "ec",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "talla",
             "min": 1,
             "max": 1,
@@ -5533,7 +5533,7 @@
         "ed": true,
         "sg": "ed",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Medicina B5",
             "min": 1,
             "max": 1,
@@ -5551,7 +5551,7 @@
         "ed": true,
         "sg": "ee",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Ejercicios",
             "min": 1,
             "max": 1,
@@ -5569,7 +5569,7 @@
         "ed": true,
         "sg": "en",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "auditoría de  uso de App y accesorios",
             "min": 1,
             "max": 1,
@@ -5587,7 +5587,7 @@
         "ed": true,
         "sg": "eñ",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "auditoría de medicina",
             "min": 1,
             "max": 1,
@@ -5605,7 +5605,7 @@
         "ed": true,
         "sg": "eo",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "auditoría de Nutrición",
             "min": 1,
             "max": 1,
@@ -5623,7 +5623,7 @@
         "ed": true,
         "sg": "ep",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "auditoría  Vaneska",
             "min": 1,
             "max": 1,
@@ -5641,7 +5641,7 @@
         "ed": true,
         "sg": "eq",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "auditoría psicológica",
             "min": 1,
             "max": 1,
@@ -5659,7 +5659,7 @@
         "ed": true,
         "sg": "er",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "auditoría Juli",
             "min": 1,
             "max": 1,
@@ -5677,7 +5677,7 @@
         "ed": true,
         "sg": "es",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Auditoría Jazmin",
             "min": 1,
             "max": 1,
@@ -5695,7 +5695,7 @@
         "ed": true,
         "sg": "et",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Auditoría Rosibel",
             "min": 1,
             "max": 1,
@@ -5713,7 +5713,7 @@
         "ed": true,
         "sg": "eu",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Auditoría Jenny",
             "min": 1,
             "max": 1,
@@ -5731,7 +5731,7 @@
         "ed": true,
         "sg": "ev",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Auditoría Maribel",
             "min": 1,
             "max": 1,
@@ -5749,7 +5749,7 @@
         "ed": true,
         "sg": "ew",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Auditoría Enilda",
             "min": 1,
             "max": 1,
@@ -5767,7 +5767,7 @@
         "ed": true,
         "sg": "ex",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Auditoría Ana",
             "min": 1,
             "max": 1,
@@ -5785,7 +5785,7 @@
         "ed": true,
         "sg": "ef",
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "Nutrición",
             "min": 1,
             "max": 1,
@@ -5888,7 +5888,7 @@
         "co": "administracion",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "HONORARIOS",
             "min": 1,
             "max": 1,
@@ -5905,7 +5905,7 @@
         "co": "material",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "RELOJ",
             "min": 1,
             "max": 1,
@@ -5922,7 +5922,7 @@
         "co": "material",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "BALANZA",
             "min": 1,
             "max": 1,
@@ -5939,7 +5939,7 @@
         "co": "material",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "LIGAS",
             "min": 1,
             "max": 1,
@@ -5956,7 +5956,7 @@
         "co": "material",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "LITIO COMPRIMIDOS",
             "min": 1,
             "max": 1,
@@ -5973,7 +5973,7 @@
         "co": "material",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "BERBERINA",
             "min": 1,
             "max": 1,
@@ -5990,7 +5990,7 @@
         "co": "material",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "SELENIO",
             "min": 1,
             "max": 1,
@@ -6007,7 +6007,7 @@
         "co": "material",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "ZINC",
             "min": 1,
             "max": 1,
@@ -6024,7 +6024,7 @@
         "co": "material",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "MAGNESIO",
             "min": 1,
             "max": 1,
@@ -6041,7 +6041,7 @@
         "co": "material",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "EDULCORANTE",
             "min": 1,
             "max": 1,
@@ -6058,7 +6058,7 @@
         "co": "material",
         "ed": true,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "OTROS",
             "min": 1,
             "max": 1,
@@ -6075,7 +6075,7 @@
         "co": "formw",
         "ed": false,
         "va": {
-            "type": "text",
+            "type": "tinyi",
             "addr": "dirección",
             "pattern": "IGNORE"
         }
