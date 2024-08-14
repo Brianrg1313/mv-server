@@ -1,0 +1,4 @@
+{
+    "Comentario": "La información recibida no es válida, solo debe ser 'a-z_' para las claves y '0-9' para los valores",
+    "es" : "Hubo un error al validar los datos recibidos"
+}
