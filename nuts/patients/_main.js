@@ -41,7 +41,7 @@ async function main() {
     const groups = {}
 
     for (let index = 1; index <= 12; index++) {
-        await cnn2.query("INSERT INTO `lista_variables`(`id`, `titulo`) VALUES (" + index + ",'Lista " + index + "')")
+        await cnn2.query("INSERT INTO `lista_variables`(`id`, `eid`, `titulo`) VALUES (" + index + ", 1,'Lista " + index + "')")
     }
 
     let i = 1
@@ -91,6 +91,8 @@ async function main() {
                     if (g === 0) continue
                     await cnn2.query("INSERT INTO `pacientes`(`id`, `pid`, `eid`, `gid`) VALUES (NULL,'" + newID[item.id].insertId + "','" + item.id_equipo + "'," + g + ")")
                 }
+            } else {
+                await cnn2.query("INSERT INTO `pacientes`(`id`, `pid`, `eid`, `gid`) VALUES (NULL,'" + newID[item.id].insertId + "','" + item.id_equipo + "',NULL)")
             }
         }
 

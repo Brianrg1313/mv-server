@@ -1,5 +1,5 @@
 {
     "POST": {
-        "params": ["page?"]
+        "params": ["page"]
     }
 }
