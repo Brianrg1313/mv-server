@@ -13,16 +13,30 @@ async function main() {
         database: "MV_app"
     }
 
+    const a = {
+        port: 3306,
+        host: "localhost",
+        user: "clientes",
+        password: "l5SceytlqAT3GDc6TvxO",
+        database: "MV_administradores"
+    }
+
     const connection = await mysql.createConnection(c)
+    const c2 = await mysql.createConnection(a)
 
     await connection.query("TRUNCATE `diccionario`")
     await connection.query("TRUNCATE `colecciones`")
+    await c2.query("TRUNCATE `diccionario`")
 
     for (const key in collections) {
         await connection.query("INSERT INTO `colecciones`(`id`, `es`,`en`) VALUES (" + collections[key].id + ",'" + collections[key].titulo + "','" + collections[key].titulo + "')")
     }
 
+    let i = 0
     for (const key in variables) {
+        console.clear()
+        console.log(`${i} de ${Object.keys(variables).length}`)
+        i++
         const item = variables[key]
 
         if (!item.sg) {
@@ -92,10 +106,15 @@ async function main() {
             types[key] = 3
         }
 
-        await connection.query("INSERT INTO `diccionario`(`id`, `icono`, `formato`, `variable`, `es`, `en`, `subes`, `suben`, `tipo`, `coleccion`, `abreviacion`, `pattern`, `posicion`, `min`, `max`) VALUES (NULL,NULL," + item.format + ",'" + key + "','" + item.ti + "','" + item.ti + "','" + item.to + "','" + item.to + "'," + types[key] + "," + collections[item.co] + "," + item.sg + ",'" + item.va.pattern + "',NULL," + item.va.min + "," + item.va.max + ")")
+        const [did] = await connection.query("INSERT INTO `diccionario`(`id`, `icono`, `formato`, `variable`, `es`, `en`, `subes`, `suben`, `tipo`, `coleccion`, `abreviacion`, `pattern`, `posicion`, `min`, `max`) VALUES (NULL,NULL," + item.format + ",'" + key + "','" + item.ti + "','" + item.ti + "','" + item.to + "','" + item.to + "'," + types[key] + "," + collections[item.co] + "," + item.sg + ",'" + item.va.pattern + "',NULL," + item.va.min + "," + item.va.max + ")")
+
+        if (!item.ed) {
+            await c2.query("INSERT INTO `diccionario`(`id`, `aid`, `variable`, `visible`, `editable`) VALUES (NULL,0," + did.insertId + ",0,0)")
+        }
     }
 
     await connection.end()
+    await c2.end()
 }
 
 main()

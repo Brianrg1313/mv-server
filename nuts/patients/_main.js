@@ -72,7 +72,7 @@ async function main() {
 
         if (item.rool !== "1") {
             // SE INSERTA UN ADMINISTRADOR
-            [admins[item.id]] = await cnn2.query("INSERT INTO `administradores`(`id`, `equipo`, `nombre`, `apellido`, `correo`, `usuario`, `telefono`, `tdni`, `dni`, `nacimiento`, `sexo`, `lista`, `estado`, `fecha_registro`) VALUES (NULL, " + item.id_equipo + ",'" + item.nombre + "','" + item.apellido + "','" + item.correo + "','" + item.usuario + "','000','" + item.tdni + "','" + item.dni + "','" + item.nacimiento + "','" + item.sexo + "'," + item.per + "," + status + ",'" + item.fecha_r + "')")
+            [admins[item.id]] = await cnn2.query("INSERT INTO `administradores`(`id`, `old_id`, `equipo`, `nombre`, `apellido`, `correo`, `usuario`, `telefono`, `tdni`, `dni`, `nacimiento`, `sexo`, `lista`, `estado`, `fecha_registro`) VALUES (NULL, " + item.id + ", " + item.id_equipo + ",'" + item.nombre + "','" + item.apellido + "','" + item.correo + "','" + item.usuario + "','000','" + item.tdni + "','" + item.dni + "','" + item.nacimiento + "','" + item.sexo + "'," + item.per + "," + status + ",'" + item.fecha_r + "')")
 
             // INSERTA A LOS ADMINISTRADORES A LOS GRUPOS QUE PERTENECEN
             if (item.grupo !== null) {

@@ -1,0 +1,4772 @@
+[
+    {
+        "id": "3",
+        "id_creador": "1",
+        "area": "fase",
+        "texto": "Rojo: Fase 1 ( Solo índice glicémico bajo)\nAnaranjado: Fase 2a( Índice GB  y 1 día IGI)\nAmarillo: Fase 2b ( Índice GB y 2 días IGI)\nVerde claro: Fase 3a ( Alimentacion 3 días IGA)\nVerde obscuro: Fase 3b ( Alimentacion libre controlada)",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-08 00:00:00"
+    },
+    {
+        "id": "4",
+        "id_creador": "1",
+        "area": "fase",
+        "texto": "Rojo: Fase 1 ( Solo índice glicémico bajo)\nAnaranjado: Fase 2a( Índice GB  y 1 día IGI)\nAmarillo: Fase 2b ( Índice GB y 2 días IGI)\nVerde claro: Fase 3a ( Alimentacion 3 días IGA)\nVerde obscuro: Fase 3b ( Alimentacion libre controlada)",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-08 00:00:00"
+    },
+    {
+        "id": "5",
+        "id_creador": "1",
+        "area": "nivel",
+        "texto": "Solo podrán hacer ejercicios con  una pulsación menor a lo indicado para disminuir riesgos de lesión osteomuscular o patologías cardiovasculares.\n\nRojo: - de 100 pulsaciones x minuto\nAnaranjado: - de 120 pulsaciones x minuto\nAmarillo:  - de 140 pulsaciones x minuto.\nVerde claro:  - de 160 pulsaciones x minuto\nVerde obscuro: - 180 pulsaciones x minuto",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2022-05-08 00:00:00"
+    },
+    {
+        "id": "6",
+        "id_creador": "1",
+        "area": "nivel",
+        "texto": "Solo podrán hacer ejercicios con  una pulsación menor a lo indicado para disminuir riesgos de lesión osteomuscular o patologías cardiovasculares.\n\nRojo: - de 100 pulsaciones x minuto\nAnaranjado: - de 120 pulsaciones x minuto\nAmarillo:  - de 140 pulsaciones x minuto.\nVerde claro:  - de 160 pulsaciones x minuto\nVerde obscuro: - 180 pulsaciones x minuto",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2022-05-08 00:00:00"
+    },
+    {
+        "id": "11",
+        "id_creador": "1",
+        "area": "fuerza",
+        "texto": "mmmmm",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-08 00:00:00"
+    },
+    {
+        "id": "17",
+        "id_creador": "1",
+        "area": "insomnio",
+        "texto": "nnnn",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-08 00:00:00"
+    },
+    {
+        "id": "23",
+        "id_creador": "1",
+        "area": "agua",
+        "texto": "kkkk",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-08 00:00:00"
+    },
+    {
+        "id": "26",
+        "id_creador": "1",
+        "area": "ligas",
+        "texto": "Días de actividad física\nVerde obscuro : 1 día de actividad\nVerde claro: 2 días de actividad\nAmarillo: 3 días de actividad\nAnaranjado: 4 días de actividad\nRojo: 7 días de actividad",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-08 00:00:00"
+    },
+    {
+        "id": "27",
+        "id_creador": "1",
+        "area": "ligas",
+        "texto": "Días de actividad física\nVerde obscuro : 1 día de actividad\nVerde claro: 2 días de actividad\nAmarillo: 3 días de actividad\nAnaranjado: 4 días de actividad\nRojo: 7 días de actividad",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-08 00:00:00"
+    },
+    {
+        "id": "28",
+        "id_creador": "1",
+        "area": "calentamiento",
+        "texto": "Días de actividad\n\nVerde obscuro: 1 día de actividad\nVerde claro: 2 días de actividad\nAmarillo: 3 días de actividad\nAnaranjado: 4 días de actividad \nRojo: 5  a 7 días de actividad ",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-08 00:00:00"
+    },
+    {
+        "id": "29",
+        "id_creador": "1",
+        "area": "acidez",
+        "texto": "Gris: No hay ese síntoma\nVerde obscuro: síntoma muy leve\nVerde claro: Síntoma leve\nAmarillo: Síntoma moderado\nAnaranjado: Síntoma Intenso\nRojo: Síntoma muy intenso\n",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-08 00:00:00"
+    },
+    {
+        "id": "30",
+        "id_creador": "1",
+        "area": "tiroides",
+        "texto": "Verde obscuro: Muy leve daño\nVerde claro: Leve daño\nAmarillo: Daño moderado \nAnaranjado: Daño  severo\nRojo: Daño muy severo ",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-08 00:00:00"
+    },
+    {
+        "id": "34",
+        "id_creador": "1",
+        "area": "gastroscopia",
+        "texto": "Rojo: En 1 mes \nAnaranjado:En 3 meses\nAmarillo: En 6  meses\nVerde claro: En 12 meses\nVerde obscuro:bEn 24 meses",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-08 00:00:00"
+    },
+    {
+        "id": "36",
+        "id_creador": "1",
+        "area": "reloj",
+        "texto": "Rojo: Pendiente entregar y ya pagó\nAnaranjado: Pendiente entrega y pago\nAmarillo: Entregado y pendiente pago\nVerde claro: Entregado y pendiente parte del pago\nVerde obscuro: Entregado y cancelado\n\n",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-08 00:00:00"
+    },
+    {
+        "id": "37",
+        "id_creador": "1",
+        "area": "honorarios",
+        "texto": "Rojo: Pago pendiente\nAnaranjado: Parte del pago pendiente\nAmarillo:Pago en depósito bancario\nVerde claro: Pago en dólares efectivo\nVerde obscuro: Pago vía zelle",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-08 00:00:00"
+    },
+    {
+        "id": "38",
+        "id_creador": "1",
+        "area": "honorarios",
+        "texto": "Rojo: Pago pendiente\nAnaranjado: Parte del pago pendiente\nAmarillo:Pago en depósito bancario\nVerde claro: Pago en dólares efectivo\nVerde obscuro: Pago vía zelle",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-08 00:00:00"
+    },
+    {
+        "id": "40",
+        "id_creador": "1",
+        "area": "bandas",
+        "texto": "uui8",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-08 00:00:00"
+    },
+    {
+        "id": "41",
+        "id_creador": "1",
+        "area": "presenciaa",
+        "texto": "hjhghjbh",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-13 00:00:00"
+    },
+    {
+        "id": "42",
+        "id_creador": "1",
+        "area": "hipertension",
+        "texto": "Compromiso muy severo",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2022-05-13 00:00:00"
+    },
+    {
+        "id": "43",
+        "id_creador": "1",
+        "area": "hipertension",
+        "texto": "Compromiso severo",
+        "color": "2",
+        "estado": "0",
+        "fecha_r": "2022-05-13 00:00:00"
+    },
+    {
+        "id": "44",
+        "id_creador": "1",
+        "area": "hipertension",
+        "texto": "Compromiso moderado",
+        "color": "3",
+        "estado": "0",
+        "fecha_r": "2022-05-13 00:00:00"
+    },
+    {
+        "id": "45",
+        "id_creador": "1",
+        "area": "hipertension",
+        "texto": "Compromiso leve",
+        "color": "4",
+        "estado": "0",
+        "fecha_r": "2022-05-13 00:00:00"
+    },
+    {
+        "id": "46",
+        "id_creador": "1",
+        "area": "hipertension",
+        "texto": "Compromiso muy leve",
+        "color": "5",
+        "estado": "0",
+        "fecha_r": "2022-05-13 00:00:00"
+    },
+    {
+        "id": "47",
+        "id_creador": "1",
+        "area": "granos",
+        "texto": "Consumir alimentos no autorizados \nRojo: 5 a 7 días\nAnaranjado 4 días\nAmarillo 3 días\nVerde claro: 2 días \nVerde obscuro: 1 dia",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-21 00:00:00"
+    },
+    {
+        "id": "48",
+        "id_creador": "1",
+        "area": "proteninas",
+        "texto": "Las proteínas son esenciales y deben consumirss 3 veces al día como mínimo\nla escala es \nRojo: 1solo día.  muy mal \nAnaranjado 2 días mal\nAmarillo 3 dias regular \nVerde ciaro 4 días bien\nVerde obscuro5 a 7 días muy bien",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-21 00:00:00"
+    },
+    {
+        "id": "49",
+        "id_creador": "1",
+        "area": "mv",
+        "texto": "El plan es qué de acuerdo a su estado físico cumpla con: \nLas bandas ( Verdes  nicialmente y luego azules, amarillas,  rojas y negras ) en  hacer 4 series diferentes( vídeo anexo en ejercicios)  de hasta   200 repeticiones por cada una de ellas  enfocandose en hacerlo cada 2 hrs,.\nLigas  Debe seguir las rutinas de vídeos anexos 1 vez al dia de hasta 100 repeticiones por cada serie.\nNo se olvide activar su banda de control cardometabólico para hacer seguimiento a su esfuerzo y reportarla a grupo de asesoramiento WhatsApp cada semana para ver índice PAI y Perdida de grasa \n\nRojo: 1 solo día.\nAnaranjado 2 días\nAmarillo 3 días\nVerde claro 4 dias\nVerde obscuro de 5 a 7 dias\n\n",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-21 00:00:00"
+    },
+    {
+        "id": "50",
+        "id_creador": "1",
+        "area": "euthirox",
+        "texto": "Rojo:                  150 mcg\nAnaranjado:      125 mcg\nAmarillo:            100 mcg\nVerde claro:         75 mcg\nVerd obscuro:     25 a 50 mcg",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-21 00:00:00"
+    },
+    {
+        "id": "51",
+        "id_creador": "1",
+        "area": "metfotmina",
+        "texto": "Rojo:.                        850 mgr 3 x dia\nAnaranjado.            850 mgr  2 x dia\nAmarillo:.                 850 mgr  1 x dia\nVerde claro:.           500 mgr  2  x dia\nVerde obscuro:      500 mgr   1 x dia",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-21 00:00:00"
+    },
+    {
+        "id": "52",
+        "id_creador": "1",
+        "area": "aldactone",
+        "texto": "Rojo:.                   200 mgr\/ día\nAnaranjado:.       150 mgr\/ día \nAmarillo:.             100 mgr\/ dia\nVerde claro:.        50 mgr\/ dia\nVerde obscuro:    25 mgr\/ dia",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-21 00:00:00"
+    },
+    {
+        "id": "53",
+        "id_creador": "1",
+        "area": "ligadura",
+        "texto": "Rojo:.                    5 ligaduras \nAnaranjado:        4 ligaduras\nAmarillo:.             3 ligaduras \nVerde claro          2 ligaduras\nVerde obscuro.   1 ligadura",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-21 00:00:00"
+    },
+    {
+        "id": "55",
+        "id_creador": "1",
+        "area": "cardiologia",
+        "texto": "Rojo: Ese mismo día\nAnaranjado En 1 semana\nAmarillo: En 1 mes \nVerde claro: En 3 meses \nVerde obscuro: En 6 meses",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-21 00:00:00"
+    },
+    {
+        "id": "56",
+        "id_creador": "1",
+        "area": "traumatologo",
+        "texto": "Rojo: Ese mismo día\nAnaranjado En 1 semana\nAmarillo: En 1 mes \nVerde claro: En 3 meses \nVerde obscuro: En 6 meses",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-21 00:00:00"
+    },
+    {
+        "id": "57",
+        "id_creador": "1",
+        "area": "fisiatria",
+        "texto": "Rojo: Ese mismo día\nAnaranjado En 1 semana\nAmarillo: En 1 mes \nVerde claro: En 3 meses \nVerde obscuro: En 6 meses",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-21 00:00:00"
+    },
+    {
+        "id": "58",
+        "id_creador": "1",
+        "area": "medicionainterna",
+        "texto": "Rojo: Ese mismo día\nAnaranjado En 1 semana\nAmarillo: En 1 mes \nVerde claro: En 3 meses \nVerde obscuro: En 6 meses",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-21 00:00:00"
+    },
+    {
+        "id": "59",
+        "id_creador": "1",
+        "area": "ginecologia",
+        "texto": "Rojo: Ese mismo día\nAnaranjado En 1 semana\nAmarillo: En 1 mes \nVerde claro: En 3 meses \nVerde obscuro: En 6 meses",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-21 00:00:00"
+    },
+    {
+        "id": "60",
+        "id_creador": "1",
+        "area": "pediatria",
+        "texto": "Rojo: Ese mismo día\nAnaranjado En 1 semana\nAmarillo: En 1 mes \nVerde claro: En 3 meses \nVerde obscuro: En 6 meses",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-21 00:00:00"
+    },
+    {
+        "id": "61",
+        "id_creador": "1",
+        "area": "abdominal",
+        "texto": "Rojo:                     En 1 semana\nAnaranjado         En 1mes\nAmarillo:              En 3 meses\nVerde claro:         En 6 meses \nVerde obscuro:   En 12  meses",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-21 00:00:00"
+    },
+    {
+        "id": "62",
+        "id_creador": "1",
+        "area": "tidoidese",
+        "texto": "Rojo:                     En 1 semana\nAnaranjado         En 1mes\nAmarillo:              En 3 meses\nVerde claro:         En 6 meses \nVerde obscuro:   En 12  meses",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-21 00:00:00"
+    },
+    {
+        "id": "63",
+        "id_creador": "1",
+        "area": "elastografia",
+        "texto": "Rojo:                     En 1 semana\nAnaranjado         En 1mes\nAmarillo:              En 3 meses\nVerde claro:         En 6 meses \nVerde obscuro:   En 12  meses",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-21 00:00:00"
+    },
+    {
+        "id": "64",
+        "id_creador": "1",
+        "area": "ehigado",
+        "texto": "Rojo:                     En 1 semana\nAnaranjado         En 1mes\nAmarillo:              En 3 meses\nVerde claro:         En 6 meses \nVerde obscuro:   En 12  meses",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-21 00:00:00"
+    },
+    {
+        "id": "65",
+        "id_creador": "1",
+        "area": "epancreas",
+        "texto": "Rojo:                     En 1 semana\nAnaranjado         En 1mes\nAmarillo:              En 3 meses\nVerde claro:         En 6 meses \nVerde obscuro:   En 12  meses",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-21 00:00:00"
+    },
+    {
+        "id": "67",
+        "id_creador": "1",
+        "area": "balanza",
+        "texto": "Rojo:                    Pendiente entrega \nAnaranjado         Pago pendiente\nAmarillo:              Canceló banco provincial\nVerde claro:         Se entregó y canceló zelle\nVerde obscuro:   Canceló efectivo",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-21 00:00:00"
+    },
+    {
+        "id": "68",
+        "id_creador": "1",
+        "area": "ligasc",
+        "texto": "Rojo:                    Pendiente entrega \nAnaranjado         Pago pendiente\nAmarillo:              Canceló banco provincial\nVerde claro:         Se entregó y canceló zelle\nVerde obscuro:   Canceló efectivo",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-21 00:00:00"
+    },
+    {
+        "id": "69",
+        "id_creador": "1",
+        "area": "litio",
+        "texto": "Rojo:                    600 mgr \nAnaranjado         450 mgr\nAmarillo:              300 mgr\nVerde claro:         150 mgr\nVerde obscuro:     75 mgr",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-21 00:00:00"
+    },
+    {
+        "id": "70",
+        "id_creador": "1",
+        "area": "reloj",
+        "texto": "Rojo:                    Pendiente entrega \nAnaranjado         Pago pendiente\nAmarillo:              Canceló banco provincial\nVerde claro:         Se entregó y canceló zelle\nVerde obscuro:   Canceló efectivo",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-21 00:00:00"
+    },
+    {
+        "id": "71",
+        "id_creador": "1",
+        "area": "litioc",
+        "texto": "Rojo:                    Pendiente entrega \nAnaranjado         Pago pendiente\nAmarillo:              Canceló banco provincial\nVerde claro:         Se entregó y canceló zelle\nVerde obscuro:   Canceló efectivo",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-21 00:00:00"
+    },
+    {
+        "id": "72",
+        "id_creador": "1",
+        "area": "mberberina",
+        "texto": "Rojo:                    Pendiente entrega \nAnaranjado         Pago pendiente\nAmarillo:              Canceló banco provincial\nVerde claro:         Se entregó y canceló zelle\nVerde obscuro:   Canceló efectivo",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-21 00:00:00"
+    },
+    {
+        "id": "73",
+        "id_creador": "1",
+        "area": "mmagnecio",
+        "texto": "Rojo:                    Pendiente entrega \nAnaranjado         Pago pendiente\nAmarillo:              Canceló banco provincial\nVerde claro:         Se entregó y canceló zelle\nVerde obscuro:   Canceló efectivo",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-21 00:00:00"
+    },
+    {
+        "id": "74",
+        "id_creador": "1",
+        "area": "mcelenio",
+        "texto": "Rojo:                    Pendiente entrega \nAnaranjado         Pago pendiente\nAmarillo:              Canceló banco provincial\nVerde claro:         Se entregó y canceló zelle\nVerde obscuro:   Canceló efectivo",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-21 00:00:00"
+    },
+    {
+        "id": "75",
+        "id_creador": "1",
+        "area": "mzinc",
+        "texto": "Rojo:                    Pendiente entrega \nAnaranjado         Pago pendiente\nAmarillo:              Canceló banco provincial\nVerde claro:         Se entregó y canceló zelle\nVerde obscuro:   Canceló efectivo",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-21 00:00:00"
+    },
+    {
+        "id": "76",
+        "id_creador": "1",
+        "area": "medulcorante",
+        "texto": "Rojo:                    Pendiente entrega \nAnaranjado         Pago pendiente\nAmarillo:              Canceló banco provincial\nVerde claro:         Se entregó y canceló zelle\nVerde obscuro:   Canceló efectivo",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-21 00:00:00"
+    },
+    {
+        "id": "77",
+        "id_creador": "1",
+        "area": "granos",
+        "texto": "Fase 1: Solo alimentos que están en lista de supermercado,\n\nFase 2: Se agregan granos (caraotas, lentejas) Lácteos ( yogur, leche, quesos)\n\nFase 3: Se agregan harinas ( pan, arepa, pasta, arroz, papa, yuca, cotufas, bollería,, dulces)\n\nEl plan es  cuando se le autoriza fase 2 puede agregar algunos tipos de hidratos de carbono y luego granos y lácteos en forma individual. para evaluar comportamiento. de % de grasa corporal.\n\n\n",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-22 00:00:00"
+    },
+    {
+        "id": "78",
+        "id_creador": "1",
+        "area": "lacteos",
+        "texto": "Fase 1: Solo alimentos que están en lista de supermercado,\n\nFase 2: Se agregan granos (caraotas, lentejas) Lácteos ( yogur, leche, quesos)\n\nFase 3: Se agregan harinas ( pan, arepa, pasta, arroz, papa, yuca, cotufas, bollería,, dulces)\n\nEl plan es  cuando se le autoriza fase 2 puede agregar algunos tipos de hidratos de carbono y luego granos y lácteos en forma individual. para evaluar comportamiento. de % de grasa corporal.\n\n",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-22 00:00:00"
+    },
+    {
+        "id": "79",
+        "id_creador": "1",
+        "area": "harinas",
+        "texto": "Fase 1: Solo alimentos que están en lista de supermercado,\n\nFase 2: Se agregan granos (caraotas, lentejas) Lácteos ( yogur, leche, quesos)\n\nFase 3: Se agregan harinas ( pan, arepa, pasta, arroz, papa, yuca, cotufas, bollería,, dulces)\n\nEl plan es  cuando se le autoriza fase 2 puede agregar algunos tipos de hidratos de carbono y luego granos y lácteos en forma individual. para evaluar comportamiento. de % de grasa corporal.\n\n",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-22 00:00:00"
+    },
+    {
+        "id": "80",
+        "id_creador": "1",
+        "area": "frutas",
+        "texto": "Fase 1: Solo alimentos que están en lista de supermercado,\n\nFase 2: Se agregan granos (caraotas, lentejas) Lácteos ( yogur, leche, quesos)\nfrutas ( uvas, duraznos, guanabana, cambur, mango)\nFase 3: Se agregan harinas ( pan, arepa, pasta, arroz, papa, yuca, cotufas, bollería,, dulces)\n°° Las proteínas se deben  consumir todos los día al igual que las  grasas cómo el aceite   de oliva, aguacate,  almendras,. nueces,. \nConsumo de tipos de alimento\n Rojo: 5 a 7 días\nAnaranjado:4 días\nAmarillo: 3 días\nVerde claro: 2 días\nVerde obscuro 1 dia\n\n\nEl plan es  cuando se le autoriza fase 2 puede agregar algunos tipos de hidratos de carbono y luego granos y lácteos en forma individual. para evaluar comportamiento. de % de grasa corporal.\n\n",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-22 00:00:00"
+    },
+    {
+        "id": "81",
+        "id_creador": "1",
+        "area": "grasas",
+        "texto": "Fase 1: Solo alimentos que están en lista de supermercado,\n\nFase 2: Se agregan granos (caraotas, lentejas) Lácteos ( yogur, leche, quesos)\nfrutas ( uvas, duraznos, guanabana, cambur, mango)\nFase 3: Se agregan harinas ( pan, arepa, pasta, arroz, papa, yuca, cotufas, bollería,, dulces)\n°° Las proteínas se deben  consumir todos los día al igual que las  grasas cómo el aceite   de oliva, aguacate,  almendras,. nueces,. \nConsumo de tipos de alimento\n Rojo: 5 a 7 días\nAnaranjado:4 días\nAmarillo: 3 días\nVerde claro: 2 días\nVerde obscuro 1 dia\n\n\nEl plan es  cuando se le autoriza fase 2 puede agregar algunos tipos de hidratos de carbono y luego granos y lácteos en forma individual. para evaluar comportamiento. de % de grasa corporal.\n\n",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-22 00:00:00"
+    },
+    {
+        "id": "82",
+        "id_creador": "1",
+        "area": "granos",
+        "texto": "Fase 1: Solo alimentos que están en lista de supermercado,\n\nFase 2: Se agregan granos (caraotas, lentejas) Lácteos ( yogur, leche, quesos)\nfrutas ( uvas, duraznos, guanabana, cambur, mango)\nFase 3: Se agregan harinas ( pan, arepa, pasta, arroz, papa, yuca, cotufas, bollería,, dulces)\n°° Las proteínas se deben  consumir todos los día al igual que las  grasas cómo el aceite   de oliva, aguacate,  almendras,. nueces,. \nConsumo de tipos de alimento\n Rojo: 5 a 7 días\nAnaranjado:4 días\nAmarillo: 3 días\nVerde claro: 2 días\nVerde obscuro 1 dia\n\n\nEl plan es  cuando se le autoriza fase 2 puede agregar algunos tipos de hidratos de carbono y luego granos y lácteos en forma individual. para evaluar comportamiento. de % de grasa corporal.\n\n",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-22 00:00:00"
+    },
+    {
+        "id": "83",
+        "id_creador": "1",
+        "area": "lacteos",
+        "texto": "Fase 1: Solo alimentos que están en lista de supermercado,\n\nFase 2: Se agregan granos (caraotas, lentejas) Lácteos ( yogur, leche, quesos)\nfrutas ( uvas, duraznos, guanabana, cambur, mango)\nFase 3: Se agregan harinas ( pan, arepa, pasta, arroz, papa, yuca, cotufas, bollería,, dulces)\n°° Las proteínas se deben  consumir todos los día al igual que las  grasas cómo el aceite   de oliva, aguacate,  almendras,. nueces,. \nConsumo de tipos de alimento\n Rojo: 5 a 7 días\nAnaranjado:4 días\nAmarillo: 3 días\nVerde claro: 2 días\nVerde obscuro 1 dia\n\n\nEl plan es  cuando se le autoriza fase 2 puede agregar algunos tipos de hidratos de carbono y luego granos y lácteos en forma individual. para evaluar comportamiento. de % de grasa corporal.\n\n",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-22 00:00:00"
+    },
+    {
+        "id": "84",
+        "id_creador": "1",
+        "area": "harinas",
+        "texto": "Fase 1: Solo alimentos que están en lista de supermercado,\n\nFase 2: Se agregan granos (caraotas, lentejas) Lácteos ( yogur, leche, quesos)\nfrutas ( uvas, duraznos, guanabana, cambur, mango)\nFase 3: Se agregan harinas ( pan, arepa, pasta, arroz, papa, yuca, cotufas, bollería,, dulces)\n°° Las proteínas se deben  consumir todos los día al igual que las  grasas cómo el aceite   de oliva, aguacate,  almendras,. nueces,. \nConsumo de tipos de alimento\n Rojo: 5 a 7 días\nAnaranjado:4 días\nAmarillo: 3 días\nVerde claro: 2 días\nVerde obscuro 1 dia\n\n\nEl plan es  cuando se le autoriza fase 2 puede agregar algunos tipos de hidratos de carbono y luego granos y lácteos en forma individual. para evaluar comportamiento. de % de grasa corporal.\n\n",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-22 00:00:00"
+    },
+    {
+        "id": "85",
+        "id_creador": "1",
+        "area": "C5",
+        "texto": "su esposo es asi",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2022-05-22 00:00:00"
+    },
+    {
+        "id": "88",
+        "id_creador": "1",
+        "area": "avance",
+        "texto": "El paciente bajo el peso esperado",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2022-05-22 00:00:00"
+    },
+    {
+        "id": "89",
+        "id_creador": "1",
+        "area": "avance",
+        "texto": "El paciente bajo de peso pero no lo esperado",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2022-05-22 00:00:00"
+    },
+    {
+        "id": "90",
+        "id_creador": "1",
+        "area": "avance",
+        "texto": "El paciente está subiendo de peso",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-05-22 00:00:00"
+    },
+    {
+        "id": "91",
+        "id_creador": "1",
+        "area": "tmagnecio",
+        "texto": "Verde obscuro: Magnesio glicinato 1300 mgr\nVerde claro:  Magnedio glicinato :500 mgr\nAmarillo:.      Magnesio citrato 500 mgr\nAnaranjado: Magnesio cloruro 200 mgr\nRojo :             Intolerancia   ",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-06-12 00:00:00"
+    },
+    {
+        "id": "93",
+        "id_creador": "1",
+        "area": "kgporsemana",
+        "texto": "kilogramos que se pierden cada semana",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-06-12 00:00:00"
+    },
+    {
+        "id": "94",
+        "id_creador": "1",
+        "area": "gporsemana",
+        "texto": "% de grasa corporal que se pierde semana a semana ",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-06-12 00:00:00"
+    },
+    {
+        "id": "98",
+        "id_creador": "1",
+        "area": "ligas",
+        "texto": "hfjfjjdjdkldlkdkdkd",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-06-22 00:00:00"
+    },
+    {
+        "id": "99",
+        "id_creador": "1",
+        "area": "estomago",
+        "texto": "tiene erosiones en antro ",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-06-23 00:00:00"
+    },
+    {
+        "id": "100",
+        "id_creador": "1",
+        "area": "tiroides",
+        "texto": "lo tiroideo derecho amarillo e izquierdo verde",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-06-24 00:00:00"
+    },
+    {
+        "id": "101",
+        "id_creador": "1",
+        "area": "ejercicios",
+        "texto": "realizo dos horas de ejercicio fuerte diaria",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2022-09-01 00:00:00"
+    },
+    {
+        "id": "103",
+        "id_creador": "1",
+        "area": "ejercicios",
+        "texto": "No tiene tiempo actividad física le gusta nadar \n",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2022-11-09 00:00:00"
+    },
+    {
+        "id": "104",
+        "id_creador": "1",
+        "area": "C1",
+        "texto": "Rojo: Lo hace mal es extremo\nAnaranjado: lo sigue haciendo mal pero está mejorando\nAmarillo: Regular\nVerde claro mejor\nVerde obscuro  está haciendo muy bien.",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2022-11-14 00:00:00"
+    },
+    {
+        "id": "113",
+        "id_creador": "1",
+        "area": "tberberina",
+        "texto": "Rojo: 6 tan x día\nAnaranjado 5 tan x día\namarillo 4 Tab x día \nverde claro 3 Tab x día\nVerde obsculo 2 Tab x dia",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2023-01-21 00:00:00"
+    },
+    {
+        "id": "114",
+        "id_creador": "1",
+        "area": "nivel",
+        "texto": "dhydydyjjdud",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2023-04-13 00:00:00"
+    },
+    {
+        "id": "115",
+        "id_creador": "1",
+        "area": "general",
+        "texto": "Rojo:  Enfermedad  con compromiso orgánico severo\n\nAnaranjado: Enfermedad con compromiso orgánico moderado\n\nAmarillo: Enfermedad con compromiso orgánico  leve\n\nVerde: No Enfermedad \n\nAzul: Buen estado de Salud",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2023-06-10 00:00:00"
+    },
+    {
+        "id": "116",
+        "id_creador": "1",
+        "area": "lic2",
+        "texto": "Rojo:               Muy mala intención de cumplir su plan \nAnaranjado: Mala intención de cambiar su plan\nAmarillo:       Regular intención de seguir el plan\nVerde:            Buena intención de cumplir el plan\nAzul:               Una muy buena intención de seguir el plan",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2023-06-15 00:00:00"
+    },
+    {
+        "id": "117",
+        "id_creador": "1",
+        "area": "nf1",
+        "texto": "Rojo:                    No le gusta y no cumple\nAnaranjado.       No le gusta pero cumple algo\nAmarillo:            +- Le gusta y cumple Suu plan\nVerde:                Le gusta y cumple\nAzul:                   Le gusta mucho y cumple su plan",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2023-06-15 00:00:00"
+    },
+    {
+        "id": "118",
+        "id_creador": "1322",
+        "area": "insight",
+        "texto": "\n*Nivel de Insight al momento de consulta:* Buena.\n \nDemuestra entendimiento de su problemática sin embargo mostró inquietud al momento de dejar la bebida para su progreso.\n\n*Recomendaciones:*\n -Monitoriar durante 2 meses constantes su ingesta de alcohol.\n -Activación Física con ejercicio. Fundamental.\n -Consulta con la terapeuta  Amneris Inciarte.\n -Impartir la información nutricional y aclaratoria de cantidad de calorías ingeridas en diversas bebidas alcohólicas.",
+        "color": "4",
+        "estado": "0",
+        "fecha_r": "2023-06-21 00:00:00"
+    },
+    {
+        "id": "119",
+        "id_creador": "1322",
+        "area": "insight",
+        "texto": "nivel de Insight: Muy mala\nexpresa negación a querer aceptar los nuevos cambios establecidos tanto por el psicólogo como por el equipo multidisciplinario. \n",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2023-06-21 00:00:00"
+    },
+    {
+        "id": "120",
+        "id_creador": "1322",
+        "area": "insight",
+        "texto": "nivel de Insight al momento de Consulta: mala\nel paciente expresa entendimiento de la situación negativa que le afecta, sin embargo, muestra resistencia al querer dejarla, una poca reacción de cambio.\nExiste conciencia de enfermedad pero no aceptación al cambio totalitario al momento incial de su proceso.",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2023-06-21 00:00:00"
+    },
+    {
+        "id": "121",
+        "id_creador": "1322",
+        "area": "insight",
+        "texto": "nivel de Insight al momento de consulta: Regular\n\nSe muestra entendimiento por parte del paciente q  sus problemáticas cuyo efecto se ve evidenciado en su peso y su estilo de vida sin embargo hay una en particular con la cual genera cierta resistencia para no dejarla.\nAunque muestra aceptación por varios aspectos, existe uno que expresa que no quiere que le restrigan, aún habiendo explicado el porque es importante dejarlo aún lado por un breve tiempo hasta que mejore.\n",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2023-06-21 00:00:00"
+    },
+    {
+        "id": "122",
+        "id_creador": "1322",
+        "area": "insight",
+        "texto": "nivel de Insight al momento de consulta: Regular\n\nSe muestra entendimiento por parte del paciente q  sus problemáticas cuyo efecto se ve evidenciado en su peso y su estilo de vida sin embargo hay una en particular con la cual genera cierta resistencia para no dejarla.\nAunque muestra aceptación por varios aspectos, existe uno que expresa que no quiere que le restrigan, aún habiendo explicado el porque es importante dejarlo aún lado por un breve tiempo hasta que mejore.\n",
+        "color": "3",
+        "estado": "0",
+        "fecha_r": "2023-06-21 00:00:00"
+    },
+    {
+        "id": "123",
+        "id_creador": "627",
+        "area": "lic1",
+        "texto": "🔴 , aumento de peso\n🟠: peso sin variacion\n🟡 perdida de peso menor a 700  grs\n🟢 pérdida de peso entre 700 grs y 1 kg \n🔵 perdida de peso mayor a 1 kg ",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2023-06-21 00:00:00"
+    },
+    {
+        "id": "124",
+        "id_creador": "1322",
+        "area": "insight",
+        "texto": "nivel de Insight al momento de la consulta: Bueno\n\nEl paciente muestra entendimiento de sus problemáticas y acepta abiertamente la ayuda para mejorar por medio de los profesionales. \nexiste un buen Rapport al momento de la consulta ",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2023-06-21 00:00:00"
+    },
+    {
+        "id": "125",
+        "id_creador": "1322",
+        "area": "insight",
+        "texto": "Nivel de Insight al momento de la consulta: Muy Bueno\n\nLa paciente viene al consultorio con información Variada para mejorar y trata de compaginarla con nosotros. \nabierta en el cambio de todas las áreas.\n Muestra entusiasmo al ir viendo los cambios que le existen para su proceso.",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2023-06-21 00:00:00"
+    },
+    {
+        "id": "126",
+        "id_creador": "1322",
+        "area": "insight",
+        "texto": "Nivel de Insight al momento de la consulta: Muy Bueno\n\nLa paciente viene al consultorio con información Variada para mejorar y trata de compaginarla con nosotros. \nabierta en el cambio de todas las áreas.\n Muestra entusiasmo al ir viendo los cambios que le existen para su proceso.",
+        "color": "5",
+        "estado": "0",
+        "fecha_r": "2023-06-21 00:00:00"
+    },
+    {
+        "id": "127",
+        "id_creador": "1322",
+        "area": "psc",
+        "texto": "no asistió a consulta psicológica el día de procedimiento ",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2023-06-22 00:00:00"
+    },
+    {
+        "id": "128",
+        "id_creador": "691",
+        "area": "general",
+        "texto": "Azul:                   Lleno el  tést día 7 en la noche\nVerde:                Lleno test   día 8 ( llamada w)\nAmarillo:          Lleno ",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2023-06-22 00:00:00"
+    },
+    {
+        "id": "129",
+        "id_creador": "1322",
+        "area": "tberberina",
+        "texto": "2tab x dia",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2023-06-22 00:00:00"
+    },
+    {
+        "id": "130",
+        "id_creador": "691",
+        "area": "general",
+        "texto": "Azul:                Llenó día 7 \nVerde:             Llenó día 8 ( llamada w)\nAmarillo:        Llenó día 9 (llamada w)\nAnaranjado:   Llenó día 10 ( w lo hizo el  operador)\nRojo:               No contestó . Se manda mensaje con instrucciones de que si no registra sus datos 3 semanas seguidas su control continua pero ya no como protocolo de asesoría gratuita ( se cobrarán honorarios normales) \n",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2023-06-22 00:00:00"
+    },
+    {
+        "id": "131",
+        "id_creador": "724",
+        "area": "pedido",
+        "texto": "Rojo:                Pedido a muy corto plazo\nAnaranjado:    Pedido a corto plazo \nAmarillo:         Pedido   en proxinos 7 días.\nVerde:              Pedido en próximas 2 semanas\nAzul,:               Pedido entre 2 a 4 semanas ",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2023-06-25 00:00:00"
+    },
+    {
+        "id": "132",
+        "id_creador": "724",
+        "area": "pedido",
+        "texto": "Rojo:                Pedido a muy corto plazo\nAnaranjado:    Pedido a corto plazo \nAmarillo:         Pedido   en proxinos 7 días.\nVerde:              Pedido en próximas 2 semanas\nAzul,:               Pedido entre 2 a 4 semanas ",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2023-06-25 00:00:00"
+    },
+    {
+        "id": "133",
+        "id_creador": "1322",
+        "area": "psc",
+        "texto": "asistió con el Psicólogo el día de su procedimiento",
+        "color": "5",
+        "estado": "0",
+        "fecha_r": "2023-06-26 00:00:00"
+    },
+    {
+        "id": "134",
+        "id_creador": "1322",
+        "area": "psc",
+        "texto": "asistió con el Psicólogo el día de su procedimiento",
+        "color": "5",
+        "estado": "0",
+        "fecha_r": "2023-06-26 00:00:00"
+    },
+    {
+        "id": "135",
+        "id_creador": "1322",
+        "area": "psc",
+        "texto": "está al pendiente de verse con el psicólogo.\n",
+        "color": "3",
+        "estado": "0",
+        "fecha_r": "2023-06-26 00:00:00"
+    },
+    {
+        "id": "136",
+        "id_creador": "1343",
+        "area": "citaeje",
+        "texto": "🔴",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2023-06-26 00:00:00"
+    },
+    {
+        "id": "137",
+        "id_creador": "627",
+        "area": "citanut",
+        "texto": "🔵paciente reporta en app y se mantiene en contacto\n🟢paciente no  reporta  en app, pero se mantiene en contacto \n🟡paciente reporta   en app pero no está en contacto\n🟠paciente no reporta y no responde ",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2023-06-27 00:00:00"
+    },
+    {
+        "id": "138",
+        "id_creador": "679",
+        "area": "familiarcancer",
+        "texto": "mamá ca de huesos ",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2023-07-31 00:00:00"
+    },
+    {
+        "id": "139",
+        "id_creador": "1",
+        "area": "rgest",
+        "texto": "Rojo:                       No desea ser molestado y se lle manda un pdf  de explicación\nAnaranjado:          No hay respuesta a mensaje ni llamada\nAmarillo:               Hay respuesta pero desea un  horario especial de llamada\nVerde:                   Hay respuesta  y se compromete a pensarse al día siguiente\nAzul:                      Reconoce su descuido pide disculpas, agradece  el contacto y se compromete a pensarse al día siguiente     ",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2023-08-04 00:00:00"
+    },
+    {
+        "id": "140",
+        "id_creador": "691",
+        "area": "vesicula",
+        "texto": "vesícula biliar normal , sin lesiones",
+        "color": "5",
+        "estado": "0",
+        "fecha_r": "2023-08-04 00:00:00"
+    },
+    {
+        "id": "141",
+        "id_creador": "691",
+        "area": "vesicula",
+        "texto": "vesícula biliar con barro",
+        "color": "4",
+        "estado": "0",
+        "fecha_r": "2023-08-04 00:00:00"
+    },
+    {
+        "id": "142",
+        "id_creador": "1",
+        "area": "general",
+        "texto": "sdlksdfkbsdkkbfsd fsd hfsjdv fshdvfsjkdhfsh dfj sdf ksdf",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2023-08-08 00:00:00"
+    },
+    {
+        "id": "143",
+        "id_creador": "1",
+        "area": "general",
+        "texto": "ararararr",
+        "color": "2",
+        "estado": "0",
+        "fecha_r": "2023-08-09 00:00:00"
+    },
+    {
+        "id": "144",
+        "id_creador": "1",
+        "area": "general",
+        "texto": "nota de prueba",
+        "color": "4",
+        "estado": "0",
+        "fecha_r": "2023-08-09 00:00:00"
+    },
+    {
+        "id": "145",
+        "id_creador": "700",
+        "area": "psc",
+        "texto": "djdidkkfkdkdkdkdkfjxbxbxudjdudhdbfudbfj",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2023-08-11 00:00:00"
+    },
+    {
+        "id": "146",
+        "id_creador": "1322",
+        "area": "aps",
+        "texto": "Muy malo, paciente con negación en aceptar varios de los procesos del método (Nutrición, ejercicio, aceptamiento y resolvimiento de situaciones emocionales, etc)\n\n",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2023-08-14 00:00:00"
+    },
+    {
+        "id": "147",
+        "id_creador": "1322",
+        "area": "aps",
+        "texto": "Mal, Paciente con problemas emocionales que afecten de manera significativa su pérdida de peso. duelos abiertos, rechazo u otras problematicas más especificadas en los reportes ",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2023-08-14 00:00:00"
+    },
+    {
+        "id": "148",
+        "id_creador": "1322",
+        "area": "aps",
+        "texto": "Mal, paciente con problematicas emocionales que afecten de manera significativa su proceso en su pérdida de peso. Duelos abiertos o no resueltos,  rechazos son algunas de estas problemáticas a considerar",
+        "color": "2",
+        "estado": "0",
+        "fecha_r": "2023-08-14 00:00:00"
+    },
+    {
+        "id": "149",
+        "id_creador": "1322",
+        "area": "aps",
+        "texto": "Regular, paciente con problematicas emocionales, o ciertas dificultades que lo han detenido hasta ahora pero demuestra deseos de querer mejorarlas, \n\nPacientes que no tienen las herramientas para motivarse solos o no saben cómo hacerlos .",
+        "color": "3",
+        "estado": "0",
+        "fecha_r": "2023-08-14 00:00:00"
+    },
+    {
+        "id": "150",
+        "id_creador": "1322",
+        "area": "aps",
+        "texto": "Bueno, pacientes que presentan muy buen enfoque, que vienen con problemas emocionales o desórdenes en su vida diaria, más sin embargo están muy abiertos al cambio y poseen una considerable capacidad de resolvimiento del problema",
+        "color": "4",
+        "estado": "0",
+        "fecha_r": "2023-08-14 00:00:00"
+    },
+    {
+        "id": "151",
+        "id_creador": "1322",
+        "area": "aps",
+        "texto": "Muy Bueno, Paciente o que ha venido con mucha de sus problemáticas emocionales en proceso de cambio de antes de venir al método o ya resueltas.",
+        "color": "5",
+        "estado": "0",
+        "fecha_r": "2023-08-14 00:00:00"
+    },
+    {
+        "id": "152",
+        "id_creador": "1322",
+        "area": "psc",
+        "texto": "Paciente Citada para verse Online",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2023-08-14 00:00:00"
+    },
+    {
+        "id": "153",
+        "id_creador": "1322",
+        "area": "psc",
+        "texto": "Paciente Atendida por El psicólogo , sea por vía Online o en consulta fisica",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2023-08-14 00:00:00"
+    },
+    {
+        "id": "154",
+        "id_creador": "1322",
+        "area": "estres",
+        "texto": "Del 1-40:   Relajado\n\n",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2023-08-14 00:00:00"
+    },
+    {
+        "id": "155",
+        "id_creador": "1322",
+        "area": "estres",
+        "texto": "Del 40-60: Leve",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2023-08-14 00:00:00"
+    },
+    {
+        "id": "156",
+        "id_creador": "1322",
+        "area": "estres",
+        "texto": "Del 60-80 : Moderado",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2023-08-14 00:00:00"
+    },
+    {
+        "id": "157",
+        "id_creador": "1322",
+        "area": "estres",
+        "texto": "del 80-100: Alto",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2023-08-14 00:00:00"
+    },
+    {
+        "id": "158",
+        "id_creador": "1322",
+        "area": "estres",
+        "texto": "del 80-100: Alto",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2023-08-14 00:00:00"
+    },
+    {
+        "id": "159",
+        "id_creador": "1332",
+        "area": "awa",
+        "texto": "Rojo: No contesta a 3 llamadas\nAnaranjado:Contesta pero no desea contacto\nAmarillo: Contesta y va regular \nVerde: Contesta y va bien\nAzul Contesta y va muy bien ",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2023-09-10 00:00:00"
+    },
+    {
+        "id": "160",
+        "id_creador": "1",
+        "area": "vesicula",
+        "texto": "bdnddndkdkdkdk",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2023-09-11 00:00:00"
+    },
+    {
+        "id": "161",
+        "id_creador": "1",
+        "area": "token",
+        "texto": "Rojo:No hace contacto no app ni Whatsapp\nAnaranjado : Hace contacto de vez en cuando \nAmarillo:        Hace contacto pero no manda medidas\nVerde:             Manda medidas con irregularidad\nAzul:               Siempre mamda medidas además de       ,,,\n\n                        pesarse",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2023-09-12 00:00:00"
+    },
+    {
+        "id": "162",
+        "id_creador": "1332",
+        "area": "eawa",
+        "texto": "No atiende WhatsApp ni usa la app",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2023-09-12 00:00:00"
+    },
+    {
+        "id": "163",
+        "id_creador": "1332",
+        "area": "eawa",
+        "texto": "Escribe solo cuando se siente mal o para pedir una cita de control de peso del resto no atiende ",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2023-09-12 00:00:00"
+    },
+    {
+        "id": "164",
+        "id_creador": "1332",
+        "area": "eawa",
+        "texto": "responde si se le escribe de forma insistente",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2023-09-12 00:00:00"
+    },
+    {
+        "id": "165",
+        "id_creador": "1332",
+        "area": "eawa",
+        "texto": "responde perfectamente pero no usa la app",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2023-09-12 00:00:00"
+    },
+    {
+        "id": "166",
+        "id_creador": "1332",
+        "area": "eawa",
+        "texto": "responde el WhatsApp y usa la app",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2023-09-12 00:00:00"
+    },
+    {
+        "id": "167",
+        "id_creador": "1",
+        "area": "general",
+        "texto": "sdlksdfkbsdkkbfsd fsd hfsjdv fshdvfsjkdhfsh dfj sdf ksdf",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2023-09-20 00:00:00"
+    },
+    {
+        "id": "168",
+        "id_creador": "1",
+        "area": "general",
+        "texto": "sdlksdfkbsdkkbfsd fsd hfsjdv fshdvfsjkdhfsh dfj sdf ksdf",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2023-09-20 00:00:00"
+    },
+    {
+        "id": "169",
+        "id_creador": "1",
+        "area": "general",
+        "texto": "sdlksdfkbsdkkbfsd fsd hfsjdv fshdvfsjkdhfsh dfj sdf ksdf",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2023-09-20 00:00:00"
+    },
+    {
+        "id": "170",
+        "id_creador": "1",
+        "area": "general",
+        "texto": "sdlksdfkbsdkkbfsd fsd hfsjdv fshdvfsjkdhfsh dfj sdf ksdf",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2023-09-20 00:00:00"
+    },
+    {
+        "id": "171",
+        "id_creador": "1",
+        "area": "general",
+        "texto": "sdlksdfkbsdkkbfsd fsd hfsjdv fshdvfsjkdhfsh dfj sdf ksdf",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2023-09-20 00:00:00"
+    },
+    {
+        "id": "172",
+        "id_creador": "1",
+        "area": "general",
+        "texto": "sdlksdfkbsdkkbfsd fsd hfsjdv fshdvfsjkdhfsh dfj sdf ksdf",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2023-09-20 00:00:00"
+    },
+    {
+        "id": "173",
+        "id_creador": "1",
+        "area": "general",
+        "texto": "sdlksdfkbsdkkbfsd fsd hfsjdv fshdvfsjkdhfsh dfj sdf ksdf",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2023-09-20 00:00:00"
+    },
+    {
+        "id": "174",
+        "id_creador": "1",
+        "area": "general",
+        "texto": "sdlksdfkbsdkkbfsd fsd hfsjdv fshdvfsjkdhfsh dfj sdf ksdf",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2023-09-21 00:00:00"
+    },
+    {
+        "id": "175",
+        "id_creador": "1",
+        "area": "general",
+        "texto": "sdlksdfkbsdkkbfsd fsd hfsjdv fshdvfsjkdhfsh dfj sdf ksdf",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2023-09-21 00:00:00"
+    },
+    {
+        "id": "176",
+        "id_creador": "1",
+        "area": "general",
+        "texto": "sdlksdfkbsdkkbfsd fsd hfsjdv fshdvfsjkdhfsh dfj sdf ksdf",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2023-09-21 00:00:00"
+    },
+    {
+        "id": "177",
+        "id_creador": "1",
+        "area": "general",
+        "texto": "sdlksdfkbsdkkbfsd fsd hfsjdv fshdvfsjkdhfsh dfj sdf ksdf",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2023-09-21 00:00:00"
+    },
+    {
+        "id": "178",
+        "id_creador": "1",
+        "area": "general",
+        "texto": "sdlksdfkbsdkkbfsd fsd hfsjdv fshdvfsjkdhfsh dfj sdf ksdf",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2023-09-21 00:00:00"
+    },
+    {
+        "id": "179",
+        "id_creador": "691",
+        "area": "laboratorio",
+        "texto": "no entrego \/ no fue revisado",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2023-09-26 00:00:00"
+    },
+    {
+        "id": "180",
+        "id_creador": "691",
+        "area": "laboratorio",
+        "texto": "Si lo entrego \/ si se reviso",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2023-09-26 00:00:00"
+    },
+    {
+        "id": "181",
+        "id_creador": "691",
+        "area": "tidoidese",
+        "texto": "Amarillo:  control en 3 meses ",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2023-09-26 00:00:00"
+    },
+    {
+        "id": "182",
+        "id_creador": "691",
+        "area": "elastografia",
+        "texto": "Amarillo control en 3 meses ",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2023-09-26 00:00:00"
+    },
+    {
+        "id": "183",
+        "id_creador": "691",
+        "area": "etiroides",
+        "texto": "Amarillo control en 3 meses ",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2023-09-26 00:00:00"
+    },
+    {
+        "id": "184",
+        "id_creador": "691",
+        "area": "ehigado",
+        "texto": "Amarillo control en 3 meses ",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2023-09-26 00:00:00"
+    },
+    {
+        "id": "185",
+        "id_creador": "691",
+        "area": "epancreas",
+        "texto": "Amarillo control en 3 meses ",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2023-09-26 00:00:00"
+    },
+    {
+        "id": "186",
+        "id_creador": "679",
+        "area": "zinc",
+        "texto": "una vez semanal naranja ",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2023-09-27 00:00:00"
+    },
+    {
+        "id": "187",
+        "id_creador": "1",
+        "area": "nf1",
+        "texto": "🔴paciente aumenta de peso y no cumple con plan de alimentación \n🟠paciente estable en peso o primera consulta\n🟡paciente con perdida de peso 500 grs o menos o primera consulta \n🟢paciente con perdida de peso entre 500 grs y 1 kg \n🔵paciente con perdida mayor a 1 kg .",
+        "color": "4",
+        "estado": "0",
+        "fecha_r": "2023-09-27 00:00:00"
+    },
+    {
+        "id": "188",
+        "id_creador": "1",
+        "area": "nf2",
+        "texto": "berinna otra vez tubcalificCiom ya que en alm,1 es el de la lcda Abrew",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2023-09-27 00:00:00"
+    },
+    {
+        "id": "189",
+        "id_creador": "1561",
+        "area": "anna",
+        "texto": "Pciente no respondió después 2 dias",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2023-10-11 00:00:00"
+    },
+    {
+        "id": "190",
+        "id_creador": "1561",
+        "area": "anna",
+        "texto": "El paciente respondió pero no está. interesado en seguir con el programa",
+        "color": "2",
+        "estado": "0",
+        "fecha_r": "2023-10-11 00:00:00"
+    },
+    {
+        "id": "191",
+        "id_creador": "1561",
+        "area": "anna",
+        "texto": "paciente contactado esperando respuesta",
+        "color": "3",
+        "estado": "0",
+        "fecha_r": "2023-10-11 00:00:00"
+    },
+    {
+        "id": "192",
+        "id_creador": "1561",
+        "area": "anna",
+        "texto": "El paciente hizo el reporte vía whatsapp",
+        "color": "4",
+        "estado": "0",
+        "fecha_r": "2023-10-11 00:00:00"
+    },
+    {
+        "id": "193",
+        "id_creador": "1561",
+        "area": "anna",
+        "texto": "el paciente se le dió la información de cómo reportar el uso de la aplicacion",
+        "color": "5",
+        "estado": "0",
+        "fecha_r": "2023-10-11 00:00:00"
+    },
+    {
+        "id": "194",
+        "id_creador": "1322",
+        "area": "rec",
+        "texto": "No ha asistido a consulta con Amneris. \n",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2023-10-27 00:00:00"
+    },
+    {
+        "id": "195",
+        "id_creador": "1322",
+        "area": "rec",
+        "texto": "Asistió a consulta con amneris",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2023-10-27 00:00:00"
+    },
+    {
+        "id": "196",
+        "id_creador": "1322",
+        "area": "rec",
+        "texto": "Requiere Asistencia Con Amneris. ",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2023-10-27 00:00:00"
+    },
+    {
+        "id": "197",
+        "id_creador": "1322",
+        "area": "rec",
+        "texto": "No hace falta Consulta Con Amneris",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2023-10-27 00:00:00"
+    },
+    {
+        "id": "198",
+        "id_creador": "1322",
+        "area": "rec",
+        "texto": "No hace falta Consulta Con Amneris",
+        "color": "2",
+        "estado": "0",
+        "fecha_r": "2023-10-27 00:00:00"
+    },
+    {
+        "id": "199",
+        "id_creador": "1322",
+        "area": "rec",
+        "texto": "En espera a rectificar con Vaneska ",
+        "color": "3",
+        "estado": "0",
+        "fecha_r": "2023-10-27 00:00:00"
+    },
+    {
+        "id": "200",
+        "id_creador": "1322",
+        "area": "ransiedad",
+        "texto": "Si sufre de ansiedad, ataques de pánico y mostrado en otro tipo de conductas",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2023-10-27 00:00:00"
+    },
+    {
+        "id": "201",
+        "id_creador": "1322",
+        "area": "ransiedad",
+        "texto": "Sufre de ansiedad, menos medida",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2023-10-27 00:00:00"
+    },
+    {
+        "id": "202",
+        "id_creador": "1322",
+        "area": "ransiedad",
+        "texto": "de forma eventual Padece de ataques de Picos de ansiedad",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2023-10-27 00:00:00"
+    },
+    {
+        "id": "203",
+        "id_creador": "1322",
+        "area": "ransiedad",
+        "texto": "Los picos de ansiedad son muy contados, está empezando o tiene ciertas herramientas para poder controlar sus momentos ansiosos",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2023-10-27 00:00:00"
+    },
+    {
+        "id": "204",
+        "id_creador": "1322",
+        "area": "ransiedad",
+        "texto": "No sufre de ataques de ansiedad, pánico y picos ansiosos o ya saben controlarlos",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2023-10-27 00:00:00"
+    },
+    {
+        "id": "205",
+        "id_creador": "1322",
+        "area": "amed",
+        "texto": "No asistió o faltó a su consulta medica",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2023-10-27 00:00:00"
+    },
+    {
+        "id": "206",
+        "id_creador": "1322",
+        "area": "amed",
+        "texto": "Asistió a su consulta medica ",
+        "color": "5",
+        "estado": "0",
+        "fecha_r": "2023-10-27 00:00:00"
+    },
+    {
+        "id": "207",
+        "id_creador": "1322",
+        "area": "amed",
+        "texto": "PENDIENTE  por consulta médica ",
+        "color": "3",
+        "estado": "0",
+        "fecha_r": "2023-10-27 00:00:00"
+    },
+    {
+        "id": "208",
+        "id_creador": "1322",
+        "area": "amed",
+        "texto": "RETRASO o CANCELO consulta médica ",
+        "color": "2",
+        "estado": "0",
+        "fecha_r": "2023-10-27 00:00:00"
+    },
+    {
+        "id": "209",
+        "id_creador": "1322",
+        "area": "amc",
+        "texto": "NO SE VIO la consulta con el paciente",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2023-10-27 00:00:00"
+    },
+    {
+        "id": "210",
+        "id_creador": "1322",
+        "area": "amc",
+        "texto": "ASISTIO a consulta médica ",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2023-10-27 00:00:00"
+    },
+    {
+        "id": "211",
+        "id_creador": "1322",
+        "area": "amc",
+        "texto": "CANCELO o RETRASO su consulta medica",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2023-10-27 00:00:00"
+    },
+    {
+        "id": "212",
+        "id_creador": "1322",
+        "area": "amc",
+        "texto": "En espera ",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2023-10-27 00:00:00"
+    },
+    {
+        "id": "213",
+        "id_creador": "1322",
+        "area": "pharinas",
+        "texto": "MUCHA ADICCION a las harinas ",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2023-10-27 00:00:00"
+    },
+    {
+        "id": "214",
+        "id_creador": "1322",
+        "area": "pharinas",
+        "texto": "EXISTE ADICCION hacia las harinas ",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2023-10-27 00:00:00"
+    },
+    {
+        "id": "215",
+        "id_creador": "1322",
+        "area": "pharinas",
+        "texto": "LE GUSTA las harinas pero no come siempre ",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2023-10-27 00:00:00"
+    },
+    {
+        "id": "216",
+        "id_creador": "1322",
+        "area": "pharinas",
+        "texto": "LE GUSTA LAS HARINAS pero las evita",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2023-10-27 00:00:00"
+    },
+    {
+        "id": "217",
+        "id_creador": "1322",
+        "area": "pharinas",
+        "texto": "NO COME HARINAS y no las quiere comer por no gustarles ",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2023-10-27 00:00:00"
+    },
+    {
+        "id": "218",
+        "id_creador": "1322",
+        "area": "pdulces",
+        "texto": "MUCHA ADICCION a los dulces",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2023-10-27 00:00:00"
+    },
+    {
+        "id": "219",
+        "id_creador": "1322",
+        "area": "pdulces",
+        "texto": "Existe ADICCION A LOS DULCES pero de forma más controlada",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2023-10-27 00:00:00"
+    },
+    {
+        "id": "220",
+        "id_creador": "1322",
+        "area": "pdulces",
+        "texto": "LE GUSTAN los dulces pero no siempre los come ",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2023-10-27 00:00:00"
+    },
+    {
+        "id": "221",
+        "id_creador": "1322",
+        "area": "pdulces",
+        "texto": "LE GUSTAN LOS DULCES pero los evita correctamente por salud",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2023-10-27 00:00:00"
+    },
+    {
+        "id": "222",
+        "id_creador": "1322",
+        "area": "pdulces",
+        "texto": "NO LE GUSTAN LOS DULCES",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2023-10-27 00:00:00"
+    },
+    {
+        "id": "223",
+        "id_creador": "1322",
+        "area": "aan",
+        "texto": "SI SIENTE MUCHA ANSIEDAD por causas patologicas",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2023-10-27 00:00:00"
+    },
+    {
+        "id": "224",
+        "id_creador": "1322",
+        "area": "aan",
+        "texto": "SIENTE ANSIEDAD como ataques de pánico o mucho estrés causado por su ambiente ",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2023-10-27 00:00:00"
+    },
+    {
+        "id": "225",
+        "id_creador": "1322",
+        "area": "aan",
+        "texto": "SIENTE picos de ANSIEDAD cuándo su ambiente la presióna mucho, no se descontrola tanto ",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2023-10-27 00:00:00"
+    },
+    {
+        "id": "226",
+        "id_creador": "1322",
+        "area": "aan",
+        "texto": "LOGRA controlar su ANSIEDAD aunque aún batalla con ella",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2023-10-27 00:00:00"
+    },
+    {
+        "id": "227",
+        "id_creador": "1322",
+        "area": "aan",
+        "texto": "NO SUFRE más de ansiedad o posee las herramientas correctas para manejarlas",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2023-10-27 00:00:00"
+    },
+    {
+        "id": "228",
+        "id_creador": "1",
+        "area": "vesicula",
+        "texto": "Rojo cáncer \nNaranja. Litiasis\nAmarillo cirugía vesícula biliar\nVerde barro biliar\nAzul normal\n",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2023-11-01 00:00:00"
+    },
+    {
+        "id": "229",
+        "id_creador": "679",
+        "area": "tiroides",
+        "texto": "Azúl=Normal\nVerdes=Normal (elastografia+0.8)\nAmarillo=Micronodular (TMN) Heterogéneoa(HET)\nNaranja=Nódulos (NOD) \nRojo=Cáncer ",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2023-11-01 00:00:00"
+    },
+    {
+        "id": "230",
+        "id_creador": "679",
+        "area": "duodeno",
+        "texto": "Azúl=Normal\nVerde=D1 Duodeno Erosiva Leve\nAmarillo=D2 Duodeno Erosiva Mod.(DP)\nNaranja=D3 Duodeno Erosiva Sev.(UD)\n",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2023-11-01 00:00:00"
+    },
+    {
+        "id": "231",
+        "id_creador": "679",
+        "area": "carotida",
+        "texto": "Azúl=Normal\nVerde=AC1 hasta 006cm\nAmarillo=AC2 de 0.06 hasta 0.08cm\nNaranja=AC3 de 0.01 o mayor",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2023-11-01 00:00:00"
+    },
+    {
+        "id": "232",
+        "id_creador": "679",
+        "area": "higado",
+        "texto": "Azúl=Normal\nVerde=HG1 Hig.graso leve\nAmarillo=HG2 moderado\nNaranja=HG3 severo, HG4 Hepatomegalia\nVena Porta (mm) ",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2023-11-01 00:00:00"
+    },
+    {
+        "id": "233",
+        "id_creador": "679",
+        "area": "faringe",
+        "texto": "Azul=Normal\nVerde=F1 Faringitis leve x ERGE\nAmarillo=F2 Faringitis Moderada\nNaranja=F3 Faringitis Severa , Amígdalas\nRojo=T U ",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2023-11-01 00:00:00"
+    },
+    {
+        "id": "234",
+        "id_creador": "679",
+        "area": "laringe",
+        "texto": "Azúl=Normal\nVerde=F1 Laringitis leve\nAmarillo=F2 Laringitis Moderada \nNaranja=F3 Laringitis Severa,Hepiglotis Herradura\nRojo=T U ",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2023-11-01 00:00:00"
+    },
+    {
+        "id": "235",
+        "id_creador": "679",
+        "area": "hiato",
+        "texto": "Azúl=Normal\nVerde= HH1 Grado 1\nNaranja=HH2 Grado 2",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2023-11-01 00:00:00"
+    },
+    {
+        "id": "236",
+        "id_creador": "679",
+        "area": "esofago",
+        "texto": "Azúl=Normal\nVerde=E1 Esofagitis leve A\nAmarillo=E2 Esofagitis B Moderada\nNaranja=E3 Esofagitis C Severa,Esoga Barrett\nRojo=(TU) \n",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2023-11-01 00:00:00"
+    },
+    {
+        "id": "237",
+        "id_creador": "679",
+        "area": "estomago",
+        "texto": "Azúl=Normal\nVerde=G1 Gastritis Leve A \nAmarillo=G2 Gastritis Moderada  (Polipos)\nNaranja= G3 Gastritis Severa, Úlcera Gástrica(UG) \nNaranja=Pólipos BX \nRojo=Tumor (TU) ",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2023-11-01 00:00:00"
+    },
+    {
+        "id": "238",
+        "id_creador": "679",
+        "area": "pancreas",
+        "texto": "Azúl=Normal\nVerde=P1 Infiltración Grasa Leve\nAmarillo=P2 Infiltración Grasa Mod\nNaranja=P3 Infiltración Grasa Sev\nRojo= Tumor (TU)",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2023-11-01 00:00:00"
+    },
+    {
+        "id": "239",
+        "id_creador": "679",
+        "area": "rinones",
+        "texto": "Azúl=Normal\nVerde=Micriolit Renal Bilateral (MRB) Quiste\nAmarillo=Litiasis Renal Der , Izq \nNaranja=Hidronefrosis (HNF) \nRojo=Tumor (TU) ",
+        "color": "0",
+        "estado": "1",
+        "fecha_r": "2023-11-01 00:00:00"
+    },
+    {
+        "id": "240",
+        "id_creador": "679",
+        "area": "bazo",
+        "texto": "Azúl=Normal\nVerde=Leve\nAmarillo=Moderado\nNaranja=Severo ",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2023-11-01 00:00:00"
+    },
+    {
+        "id": "241",
+        "id_creador": "679",
+        "area": "colon",
+        "texto": "Azúl=Normal\nAmarillo=Transt. Func. Intestinal (T.F.I )\nNaranja = Diverticulitis (D .I. V ) \nRojo= Tumor (TU) ",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2023-11-01 00:00:00"
+    },
+    {
+        "id": "242",
+        "id_creador": "679",
+        "area": "vesicula",
+        "texto": "Azúl=Normal \nVerde=Barro Biliar\nAmarillo=pólipo (PO) \nNaranja,=Litiasis, VBA ,\nRojo=tumor (TU) \nValor coledeco (mm) ",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2023-11-02 00:00:00"
+    },
+    {
+        "id": "243",
+        "id_creador": "1",
+        "area": "ea",
+        "texto": "🔴 menos de 19 % \n🟠 Perdio del 67 al 20%\n🟡 Perdio del 74 a 68%\n🟢Perdio del 75 al 98%\n🔵más del 99 %",
+        "color": "3",
+        "estado": "0",
+        "fecha_r": "2023-11-04 00:00:00"
+    },
+    {
+        "id": "244",
+        "id_creador": "1",
+        "area": "ea",
+        "texto": "🔵Perdio más del 70 % de exceso de peso  ,\n🟢Perdio más del 60 a 69 %\n🟠Perdio del 50 al 59 %\n🟠Perdio de 21 a 49%\n🔴Perdio menos de 19 %",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2023-11-04 00:00:00"
+    },
+    {
+        "id": "245",
+        "id_creador": "700",
+        "area": "cita",
+        "texto": "🔴 A partir  del día 8 indicativo de no contacto   y permanece así hasta que se haga una evaluación tomadose ya como evaluación de la siguiente semana  y queda marcada está como roja de no evaluación.\n \n🟡El dia 7 se pone amarillo indicativo de que tiene ese  día para hacer contacto de lo contrario se colocara en rojo señal de inadecuado seguimiento.\n\n🔵Cuando  se hace contacto en el tiempo establecido\n",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2023-11-12 00:00:00"
+    },
+    {
+        "id": "246",
+        "id_creador": "1343",
+        "area": "tdp",
+        "texto": "🔵 SE REALIZÓ LA LMG\n🟢 LLEVA MAS DE UNA LIGADURA\n🟡NUTRI + PSI + ENTRENAMIENTO (SIN LMG)\n🟠PRE- CONSULTA , FALTA POR REALIZAR LMG\n🔴NO ASISTIO A CITA\n⚫ABANDONO MV",
+        "color": "4",
+        "estado": "0",
+        "fecha_r": "2023-11-20 00:00:00"
+    },
+    {
+        "id": "247",
+        "id_creador": "1",
+        "area": "eliminar",
+        "texto": "Paciente marcado para eliminar lo antes posible",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2023-11-22 00:00:00"
+    },
+    {
+        "id": "248",
+        "id_creador": "1",
+        "area": "eliminar",
+        "texto": "Paciente candidato para eliminar (no se elimina hasta estar en rojo) ",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2023-11-22 00:00:00"
+    },
+    {
+        "id": "249",
+        "id_creador": "2",
+        "area": "general",
+        "texto": "sdlksdfkbsdkkbfsd fsd hfsjdv fshdvfsjkdhfsh dfj sdf ksdf",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2023-12-10 00:00:00"
+    },
+    {
+        "id": "250",
+        "id_creador": "1343",
+        "area": "eliminar",
+        "texto": "paciente llegó a peso deseado",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2023-12-11 00:00:00"
+    },
+    {
+        "id": "251",
+        "id_creador": "679",
+        "area": "otros",
+        "texto": "topiramato, Omega3, esomeprazol ",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2023-12-14 00:00:00"
+    },
+    {
+        "id": "252",
+        "id_creador": "1561",
+        "area": "amed",
+        "texto": "🔴 No se pudo ayudar a la paciente porque no hace el menor esfuerzo.\n\n🟠 Se refirió el caso al Dr Vargas\n\n🟡 Se manejo y queda bajo observación\n\n🟢 Se interactuo y va bien\n\n🔵 Va muy bien ",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2023-12-17 00:00:00"
+    },
+    {
+        "id": "253",
+        "id_creador": "1561",
+        "area": "aej",
+        "texto": "🔴 No reporta cuántos pasos da diariamente no cuántas calorías no obstante que se le dijo y se le dió por Whatsapp ejercicios para si estado físico y no toma encuentra lo descrito en el instructivo de la App.\n\n🟠 Solo reporta por Whatsapp y se le explicó la rutina de etalles e importancia del uso de App \n\n🟡 No es constante y no llega a los parámetros diseñados\n\n🟢 Responde bien y cumple metas\n\n🔵. Exelente sobrepasa metas",
+        "color": "4",
+        "estado": "0",
+        "fecha_r": "2023-12-17 00:00:00"
+    },
+    {
+        "id": "254",
+        "id_creador": "1561",
+        "area": "anu",
+        "texto": "🔴   No cumple sintiendo mucho apetito y deseo de comer dulces y harinas \n\n🟠 Lo mismo  que lo anterior pero cumple el.plan\n\n🟡 Disminuyó  un poco el deseo y cumple el.plan \n\n🟢 Cumple el plan \n\n🔵Cumple.el.plan muy bien y le gusta la forma de alimentación que tiene ahora.",
+        "color": "3",
+        "estado": "0",
+        "fecha_r": "2023-12-17 00:00:00"
+    },
+    {
+        "id": "255",
+        "id_creador": "1561",
+        "area": "revision",
+        "texto": "paciente cumple con reporte de peso",
+        "color": "5",
+        "estado": "0",
+        "fecha_r": "2023-12-19 00:00:00"
+    },
+    {
+        "id": "256",
+        "id_creador": "1561",
+        "area": "revision",
+        "texto": "pacientes no reportan peso ",
+        "color": "4",
+        "estado": "0",
+        "fecha_r": "2023-12-19 00:00:00"
+    },
+    {
+        "id": "257",
+        "id_creador": "1561",
+        "area": "revision",
+        "texto": "pacientes no ha llegado a peso meta",
+        "color": "2",
+        "estado": "0",
+        "fecha_r": "2023-12-19 00:00:00"
+    },
+    {
+        "id": "258",
+        "id_creador": "1322",
+        "area": "seguimiento",
+        "texto": "Peso adecuado",
+        "color": "5",
+        "estado": "0",
+        "fecha_r": "2023-12-31 00:00:00"
+    },
+    {
+        "id": "259",
+        "id_creador": "1322",
+        "area": "seguimiento",
+        "texto": "No perdió el peso programado ",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2023-12-31 00:00:00"
+    },
+    {
+        "id": "260",
+        "id_creador": "1322",
+        "area": "calee",
+        "texto": "🔴  Movimientos de rotación, flexión, extensión, suoinacion ,, pronación.     Se anexa PDF\n🟠  Lo mismo 3 sesiones. Se  anexa PDF\n🟡 Lo mismo. 3 sesiones  Se anexa.PDF\n🟢 Lo mismos 3 sesiones. Se anexa PDF\n🔵 LO mismo $ sesiidnd .   Se nexa  PDF",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-01-07 00:00:00"
+    },
+    {
+        "id": "261",
+        "id_creador": "1485",
+        "area": "citaeje",
+        "texto": "🔴 No les gusta hacer ejercicios\n🟠 No les gusta pero podrían hacer\n🟡 Les gusta pero no tienen tiempo\n🟢 Les gusta y desean orientación \n🔵Les gusta y tienen sus entrenadores",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-01-08 00:00:00"
+    },
+    {
+        "id": "262",
+        "id_creador": "1485",
+        "area": "pasose",
+        "texto": "🔴 3000 pasos\n🟠4000 pasos\n🟡5000 pasos\n🟢10000 pasos\n🔵15000 pasos\n",
+        "color": "5",
+        "estado": "0",
+        "fecha_r": "2024-01-08 00:00:00"
+    },
+    {
+        "id": "263",
+        "id_creador": "1485",
+        "area": "hhda",
+        "texto": "Su rutina en esta semana será ",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-01-08 00:00:00"
+    },
+    {
+        "id": "264",
+        "id_creador": "1485",
+        "area": "citaeje",
+        "texto": "En esta semana le toca\nAeróbicos 15000 pasos diarios\nCalorías diarias mínimo 300\/ día\nAnaeróbico \nBíceps    2 kg 3 series de 12 repeticiones \nTríceps  3 kg 3 series de 12  repeticiones \nDeltoides \nPectorales 4 kg 3 series de 12 repeticiones \n\n",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-01-08 00:00:00"
+    },
+    {
+        "id": "265",
+        "id_creador": "1322",
+        "area": "infidelidad",
+        "texto": "existió infidelidad en alguna relación pasada",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "266",
+        "id_creador": "1322",
+        "area": "infidelidad",
+        "texto": "existe infidelidad en su relación actual",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "267",
+        "id_creador": "1322",
+        "area": "infidelidad",
+        "texto": "sospecha de infidelidad en su relacion",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "268",
+        "id_creador": "1322",
+        "area": "infidelidad",
+        "texto": "no existe infidelidad en su actual relacion",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "269",
+        "id_creador": "1322",
+        "area": "feom",
+        "texto": "Algún familiar cercano falleció recientemente",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "270",
+        "id_creador": "1322",
+        "area": "feom",
+        "texto": "algún familiar cercano falleció y género trauma",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "271",
+        "id_creador": "1322",
+        "area": "feom",
+        "texto": "Algún Familiar cercano falleció pero no parece generar trauma aparente",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "272",
+        "id_creador": "1322",
+        "area": "feom",
+        "texto": "Algun familiar Ha fallecido, pero ha sido superado su muerte sin generar traumas ",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "273",
+        "id_creador": "1322",
+        "area": "feom",
+        "texto": "Algun familiar Ha fallecido, pero ha sido superado su muerte sin generar traumas ",
+        "color": "4",
+        "estado": "0",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "274",
+        "id_creador": "1322",
+        "area": "feom",
+        "texto": "familiar Enfermo",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "275",
+        "id_creador": "1322",
+        "area": "infertilidad",
+        "texto": "Paciente Infertil",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "276",
+        "id_creador": "1322",
+        "area": "infertilidad",
+        "texto": "Paciente Fertil",
+        "color": "5",
+        "estado": "0",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "277",
+        "id_creador": "1322",
+        "area": "traumasf",
+        "texto": "Traumas familiares severos",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "278",
+        "id_creador": "1322",
+        "area": "traumasf",
+        "texto": "Traumas familiares Sanados",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "279",
+        "id_creador": "1322",
+        "area": "traumasf",
+        "texto": "Se detectan traumas familiares ",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "280",
+        "id_creador": "1322",
+        "area": "trabajo",
+        "texto": "No le gusta Su trabajo",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "281",
+        "id_creador": "1322",
+        "area": "trabajo",
+        "texto": "No tiene Trabajo y le afecta ",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "282",
+        "id_creador": "1322",
+        "area": "trabajo",
+        "texto": "No tiene Trabajo y le afecta ",
+        "color": "2",
+        "estado": "0",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "283",
+        "id_creador": "1322",
+        "area": "trabajo",
+        "texto": "No tiene Trabajo",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "284",
+        "id_creador": "1322",
+        "area": "trabajo",
+        "texto": "Tiene trabajo ",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "285",
+        "id_creador": "1322",
+        "area": "trabajo",
+        "texto": "Le gusta Su trabajo",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "286",
+        "id_creador": "1322",
+        "area": "enfpsi",
+        "texto": "Posee enfermedad Psiquiátrica ",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "287",
+        "id_creador": "1322",
+        "area": "enfpsi",
+        "texto": "Posee enfermedad Psiquiátrica ",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "288",
+        "id_creador": "1322",
+        "area": "enfpsi",
+        "texto": "Tiene alguna transtorno Psiquiatrico y algun familiar cercano que también padezca o la misma o otro transtorno Psicologico",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "289",
+        "id_creador": "1322",
+        "area": "enfpsi",
+        "texto": "No tiene transtorno Psiquiatrico, pero tiene familiares cercanos con alguna enfermedad psicologica",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "290",
+        "id_creador": "1322",
+        "area": "enfpsi",
+        "texto": "No tiene Transtorno psiquiátrico, más sin embargo posee un familiar directo que tenga algún transtorno psicologico",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "291",
+        "id_creador": "1322",
+        "area": "enfpsi",
+        "texto": "no Tiene Transtorno psiquiatrico",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "292",
+        "id_creador": "1322",
+        "area": "nadva",
+        "texto": "no acepta su vida Actual y rechaza la realidad",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "293",
+        "id_creador": "1322",
+        "area": "nadva",
+        "texto": "Entiende su realidad  pero no la acepta ",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "294",
+        "id_creador": "1322",
+        "area": "nadva",
+        "texto": "Entiende Su realidad y la acepta para poder mejorar",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "295",
+        "id_creador": "1322",
+        "area": "hppsi",
+        "texto": "No es hijo de padres Psiquiátricos ",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "296",
+        "id_creador": "1322",
+        "area": "hppsi",
+        "texto": "es hijos de padre Psiquiatricos",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "297",
+        "id_creador": "1322",
+        "area": "rabia",
+        "texto": "Posee una Rabia Muy marcada que le afecta diferentes ámbitos de su vida",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "298",
+        "id_creador": "1322",
+        "area": "rabia",
+        "texto": "sufre de ataques de ira ",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "299",
+        "id_creador": "1322",
+        "area": "rabia",
+        "texto": "Le cuesta controlar su enojo",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "300",
+        "id_creador": "1322",
+        "area": "rabia",
+        "texto": "controla su enojo adecuadamente ",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "301",
+        "id_creador": "1322",
+        "area": "rabia",
+        "texto": "No pasa por Ataques de ira ni de enojo por tener las herramientas correctas ",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "302",
+        "id_creador": "1322",
+        "area": "tristeza",
+        "texto": "persona ansiosa y Con ataques de panico",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "303",
+        "id_creador": "1322",
+        "area": "tristeza",
+        "texto": "persona con miedos muy marcados",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "304",
+        "id_creador": "1322",
+        "area": "tristeza",
+        "texto": "persona sin miedos aparentes ",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "305",
+        "id_creador": "1322",
+        "area": "tristeza",
+        "texto": "Persona que ha sanado o no se detectan problemáticas de miedo que afecten su vida cotidiana ",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "306",
+        "id_creador": "679",
+        "area": "rinones",
+        "texto": "MRB",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "307",
+        "id_creador": "1322",
+        "area": "infertilidad",
+        "texto": "Paciente enbarazada",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "308",
+        "id_creador": "1322",
+        "area": "infertilidad",
+        "texto": "paciente buscando fertilidad",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "309",
+        "id_creador": "1322",
+        "area": "infertilidad",
+        "texto": "Parto prematuro",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "310",
+        "id_creador": "1322",
+        "area": "infertilidad",
+        "texto": "Aborto",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2024-01-16 00:00:00"
+    },
+    {
+        "id": "311",
+        "id_creador": "679",
+        "area": "topiramato",
+        "texto": "TOPIRAMATO ",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2024-01-25 00:00:00"
+    },
+    {
+        "id": "312",
+        "id_creador": "1561",
+        "area": "pdiario",
+        "texto": "paciente no reporta peso ",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-01-26 00:00:00"
+    },
+    {
+        "id": "313",
+        "id_creador": "1561",
+        "area": "pdiario",
+        "texto": "paciente reporta peso",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-01-26 00:00:00"
+    },
+    {
+        "id": "314",
+        "id_creador": "679",
+        "area": "emociones",
+        "texto": "jjj",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2024-01-26 00:00:00"
+    },
+    {
+        "id": "315",
+        "id_creador": "679",
+        "area": "emociones",
+        "texto": "jjjji",
+        "color": "2",
+        "estado": "0",
+        "fecha_r": "2024-01-26 00:00:00"
+    },
+    {
+        "id": "316",
+        "id_creador": "679",
+        "area": "tipodepaciente",
+        "texto": "paciente no se realizo la LMG",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-01-26 00:00:00"
+    },
+    {
+        "id": "317",
+        "id_creador": "1332",
+        "area": "seguimiento",
+        "texto": "no respondió ni WhatsApp ni la llamada ",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2024-01-26 00:00:00"
+    },
+    {
+        "id": "318",
+        "id_creador": "1332",
+        "area": "seguimiento",
+        "texto": "respondió el contacto ",
+        "color": "5",
+        "estado": "0",
+        "fecha_r": "2024-01-26 00:00:00"
+    },
+    {
+        "id": "319",
+        "id_creador": "1332",
+        "area": "seguimiento",
+        "texto": "se mantiene en contacto ",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2024-01-26 00:00:00"
+    },
+    {
+        "id": "320",
+        "id_creador": "1332",
+        "area": "seguimiento",
+        "texto": "se mantiene en contacto ",
+        "color": "5",
+        "estado": "0",
+        "fecha_r": "2024-01-26 00:00:00"
+    },
+    {
+        "id": "321",
+        "id_creador": "679",
+        "area": "topiramato",
+        "texto": "Rojo según esquema ",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-01-29 00:00:00"
+    },
+    {
+        "id": "322",
+        "id_creador": "627",
+        "area": "nf1",
+        "texto": " rojo:  no responde \n\nanaranjado:  no cumple PA  con ansiedad , necesita ser referido a grupo médico \/ o primera consulta con nutrición  \n\namarillo : cumple PA , con ansiedad  no controlada  necesita ser referido a grupo médico \n\nverde : cumple  PA  con ansiedad controlada con arientacion nutricional \n\nazul: cumple PA , sin ansiedad \n",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-01-29 00:00:00"
+    },
+    {
+        "id": "323",
+        "id_creador": "679",
+        "area": "selenio",
+        "texto": "UNA DIARIA AMARILLO ",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2024-01-30 00:00:00"
+    },
+    {
+        "id": "324",
+        "id_creador": "691",
+        "area": "a_lig",
+        "texto": "Paciente se realiza 2do procedimiento ",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2024-01-30 00:00:00"
+    },
+    {
+        "id": "325",
+        "id_creador": "1561",
+        "area": "anna",
+        "texto": "Paciente no llena cuestionarios semanales  ni se pesa ",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2024-02-02 00:00:00"
+    },
+    {
+        "id": "326",
+        "id_creador": "1561",
+        "area": "anna",
+        "texto": "Le paciente reporte peso,pero no cuestionario semanal ",
+        "color": "2",
+        "estado": "0",
+        "fecha_r": "2024-02-02 00:00:00"
+    },
+    {
+        "id": "327",
+        "id_creador": "1561",
+        "area": "anna",
+        "texto": "El paciente reporta cuestionario y peso pero en todas las áreas está anaranjado o rojo y no tiene notificaciones  de los 4-3-2 o solo 2 o 1.",
+        "color": "3",
+        "estado": "0",
+        "fecha_r": "2024-02-02 00:00:00"
+    },
+    {
+        "id": "328",
+        "id_creador": "1561",
+        "area": "anna",
+        "texto": "Paciente que  responde el cuestionario y va bien aunque  no perdió el peso adecuado según lo programado ",
+        "color": "4",
+        "estado": "0",
+        "fecha_r": "2024-02-02 00:00:00"
+    },
+    {
+        "id": "329",
+        "id_creador": "1561",
+        "area": "anna",
+        "texto": "Pacidnte que responde cuestionsrio va bien con peso y recibe notificación  automática del sistema y notificación de cada Unidad",
+        "color": "5",
+        "estado": "0",
+        "fecha_r": "2024-02-02 00:00:00"
+    },
+    {
+        "id": "330",
+        "id_creador": "1561",
+        "area": "revision",
+        "texto": "Paciente NO llena cuestionario NI reporta peso",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2024-02-04 00:00:00"
+    },
+    {
+        "id": "331",
+        "id_creador": "1561",
+        "area": "revision",
+        "texto": "paciente reporta cuestionario y peso pero en todas las áreas está anaranjado y rojo y NO tiene notificaciones de los 4 ,3, 2, o solo 1",
+        "color": "2",
+        "estado": "0",
+        "fecha_r": "2024-02-04 00:00:00"
+    },
+    {
+        "id": "332",
+        "id_creador": "1561",
+        "area": "revision",
+        "texto": "paciente reporta cuestionario y peso pero en todas las áreas está anaranjado y rojo y NO tiene notificaciones de los 4, 3, 2 o solo 1",
+        "color": "3",
+        "estado": "0",
+        "fecha_r": "2024-02-04 00:00:00"
+    },
+    {
+        "id": "333",
+        "id_creador": "1561",
+        "area": "revision",
+        "texto": "paciente que responde el cuestionario y va bien aunque NO perdió el peso adecuado según lo programado ",
+        "color": "4",
+        "estado": "0",
+        "fecha_r": "2024-02-04 00:00:00"
+    },
+    {
+        "id": "334",
+        "id_creador": "1561",
+        "area": "revision",
+        "texto": "paciente que responde cuestionario va bien con peso y recibe notificaciones automáticas del sistema y notificaciones de cada unidad",
+        "color": "5",
+        "estado": "0",
+        "fecha_r": "2024-02-04 00:00:00"
+    },
+    {
+        "id": "335",
+        "id_creador": "1561",
+        "area": "emociones",
+        "texto": "paciente se siente bien con la familia en su casa y su trabajo",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-02-05 00:00:00"
+    },
+    {
+        "id": "336",
+        "id_creador": "1561",
+        "area": "emociones",
+        "texto": "aprender a decir NO",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2024-02-05 00:00:00"
+    },
+    {
+        "id": "337",
+        "id_creador": "1561",
+        "area": "emociones",
+        "texto": "hacer 20 cosas a la vez y todo rápido ",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-02-05 00:00:00"
+    },
+    {
+        "id": "338",
+        "id_creador": "1322",
+        "area": "rec",
+        "texto": "Fue mandada con Amneris",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2024-02-05 00:00:00"
+    },
+    {
+        "id": "339",
+        "id_creador": "1561",
+        "area": "seguimiento",
+        "texto": "+ o igual a 1kg\nEs importante comer con calma y observar si es necesario seguir comiendo sin necesidad",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-02-12 00:00:00"
+    },
+    {
+        "id": "340",
+        "id_creador": "1561",
+        "area": "seguimiento",
+        "texto": "+ o igual a 0.7 kg a 0.9 kg.\nEs importante comer con calma y observar si es necesario seguir comiendo sin necesidad ",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2024-02-12 00:00:00"
+    },
+    {
+        "id": "341",
+        "id_creador": "1561",
+        "area": "seguimiento",
+        "texto": "+ o igual a 0.3 kg. a 0,6 kg.\nEs importante comer con calma y observar si es necesario seguir comiendo sin necesidad ",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2024-02-12 00:00:00"
+    },
+    {
+        "id": "342",
+        "id_creador": "1561",
+        "area": "seguimiento",
+        "texto": "igual a 0 kg.\nLo está haciendo bien coma con calma y observé si es necesario seguir comiendo sin necesidad ",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2024-02-12 00:00:00"
+    },
+    {
+        "id": "343",
+        "id_creador": "1561",
+        "area": "seguimiento",
+        "texto": "- de 0 kg.\nLo está haciendo demasiado bien siga con el mismo plan y siempre coma con calma y observé si es necesario seguir comiendo sin necesidad.",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-02-12 00:00:00"
+    },
+    {
+        "id": "344",
+        "id_creador": "1561",
+        "area": "aps",
+        "texto": "paciente no acepta ser ayudado",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2024-02-18 00:00:00"
+    },
+    {
+        "id": "345",
+        "id_creador": "1561",
+        "area": "aps",
+        "texto": "tiene problemas y se comunica poco",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2024-02-18 00:00:00"
+    },
+    {
+        "id": "346",
+        "id_creador": "1561",
+        "area": "aps",
+        "texto": "Responde al llamado sin ningún interes",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2024-02-18 00:00:00"
+    },
+    {
+        "id": "347",
+        "id_creador": "1561",
+        "area": "aps",
+        "texto": "paciente muy comunicativos con deseos de mejorar",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2024-02-18 00:00:00"
+    },
+    {
+        "id": "348",
+        "id_creador": "1561",
+        "area": "aps",
+        "texto": "Aceptan tratamientos ,son muy positivos y siempre andan de buen humor",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-02-18 00:00:00"
+    },
+    {
+        "id": "349",
+        "id_creador": "1561",
+        "area": "aej",
+        "texto": "No le agrada hacer ejercicios",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2024-02-18 00:00:00"
+    },
+    {
+        "id": "350",
+        "id_creador": "1561",
+        "area": "aej",
+        "texto": "No le agrada hacer ejercicios",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2024-02-18 00:00:00"
+    },
+    {
+        "id": "351",
+        "id_creador": "1561",
+        "area": "aej",
+        "texto": "No le agrada hacer ejercicios",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-02-18 00:00:00"
+    },
+    {
+        "id": "352",
+        "id_creador": "1561",
+        "area": "aej",
+        "texto": "camina sólamente ",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2024-02-18 00:00:00"
+    },
+    {
+        "id": "353",
+        "id_creador": "1561",
+        "area": "aej",
+        "texto": "Es lento pero si hace ejercicios 2 veces por semana",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2024-02-18 00:00:00"
+    },
+    {
+        "id": "354",
+        "id_creador": "1561",
+        "area": "aej",
+        "texto": "práctica varios deportes a la vez",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2024-02-18 00:00:00"
+    },
+    {
+        "id": "355",
+        "id_creador": "1561",
+        "area": "aej",
+        "texto": "Le gusta hacer ejercicios va muy bien",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-02-18 00:00:00"
+    },
+    {
+        "id": "356",
+        "id_creador": "1561",
+        "area": "anu",
+        "texto": "No cumple plan alimenticio ",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-02-18 00:00:00"
+    },
+    {
+        "id": "357",
+        "id_creador": "1561",
+        "area": "anu",
+        "texto": "No Domina el deseo por harinas y dulces",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2024-02-18 00:00:00"
+    },
+    {
+        "id": "358",
+        "id_creador": "1561",
+        "area": "anu",
+        "texto": "Cumple Plan pero se sale aveces del plan alimentario ",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2024-02-18 00:00:00"
+    },
+    {
+        "id": "359",
+        "id_creador": "1561",
+        "area": "anu",
+        "texto": "Cumple Plan siente deseo pero lo domina",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2024-02-18 00:00:00"
+    },
+    {
+        "id": "360",
+        "id_creador": "1561",
+        "area": "anu",
+        "texto": "Cumple plan alimenticio va bien",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-02-18 00:00:00"
+    },
+    {
+        "id": "361",
+        "id_creador": "1561",
+        "area": "grasaperdida",
+        "texto": ">0,4% cada semana",
+        "color": "5",
+        "estado": "0",
+        "fecha_r": "2024-02-18 00:00:00"
+    },
+    {
+        "id": "362",
+        "id_creador": "1561",
+        "area": "grasaperdida",
+        "texto": "-0,3 a 0,2 % cada semana ",
+        "color": "4",
+        "estado": "0",
+        "fecha_r": "2024-02-18 00:00:00"
+    },
+    {
+        "id": "363",
+        "id_creador": "1561",
+        "area": "grasaperdida",
+        "texto": "0,1 % cada semana",
+        "color": "3",
+        "estado": "0",
+        "fecha_r": "2024-02-18 00:00:00"
+    },
+    {
+        "id": "364",
+        "id_creador": "1561",
+        "area": "grasaperdida",
+        "texto": "0,09 a 0,05% cada semana",
+        "color": "2",
+        "estado": "0",
+        "fecha_r": "2024-02-18 00:00:00"
+    },
+    {
+        "id": "365",
+        "id_creador": "1561",
+        "area": "grasaperdida",
+        "texto": "0.06% cada semana",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2024-02-18 00:00:00"
+    },
+    {
+        "id": "366",
+        "id_creador": "1561",
+        "area": "grasab",
+        "texto": "0,06 cada semana",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2024-02-21 00:00:00"
+    },
+    {
+        "id": "367",
+        "id_creador": "1561",
+        "area": "grasab",
+        "texto": "0,09 a 0,05% cada semana",
+        "color": "2",
+        "estado": "0",
+        "fecha_r": "2024-02-21 00:00:00"
+    },
+    {
+        "id": "368",
+        "id_creador": "1561",
+        "area": "grasab",
+        "texto": "0.1 % cada semana",
+        "color": "3",
+        "estado": "0",
+        "fecha_r": "2024-02-21 00:00:00"
+    },
+    {
+        "id": "369",
+        "id_creador": "1561",
+        "area": "grasab",
+        "texto": "-0,3 a 0,2% cada semana",
+        "color": "4",
+        "estado": "0",
+        "fecha_r": "2024-02-21 00:00:00"
+    },
+    {
+        "id": "370",
+        "id_creador": "1561",
+        "area": "grasab",
+        "texto": "<0,4% cada semana",
+        "color": "5",
+        "estado": "0",
+        "fecha_r": "2024-02-21 00:00:00"
+    },
+    {
+        "id": "371",
+        "id_creador": "1561",
+        "area": "grasab",
+        "texto": "0,06 % cada semana",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2024-02-21 00:00:00"
+    },
+    {
+        "id": "372",
+        "id_creador": "1561",
+        "area": "grasab",
+        "texto": "0,06 % cada semana",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2024-02-21 00:00:00"
+    },
+    {
+        "id": "373",
+        "id_creador": "1561",
+        "area": "grasab",
+        "texto": "0,09 a 0,05% cada semana",
+        "color": "2",
+        "estado": "0",
+        "fecha_r": "2024-02-21 00:00:00"
+    },
+    {
+        "id": "374",
+        "id_creador": "1561",
+        "area": "grasab",
+        "texto": "0,1% cada semana ",
+        "color": "3",
+        "estado": "0",
+        "fecha_r": "2024-02-21 00:00:00"
+    },
+    {
+        "id": "375",
+        "id_creador": "1561",
+        "area": "grasab",
+        "texto": "-0,3 a 0,2% cada semana",
+        "color": "4",
+        "estado": "0",
+        "fecha_r": "2024-02-21 00:00:00"
+    },
+    {
+        "id": "376",
+        "id_creador": "1561",
+        "area": "grasab",
+        "texto": "< 0,4 % cada semana",
+        "color": "5",
+        "estado": "0",
+        "fecha_r": "2024-02-21 00:00:00"
+    },
+    {
+        "id": "377",
+        "id_creador": "1561",
+        "area": "gp",
+        "texto": "< 0,4% cada semana",
+        "color": "5",
+        "estado": "0",
+        "fecha_r": "2024-02-21 00:00:00"
+    },
+    {
+        "id": "378",
+        "id_creador": "1561",
+        "area": "gp",
+        "texto": "< 0,4% cada semana",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-02-21 00:00:00"
+    },
+    {
+        "id": "379",
+        "id_creador": "1561",
+        "area": "gp",
+        "texto": "-0,3 a 0,2% cada semana",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2024-02-21 00:00:00"
+    },
+    {
+        "id": "380",
+        "id_creador": "1561",
+        "area": "gp",
+        "texto": "0,1% cada semana",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2024-02-21 00:00:00"
+    },
+    {
+        "id": "381",
+        "id_creador": "1561",
+        "area": "gp",
+        "texto": "0,09 a 0,05 % cada semana",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2024-02-21 00:00:00"
+    },
+    {
+        "id": "382",
+        "id_creador": "1561",
+        "area": "gp",
+        "texto": "0,06 % cada semana",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-02-21 00:00:00"
+    },
+    {
+        "id": "383",
+        "id_creador": "1322",
+        "area": "aud_p",
+        "texto": "Visto\/ atendido por el psicólogo ",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-02-26 00:00:00"
+    },
+    {
+        "id": "384",
+        "id_creador": "627",
+        "area": "aud_n",
+        "texto": "UNIDAD DE NUTRICION \n\nazul :: paciente contactado por la unidad de nutrición lic Berinna Briceño y\/o lic conchita Abreu \n\namarillo : en alerta para ser contactado \n\nrojo : no fue contactado en la semana , debe ser contactado a la brevedad posible ",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "385",
+        "id_creador": "1561",
+        "area": "peso_color",
+        "texto": "+ o igual a 1kg \nes importante comer con calma y observar si es necesario seguir comiendo sin necesidad ",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "386",
+        "id_creador": "1561",
+        "area": "peso_color",
+        "texto": "+ o igual a 0,7 kg a 0,9 kg.\nes importante comer con calma y observar si es necesario seguir comiendo sin necesidad ",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "387",
+        "id_creador": "1561",
+        "area": "peso_color",
+        "texto": "+ o igual a 0,3 kg.  a 0,6 kg.\nEs importante comer con calma y observé si es necesario seguir comiendo sin necesidad ",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "388",
+        "id_creador": "1561",
+        "area": "peso_color",
+        "texto": "igual a 0 kg \nLo está haciendo bien coma con calma y observé si es necesario seguir comiendo sin necesidad ",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "389",
+        "id_creador": "1561",
+        "area": "peso_color",
+        "texto": "-de 0 kg.\nLo está haciendo demasiado bien siga con el mismo plan y siempre coma con calma y observé si es necesario seguir comiendo sin necesidad ",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "390",
+        "id_creador": "1561",
+        "area": "grasab_color",
+        "texto": "0,4% cada semana",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "391",
+        "id_creador": "1561",
+        "area": "grasab_color",
+        "texto": "-0,3 % a  0,2% cada semana",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "392",
+        "id_creador": "1561",
+        "area": "grasab_color",
+        "texto": "0,1% cada semana",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "393",
+        "id_creador": "1561",
+        "area": "grasab_color",
+        "texto": "0,09 % a 0,05 % cada semana",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "394",
+        "id_creador": "1561",
+        "area": "grasab_color",
+        "texto": "0,06 % cada semana ",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "395",
+        "id_creador": "1561",
+        "area": "ralimentos",
+        "texto": "Va bien cumple con el plan alimenticio",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "396",
+        "id_creador": "1561",
+        "area": "ralimentos",
+        "texto": "Cumple el plan alimenticio aunque aveces se sale del programa ",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "397",
+        "id_creador": "1561",
+        "area": "ralimentos",
+        "texto": "No le gusta el Menú del plan alimenticio ",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "398",
+        "id_creador": "1561",
+        "area": "ralimentos",
+        "texto": "No cumple Plan alimenticio por trabajo y viajes fuera del pais",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "399",
+        "id_creador": "1561",
+        "area": "ralimentos",
+        "texto": "No se adapta al plan alimenticio ",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "400",
+        "id_creador": "1561",
+        "area": "rambiente",
+        "texto": "Muy buena relación con la pareja los hijos La familia casa y trabajo",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "401",
+        "id_creador": "1561",
+        "area": "rambiente",
+        "texto": "lleva bien la relación con la familia hijos pareja pero le estresa algo el trabajo",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "402",
+        "id_creador": "1561",
+        "area": "rambiente",
+        "texto": "Le gusta mucho su trabajo pero tiene problemas familiares ",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "403",
+        "id_creador": "1561",
+        "area": "rambiente",
+        "texto": "Se estresa mucho en su relación de pareja y en el trabajo",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "404",
+        "id_creador": "1561",
+        "area": "rambiente",
+        "texto": "Le estresa la situación política del país \npersona problemática y de mal humor",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "405",
+        "id_creador": "1561",
+        "area": "ractitudes",
+        "texto": "Todo perfecto",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "406",
+        "id_creador": "1561",
+        "area": "ractitudes",
+        "texto": "sabe decir NO",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "407",
+        "id_creador": "1561",
+        "area": "ractitudes",
+        "texto": "Hace 20 cosas a la vez",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "408",
+        "id_creador": "1561",
+        "area": "ractitudes",
+        "texto": "Se ocupa y se preocupa",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "409",
+        "id_creador": "1561",
+        "area": "ractitudes",
+        "texto": "Hace todo rápido y se estresa",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "410",
+        "id_creador": "1561",
+        "area": "rejercicios",
+        "texto": "Va bien hace ejercicios a diario",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "411",
+        "id_creador": "1561",
+        "area": "rejercicios",
+        "texto": "trabaja con bandas y camina a diario",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "412",
+        "id_creador": "1561",
+        "area": "rejercicios",
+        "texto": "Hace ejercicios 2 veces por semana",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "413",
+        "id_creador": "1561",
+        "area": "rejercicios",
+        "texto": "Solo camina una vez a la semana ",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "414",
+        "id_creador": "1561",
+        "area": "rejercicios",
+        "texto": "No hace ejercicios  no le gusta",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "415",
+        "id_creador": "1561",
+        "area": "anna",
+        "texto": "paciente contactado",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "416",
+        "id_creador": "1561",
+        "area": "anna",
+        "texto": "En alerta para ser contactado ",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "417",
+        "id_creador": "1561",
+        "area": "anna",
+        "texto": "No fue contactado ",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "418",
+        "id_creador": "1561",
+        "area": "aud_p",
+        "texto": "En alerta para ser atendido",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "419",
+        "id_creador": "1561",
+        "area": "aud_p",
+        "texto": "No fue contactado",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "420",
+        "id_creador": "1561",
+        "area": "aud_e",
+        "texto": "paciente atendido",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "421",
+        "id_creador": "1561",
+        "area": "aud_e",
+        "texto": "En alerta para ser atendido",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "422",
+        "id_creador": "1561",
+        "area": "aud_e",
+        "texto": "No fue contactado",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "423",
+        "id_creador": "1561",
+        "area": "rgest",
+        "texto": "Agradece el contacto y se compromete a pesarse a diario",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "424",
+        "id_creador": "1561",
+        "area": "rgest",
+        "texto": "Hay respuesta y el paciente se compromete a pesarse al día aiguiente",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "425",
+        "id_creador": "1561",
+        "area": "rgest",
+        "texto": "Hay respuesta pero desea un horario especial de llamadas",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "426",
+        "id_creador": "1561",
+        "area": "rgest",
+        "texto": "No hay respuesta a mensajes ni llamadas",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "427",
+        "id_creador": "1561",
+        "area": "rgest",
+        "texto": "No desea ser molestado y se le manda un P.D.F. de explicacion",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "428",
+        "id_creador": "1561",
+        "area": "apr",
+        "texto": "paciente retoma el plan del Método vargas",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-02-27 00:00:00"
+    },
+    {
+        "id": "429",
+        "id_creador": "1322",
+        "area": "aps",
+        "texto": "Paciente que no se contacta por no pertenecer Al Metodo",
+        "color": "0",
+        "estado": "1",
+        "fecha_r": "2024-02-29 00:00:00"
+    },
+    {
+        "id": "430",
+        "id_creador": "1322",
+        "area": "aud_p",
+        "texto": "Paciente que no se contactara por abandonar el método o diversas razones",
+        "color": "0",
+        "estado": "1",
+        "fecha_r": "2024-02-29 00:00:00"
+    },
+    {
+        "id": "431",
+        "id_creador": "679",
+        "area": "hipertension",
+        "texto": "PACIENTE YA NO ES HIPERTENSO ",
+        "color": "5",
+        "estado": "0",
+        "fecha_r": "2024-03-04 00:00:00"
+    },
+    {
+        "id": "432",
+        "id_creador": "679",
+        "area": "hipertension",
+        "texto": "PACIENTE  HIPERTENSO SE CONTROLA SU T\/A CON 1 SOLO MEDICAMENTO ",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2024-03-04 00:00:00"
+    },
+    {
+        "id": "433",
+        "id_creador": "679",
+        "area": "hipertension",
+        "texto": "PACIENTE HIPERTENSO SE CONTROLA T\/A CON 2 MEDICAMENTOS ",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2024-03-04 00:00:00"
+    },
+    {
+        "id": "434",
+        "id_creador": "679",
+        "area": "hipertension",
+        "texto": "PACIENTE HIPERTENSO SE CONTROLA T\/A CON 3. MEDICAMENTOS ",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2024-03-04 00:00:00"
+    },
+    {
+        "id": "435",
+        "id_creador": "679",
+        "area": "hipertension",
+        "texto": "PACIENTE HIPERTENSO NO CONTROLADO ,SE LE INDICA TTO V.O  ",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-03-04 00:00:00"
+    },
+    {
+        "id": "436",
+        "id_creador": "679",
+        "area": "hipertension",
+        "texto": "PACIENTE YA NO ES HIPERTENSO PERO DEBE MANTENER SU CONTROL CON EL CARDIOLOGO ",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-03-04 00:00:00"
+    },
+    {
+        "id": "437",
+        "id_creador": "1561",
+        "area": "tiroides",
+        "texto": "azul tiroides funciona 100%\nverde funciona 80%\namarillo funciona 50%\nnaranja 30% de su capacidad\nrojo 10% de su capacidad",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-03-06 00:00:00"
+    },
+    {
+        "id": "438",
+        "id_creador": "679",
+        "area": "a_lig",
+        "texto": "Paciente sé realizo una ligadura ",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-03-08 00:00:00"
+    },
+    {
+        "id": "439",
+        "id_creador": "679",
+        "area": "a_lig",
+        "texto": "paciente sé realizo 2  . o más ligaduras ",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2024-03-08 00:00:00"
+    },
+    {
+        "id": "440",
+        "id_creador": "1",
+        "area": "rgest",
+        "texto": "No se peso",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-03-10 00:00:00"
+    },
+    {
+        "id": "441",
+        "id_creador": "1",
+        "area": "rgest",
+        "texto": "2de oportunidad día siguiente",
+        "color": "2",
+        "estado": "0",
+        "fecha_r": "2024-03-10 00:00:00"
+    },
+    {
+        "id": "442",
+        "id_creador": "1",
+        "area": "rgest",
+        "texto": "Se le comunica vía whatsapp para que se puede al día siguiente a primera hora",
+        "color": "2",
+        "estado": "0",
+        "fecha_r": "2024-03-10 00:00:00"
+    },
+    {
+        "id": "443",
+        "id_creador": "1",
+        "area": "rgest",
+        "texto": "Se le agradece pesarse ese día y estar pendiente de la notificación de la noche anterior y el que le recuerda a las 6 am del día 7 muy importante para el seguimiento adecuado  y que permite que nuestro equipo lo apoye.",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2024-03-10 00:00:00"
+    },
+    {
+        "id": "444",
+        "id_creador": "1",
+        "area": "rgest",
+        "texto": "No hay respuesta  vía whatsapp  se manda pdf de notificación de la relevancia de pesarse y si en los próximos 7 días no se pesa, seguiremos dándole apoyo endo pero se le cobrará 10$ por cadav evaluación  presencial como forma de presionar para que cumpla su reporte SSEMANAL Y REPORTE DE CUESTIONARIO QUE ES ESENCIAL PARA SU ADECUADO CONTROL. Y se reporta el caso a Ana para que prepare el pdf médico que también se le hará llegar  para cerrar el caso ju tener constancia de cumplimiento del protocolo en sus 2 niveles técnico operativo y médico",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2024-03-10 00:00:00"
+    },
+    {
+        "id": "445",
+        "id_creador": "1",
+        "area": "rgest",
+        "texto": "Reportó su peso pero no fue a primera hora de la mañana motivo por el cual se le recomienda la importancia y se le manda un vídeo de esa relevancia",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2024-03-10 00:00:00"
+    },
+    {
+        "id": "446",
+        "id_creador": "1",
+        "area": "rgest",
+        "texto": "Se peso en su horario adecuado y también reportó su cuestionario",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2024-03-10 00:00:00"
+    },
+    {
+        "id": "447",
+        "id_creador": "1",
+        "area": "rgest",
+        "texto": "Reportó peso y CUESTIONARIO en horario establecido",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-03-10 00:00:00"
+    },
+    {
+        "id": "448",
+        "id_creador": "679",
+        "area": "bazo",
+        "texto": "No lo tiene (ausenté) ",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2024-03-18 00:00:00"
+    },
+    {
+        "id": "449",
+        "id_creador": "679",
+        "area": "bazo",
+        "texto": "Rojo Ausenté ,no lo tiene ",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-03-18 00:00:00"
+    },
+    {
+        "id": "450",
+        "id_creador": "1561",
+        "area": "aud_m",
+        "texto": "pendiente contacto..lo haré en próximas horas",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2024-03-23 00:00:00"
+    },
+    {
+        "id": "451",
+        "id_creador": "1561",
+        "area": "aud_m",
+        "texto": "pendiente contacto..lo haré en próximas horas",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2024-03-23 00:00:00"
+    },
+    {
+        "id": "452",
+        "id_creador": "1561",
+        "area": "aud_m",
+        "texto": "Pendiente mi enye atender a paciente",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-03-23 00:00:00"
+    },
+    {
+        "id": "453",
+        "id_creador": "1561",
+        "area": "aud_m",
+        "texto": "Atendida la paciente ",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-03-23 00:00:00"
+    },
+    {
+        "id": "454",
+        "id_creador": "1561",
+        "area": "aud_m",
+        "texto": "En alerta pendiente de ser atendido",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2024-03-23 00:00:00"
+    },
+    {
+        "id": "455",
+        "id_creador": "1561",
+        "area": "aud_m",
+        "texto": "Ayendida",
+        "color": "5",
+        "estado": "0",
+        "fecha_r": "2024-03-23 00:00:00"
+    },
+    {
+        "id": "456",
+        "id_creador": "679",
+        "area": "laboratorio",
+        "texto": "Se toma muestra  \/ pendiente resultados ",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2024-04-01 00:00:00"
+    },
+    {
+        "id": "457",
+        "id_creador": "1",
+        "area": "atfb",
+        "texto": "toma las flores de bach y le ha ido muy bien",
+        "color": "5",
+        "estado": "0",
+        "fecha_r": "2024-04-21 00:00:00"
+    },
+    {
+        "id": "458",
+        "id_creador": "1",
+        "area": "atfb",
+        "texto": "las ha tomado por poco tiempo y le han sido de gran ayuda",
+        "color": "4",
+        "estado": "0",
+        "fecha_r": "2024-04-21 00:00:00"
+    },
+    {
+        "id": "459",
+        "id_creador": "1",
+        "area": "atfb",
+        "texto": "tomo las flores y no continúo el tratamiento",
+        "color": "3",
+        "estado": "0",
+        "fecha_r": "2024-04-21 00:00:00"
+    },
+    {
+        "id": "460",
+        "id_creador": "1",
+        "area": "atfb",
+        "texto": "Se le mando el tratamiento de las flores y nunca lo cumplió ",
+        "color": "2",
+        "estado": "0",
+        "fecha_r": "2024-04-21 00:00:00"
+    },
+    {
+        "id": "461",
+        "id_creador": "1",
+        "area": "atfb",
+        "texto": "no le tiene fé al  tratamiento de las flores de bach",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2024-04-21 00:00:00"
+    },
+    {
+        "id": "462",
+        "id_creador": "1",
+        "area": "fpd",
+        "texto": "Flores de Bach Compradas",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-04-21 00:00:00"
+    },
+    {
+        "id": "463",
+        "id_creador": "1",
+        "area": "fpd",
+        "texto": "flores de Bach Regaladas",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2024-04-21 00:00:00"
+    },
+    {
+        "id": "464",
+        "id_creador": "1",
+        "area": "afl",
+        "texto": "Cumple el tratamiento le ha ido muy bien ",
+        "color": "5",
+        "estado": "0",
+        "fecha_r": "2024-04-21 00:00:00"
+    },
+    {
+        "id": "465",
+        "id_creador": "1",
+        "area": "afl",
+        "texto": "Utiliza las Flores porque le ha favorecido y se siente muy bien",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-04-21 00:00:00"
+    },
+    {
+        "id": "466",
+        "id_creador": "1",
+        "area": "afl",
+        "texto": "Paciente usa el tratamiento de las Flores de Bach y le ve resultados",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2024-04-21 00:00:00"
+    },
+    {
+        "id": "467",
+        "id_creador": "1",
+        "area": "afl",
+        "texto": "paciente las usa muy poco",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2024-04-21 00:00:00"
+    },
+    {
+        "id": "468",
+        "id_creador": "1",
+        "area": "afl",
+        "texto": "no cumplió el tratamiento",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2024-04-21 00:00:00"
+    },
+    {
+        "id": "469",
+        "id_creador": "1",
+        "area": "afl",
+        "texto": "Paciente No usa las Flores de Bach",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-04-21 00:00:00"
+    },
+    {
+        "id": "470",
+        "id_creador": "679",
+        "area": "diabetes",
+        "texto": "AZUL NORMAL = MENOS DE 100 MG\/ DL \nVERDE PREDIABETES= DE 101 A 125 MG\/DL\nAMARILLO DIABÉTICO = YGUAL O MAYOR A 120MG\/DL\nNARANJA DIABETICO =H.G.O  I.L.D \nROJO DIABÉTICO= H.G.O. + I.C + I.L.D",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-05-09 00:00:00"
+    },
+    {
+        "id": "471",
+        "id_creador": "1343",
+        "area": "suenoe",
+        "texto": "Px. Duerme de 7- 8 hrs",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-05-14 00:00:00"
+    },
+    {
+        "id": "472",
+        "id_creador": "1343",
+        "area": "suenoe",
+        "texto": "Px. Duerme 6 hrs",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2024-05-14 00:00:00"
+    },
+    {
+        "id": "473",
+        "id_creador": "1343",
+        "area": "suenoe",
+        "texto": "Px. Duerme 5 hrs",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2024-05-14 00:00:00"
+    },
+    {
+        "id": "474",
+        "id_creador": "1343",
+        "area": "suenoe",
+        "texto": "Px. solo duerme 4 hrs",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2024-05-14 00:00:00"
+    },
+    {
+        "id": "475",
+        "id_creador": "1343",
+        "area": "tdp",
+        "texto": "Se realizó la LMG",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-05-14 00:00:00"
+    },
+    {
+        "id": "476",
+        "id_creador": "1343",
+        "area": "tdp",
+        "texto": "lleva más de 1 LMG.",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2024-05-14 00:00:00"
+    },
+    {
+        "id": "477",
+        "id_creador": "1343",
+        "area": "tdp",
+        "texto": "Pre Consulta.",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2024-05-14 00:00:00"
+    },
+    {
+        "id": "478",
+        "id_creador": "1343",
+        "area": "tdp",
+        "texto": "-Abandonó Programa\n- No asistió a Cita",
+        "color": "2",
+        "estado": "0",
+        "fecha_r": "2024-05-14 00:00:00"
+    },
+    {
+        "id": "479",
+        "id_creador": "1343",
+        "area": "ejeavz",
+        "texto": "Px. fue asistido por la Unidad de entrenamiento ",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-05-14 00:00:00"
+    },
+    {
+        "id": "480",
+        "id_creador": "1343",
+        "area": "ejeavz",
+        "texto": "Px. No ha sido asistido por la Unidad de entrenamiento ",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2024-05-14 00:00:00"
+    },
+    {
+        "id": "481",
+        "id_creador": "1343",
+        "area": "nivel",
+        "texto": "Sólo Podrán hacer ejercicios con una pulsación menor a lo indicado, para disminuir riesgos de lesión osteomuscular ó Patologías cardiovasculares:",
+        "color": "0",
+        "estado": "1",
+        "fecha_r": "2024-05-14 00:00:00"
+    },
+    {
+        "id": "482",
+        "id_creador": "1343",
+        "area": "nivel",
+        "texto": "180 Pulsaciones por minuto ",
+        "color": "5",
+        "estado": "0",
+        "fecha_r": "2024-05-14 00:00:00"
+    },
+    {
+        "id": "483",
+        "id_creador": "1343",
+        "area": "nivel",
+        "texto": "- de 180 pulsaciones por minuto.",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-05-14 00:00:00"
+    },
+    {
+        "id": "484",
+        "id_creador": "1343",
+        "area": "nivel",
+        "texto": " - de 160 pulsaciones por minuto.",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2024-05-14 00:00:00"
+    },
+    {
+        "id": "485",
+        "id_creador": "1343",
+        "area": "nivel",
+        "texto": "- de 140 pulsaciones por minuto",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2024-05-14 00:00:00"
+    },
+    {
+        "id": "486",
+        "id_creador": "1343",
+        "area": "nivel",
+        "texto": "-120 ó 100 pulsaciones por minutos",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2024-05-14 00:00:00"
+    },
+    {
+        "id": "487",
+        "id_creador": "1343",
+        "area": "nivel",
+        "texto": "- de 120 ó 100 pulsaciones por minutos",
+        "color": "2",
+        "estado": "0",
+        "fecha_r": "2024-05-14 00:00:00"
+    },
+    {
+        "id": "488",
+        "id_creador": "1343",
+        "area": "pasose",
+        "texto": "Realiza 15.000 mil pasos o más ",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-05-14 00:00:00"
+    },
+    {
+        "id": "489",
+        "id_creador": "1343",
+        "area": "pasose",
+        "texto": "Realiza de 8000 mil a 10000mil pasos ",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2024-05-14 00:00:00"
+    },
+    {
+        "id": "490",
+        "id_creador": "1343",
+        "area": "pasose",
+        "texto": "Realiza desde 8000 mil a 10000 mil pasos.",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2024-05-14 00:00:00"
+    },
+    {
+        "id": "491",
+        "id_creador": "1343",
+        "area": "pasose",
+        "texto": "Realiza desde 3000mil a 5000mil",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2024-05-14 00:00:00"
+    },
+    {
+        "id": "492",
+        "id_creador": "1343",
+        "area": "pasose",
+        "texto": "Realiza desde 2000mil ó menos",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2024-05-14 00:00:00"
+    },
+    {
+        "id": "493",
+        "id_creador": "1343",
+        "area": "caminar",
+        "texto": "realiza más de 15.000 mil pasos diarios ",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-05-18 00:00:00"
+    },
+    {
+        "id": "494",
+        "id_creador": "1343",
+        "area": "caminar",
+        "texto": "Realiza más de 10.000 mil pasos diarios ",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2024-05-18 00:00:00"
+    },
+    {
+        "id": "495",
+        "id_creador": "1343",
+        "area": "caminar",
+        "texto": "Realiza más de 5.000 mil pasos.",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2024-05-18 00:00:00"
+    },
+    {
+        "id": "496",
+        "id_creador": "1343",
+        "area": "caminar",
+        "texto": "Realiza más de 4.000 mil pasos diarios.",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2024-05-18 00:00:00"
+    },
+    {
+        "id": "497",
+        "id_creador": "1343",
+        "area": "caminar",
+        "texto": "Realiza entre 1000 y 3000 mil pasos diarios.",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-05-18 00:00:00"
+    },
+    {
+        "id": "498",
+        "id_creador": "1561",
+        "area": "ag12",
+        "texto": "Paciente atendido por todas las unidades se reporta ",
+        "color": "5",
+        "estado": "0",
+        "fecha_r": "2024-06-14 00:00:00"
+    },
+    {
+        "id": "499",
+        "id_creador": "1561",
+        "area": "ag12",
+        "texto": "Paciente necesita atension de parte de las Licenciadas en Nutrición ",
+        "color": "4",
+        "estado": "0",
+        "fecha_r": "2024-06-14 00:00:00"
+    },
+    {
+        "id": "500",
+        "id_creador": "1561",
+        "area": "ag12",
+        "texto": "Paciente necesita atension de parte del Equipo Medico",
+        "color": "3",
+        "estado": "0",
+        "fecha_r": "2024-06-14 00:00:00"
+    },
+    {
+        "id": "501",
+        "id_creador": "1561",
+        "area": "ag12",
+        "texto": "Paciente necesita atension de parte de La Entrenadora ",
+        "color": "2",
+        "estado": "0",
+        "fecha_r": "2024-06-14 00:00:00"
+    },
+    {
+        "id": "502",
+        "id_creador": "1561",
+        "area": "ag12",
+        "texto": "Paciente necesita atención de la Dra. Terapeuta Anneris Inciarte ",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2024-06-14 00:00:00"
+    },
+    {
+        "id": "503",
+        "id_creador": "1561",
+        "area": "c1",
+        "texto": "4 semanas",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-06-15 00:00:00"
+    },
+    {
+        "id": "504",
+        "id_creador": "1561",
+        "area": "c1",
+        "texto": "8 semanas",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2024-06-15 00:00:00"
+    },
+    {
+        "id": "505",
+        "id_creador": "1561",
+        "area": "c1",
+        "texto": "12 semanas",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2024-06-15 00:00:00"
+    },
+    {
+        "id": "506",
+        "id_creador": "1561",
+        "area": "c1",
+        "texto": "16 semanas",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2024-06-15 00:00:00"
+    },
+    {
+        "id": "507",
+        "id_creador": "1561",
+        "area": "c1",
+        "texto": "20 semanas",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-06-15 00:00:00"
+    },
+    {
+        "id": "508",
+        "id_creador": "1561",
+        "area": "c1",
+        "texto": "Clasificación subjetiva",
+        "color": "0",
+        "estado": "1",
+        "fecha_r": "2024-06-15 00:00:00"
+    },
+    {
+        "id": "509",
+        "id_creador": "1561",
+        "area": "c1",
+        "texto": "No lo puede controlar siempre debe estar haciendo varias cosas a la vez",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-06-15 00:00:00"
+    },
+    {
+        "id": "510",
+        "id_creador": "1561",
+        "area": "ag12",
+        "texto": "paciente atendido por el Equipo Tecnico",
+        "color": "5",
+        "estado": "0",
+        "fecha_r": "2024-06-21 00:00:00"
+    },
+    {
+        "id": "511",
+        "id_creador": "1561",
+        "area": "ag12",
+        "texto": "Paciente atendido por el Equipo pero no por gerencia Médica",
+        "color": "4",
+        "estado": "0",
+        "fecha_r": "2024-06-21 00:00:00"
+    },
+    {
+        "id": "512",
+        "id_creador": "1561",
+        "area": "ag12",
+        "texto": "Paciente atendido por Equipo Técnico y los Gerentes",
+        "color": "5",
+        "estado": "0",
+        "fecha_r": "2024-06-21 00:00:00"
+    },
+    {
+        "id": "513",
+        "id_creador": "1561",
+        "area": "ag12",
+        "texto": "Paciente atendido por Equipo Técnico pero No por Gerente",
+        "color": "4",
+        "estado": "0",
+        "fecha_r": "2024-06-21 00:00:00"
+    },
+    {
+        "id": "514",
+        "id_creador": "1561",
+        "area": "ag12",
+        "texto": "Paciente Contactado solo por Equipo Tecnico",
+        "color": "4",
+        "estado": "0",
+        "fecha_r": "2024-06-21 00:00:00"
+    },
+    {
+        "id": "515",
+        "id_creador": "1561",
+        "area": "ag12",
+        "texto": "Paciente Contactado y no responde",
+        "color": "3",
+        "estado": "0",
+        "fecha_r": "2024-06-21 00:00:00"
+    },
+    {
+        "id": "516",
+        "id_creador": "1561",
+        "area": "ag12",
+        "texto": "Paciente Contactado por los Gerentes pero no responde",
+        "color": "3",
+        "estado": "0",
+        "fecha_r": "2024-06-21 00:00:00"
+    },
+    {
+        "id": "517",
+        "id_creador": "1561",
+        "area": "ag12",
+        "texto": "paciente no fue atendido por el Equipo Tecnico",
+        "color": "2",
+        "estado": "0",
+        "fecha_r": "2024-06-21 00:00:00"
+    },
+    {
+        "id": "518",
+        "id_creador": "1561",
+        "area": "ag12",
+        "texto": "Paciente no fue contactado por el Equipo Técnico ni los Gerentes",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2024-06-21 00:00:00"
+    },
+    {
+        "id": "519",
+        "id_creador": "1561",
+        "area": "ag11",
+        "texto": "Paciente atendido por Equipo Técnico y Gerentes",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-06-21 00:00:00"
+    },
+    {
+        "id": "520",
+        "id_creador": "1561",
+        "area": "ag11",
+        "texto": "Paciente atendido solo por Equipo Tecnico",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2024-06-21 00:00:00"
+    },
+    {
+        "id": "521",
+        "id_creador": "1561",
+        "area": "ag11",
+        "texto": "Paciente Contactado por los Gerentes pero no responde",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2024-06-21 00:00:00"
+    },
+    {
+        "id": "522",
+        "id_creador": "1561",
+        "area": "ag11",
+        "texto": "Paciente no fue contactado por el Equipo Técnico ",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2024-06-21 00:00:00"
+    },
+    {
+        "id": "523",
+        "id_creador": "1561",
+        "area": "ag11",
+        "texto": "Paciente No fue Contactado ",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-06-21 00:00:00"
+    },
+    {
+        "id": "524",
+        "id_creador": "1561",
+        "area": "ag2",
+        "texto": "Paciente ya fue atendido por el Grupo de Gerencia",
+        "color": "5",
+        "estado": "0",
+        "fecha_r": "2024-06-27 00:00:00"
+    },
+    {
+        "id": "525",
+        "id_creador": "1561",
+        "area": "ag2",
+        "texto": "Paciente atendido pero NO responde",
+        "color": "3",
+        "estado": "0",
+        "fecha_r": "2024-06-27 00:00:00"
+    },
+    {
+        "id": "526",
+        "id_creador": "1561",
+        "area": "ag2",
+        "texto": "Paciente NO fue atendido por el Gerente",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2024-06-27 00:00:00"
+    },
+    {
+        "id": "527",
+        "id_creador": "1561",
+        "area": "ag3",
+        "texto": "Paciente atendido por el Gerente ",
+        "color": "5",
+        "estado": "0",
+        "fecha_r": "2024-06-27 00:00:00"
+    },
+    {
+        "id": "528",
+        "id_creador": "1561",
+        "area": "ag3",
+        "texto": "paciente atendido pero NO respondió ",
+        "color": "3",
+        "estado": "0",
+        "fecha_r": "2024-06-27 00:00:00"
+    },
+    {
+        "id": "529",
+        "id_creador": "1561",
+        "area": "ag3",
+        "texto": "Paciente NO fue atendido por el Gerente ",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2024-06-27 00:00:00"
+    },
+    {
+        "id": "530",
+        "id_creador": "1561",
+        "area": "ag5",
+        "texto": "Paciente atendido por el Grupo de Gerencia ",
+        "color": "5",
+        "estado": "0",
+        "fecha_r": "2024-06-27 00:00:00"
+    },
+    {
+        "id": "531",
+        "id_creador": "1561",
+        "area": "ag5",
+        "texto": "Paciente atendido pero NO  Contestó ",
+        "color": "3",
+        "estado": "0",
+        "fecha_r": "2024-06-27 00:00:00"
+    },
+    {
+        "id": "532",
+        "id_creador": "1561",
+        "area": "ag5",
+        "texto": "Paciente NO fue atendido por la Gerencia ",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2024-06-27 00:00:00"
+    },
+    {
+        "id": "533",
+        "id_creador": "1561",
+        "area": "ag6",
+        "texto": "Paciente atendido por el Grupo de Gerencia ",
+        "color": "5",
+        "estado": "0",
+        "fecha_r": "2024-06-27 00:00:00"
+    },
+    {
+        "id": "534",
+        "id_creador": "1561",
+        "area": "ag6",
+        "texto": "Paciente atendido pero NO responde ",
+        "color": "3",
+        "estado": "0",
+        "fecha_r": "2024-06-27 00:00:00"
+    },
+    {
+        "id": "535",
+        "id_creador": "1561",
+        "area": "ag6",
+        "texto": "Paciente NO fue atendido por la Gerencia",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2024-06-27 00:00:00"
+    },
+    {
+        "id": "536",
+        "id_creador": "1561",
+        "area": "ag3",
+        "texto": "Paciente atendido por la Gerencia sin problemas",
+        "color": "5",
+        "estado": "0",
+        "fecha_r": "2024-07-02 00:00:00"
+    },
+    {
+        "id": "537",
+        "id_creador": "1561",
+        "area": "ag3",
+        "texto": "Paciente atendido pero con alerta a hacer las cosas bien",
+        "color": "4",
+        "estado": "0",
+        "fecha_r": "2024-07-02 00:00:00"
+    },
+    {
+        "id": "538",
+        "id_creador": "1561",
+        "area": "ag3",
+        "texto": "paciente no responde mensajes",
+        "color": "3",
+        "estado": "0",
+        "fecha_r": "2024-07-02 00:00:00"
+    },
+    {
+        "id": "539",
+        "id_creador": "1561",
+        "area": "ag3",
+        "texto": "Paciente no desea ser contactado más por el Equipo del Método Vargas ",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2024-07-02 00:00:00"
+    },
+    {
+        "id": "540",
+        "id_creador": "1561",
+        "area": "ag3",
+        "texto": "paciente en alarma",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-07-03 00:00:00"
+    },
+    {
+        "id": "541",
+        "id_creador": "1561",
+        "area": "ag3",
+        "texto": "pacientes NO reportan",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2024-07-03 00:00:00"
+    },
+    {
+        "id": "542",
+        "id_creador": "1561",
+        "area": "ag3",
+        "texto": "Paciente asistido",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-07-03 00:00:00"
+    },
+    {
+        "id": "543",
+        "id_creador": "1561",
+        "area": "ag2",
+        "texto": "Paciente en alarma",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-07-03 00:00:00"
+    },
+    {
+        "id": "544",
+        "id_creador": "1561",
+        "area": "ag2",
+        "texto": "Pacientes no reportan",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2024-07-03 00:00:00"
+    },
+    {
+        "id": "545",
+        "id_creador": "1561",
+        "area": "ag2",
+        "texto": "Paciente asistido",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-07-03 00:00:00"
+    },
+    {
+        "id": "546",
+        "id_creador": "1561",
+        "area": "ag12",
+        "texto": "paciente atendido",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-07-07 00:00:00"
+    },
+    {
+        "id": "547",
+        "id_creador": "1561",
+        "area": "ag12",
+        "texto": "paciente No responde al Equipo técnico ni los Gerentes \n",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2024-07-07 00:00:00"
+    },
+    {
+        "id": "548",
+        "id_creador": "1561",
+        "area": "ag12",
+        "texto": "paciente no fue atendido por los Gerentes ",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-07-07 00:00:00"
+    },
+    {
+        "id": "549",
+        "id_creador": "1561",
+        "area": "ag9",
+        "texto": "paciente Contactado y atendido por el Equipo Técnico ",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-07-07 00:00:00"
+    },
+    {
+        "id": "550",
+        "id_creador": "1561",
+        "area": "ag9",
+        "texto": "Paciente no fue atendido por el Equipo Técnico ",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2024-07-07 00:00:00"
+    },
+    {
+        "id": "551",
+        "id_creador": "1561",
+        "area": "ag5",
+        "texto": "Paciente asistido ",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-07-13 00:00:00"
+    },
+    {
+        "id": "552",
+        "id_creador": "1561",
+        "area": "ag5",
+        "texto": "Pacientes NO responden",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2024-07-13 00:00:00"
+    },
+    {
+        "id": "553",
+        "id_creador": "1561",
+        "area": "ag5",
+        "texto": "Pacientes en Alatma",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2024-07-13 00:00:00"
+    },
+    {
+        "id": "554",
+        "id_creador": "1561",
+        "area": "ag5",
+        "texto": "Pacientes en alarma",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-07-13 00:00:00"
+    },
+    {
+        "id": "555",
+        "id_creador": "1484",
+        "area": "revision",
+        "texto": "Paciente no desea atención o responde con mala educación ",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-07-31 00:00:00"
+    },
+    {
+        "id": "556",
+        "id_creador": "1484",
+        "area": "revision",
+        "texto": "Paciente no da respuesta vía WhatsApp ni a llamada",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2024-07-31 00:00:00"
+    },
+    {
+        "id": "557",
+        "id_creador": "1484",
+        "area": "revision",
+        "texto": "paciente que responde y dice que  no cumplí o el plan de flores, películas o contacto con constelación ",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2024-07-31 00:00:00"
+    },
+    {
+        "id": "558",
+        "id_creador": "1484",
+        "area": "revision",
+        "texto": " Va bien cumple el plan",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2024-07-31 00:00:00"
+    },
+    {
+        "id": "559",
+        "id_creador": "1484",
+        "area": "revision",
+        "texto": "va muy bien",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-07-31 00:00:00"
+    },
+    {
+        "id": "560",
+        "id_creador": "1484",
+        "area": "ag4",
+        "texto": "Mo contesto",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-08-01 00:00:00"
+    },
+    {
+        "id": "561",
+        "id_creador": "1484",
+        "area": "ag4",
+        "texto": "se realizo",
+        "color": "4",
+        "estado": "0",
+        "fecha_r": "2024-08-01 00:00:00"
+    },
+    {
+        "id": "562",
+        "id_creador": "1484",
+        "area": "ag4",
+        "texto": "Se hizo contacto ",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2024-08-01 00:00:00"
+    },
+    {
+        "id": "563",
+        "id_creador": "1484",
+        "area": "atfb",
+        "texto": "No contesto",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2024-08-01 00:00:00"
+    },
+    {
+        "id": "564",
+        "id_creador": "1484",
+        "area": "atfb",
+        "texto": "Recibió las recomendaciones ",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2024-08-01 00:00:00"
+    },
+    {
+        "id": "565",
+        "id_creador": "1484",
+        "area": "atfb",
+        "texto": "No asistio a la consulta ",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2024-08-01 00:00:00"
+    },
+    {
+        "id": "566",
+        "id_creador": "1484",
+        "area": "atfb",
+        "texto": "No contesto ",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-08-01 00:00:00"
+    },
+    {
+        "id": "567",
+        "id_creador": "1322",
+        "area": "aps",
+        "texto": "Paciente no ha respondido",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-08-20 00:00:00"
+    },
+    {
+        "id": "568",
+        "id_creador": "1343",
+        "area": "tdp",
+        "texto": "abandonó programa",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2024-08-22 00:00:00"
+    },
+    {
+        "id": "569",
+        "id_creador": "1343",
+        "area": "tdp",
+        "texto": "No asistió a la Cita",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-08-22 00:00:00"
+    },
+    {
+        "id": "570",
+        "id_creador": "1322",
+        "area": "psc",
+        "texto": "No asistio a su consulta online",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2024-09-03 00:00:00"
+    }
+]

@@ -1,0 +1,9 @@
+{
+    "Comentario": "Se intento validar una variable que no existe",
+    "es": {
+        "1": "Hubo un error al validar esta variable",
+        "2": "Esta variable es invalida",
+        "3": "Esta variable es muy corta",
+        "4": "Esta variable es muy larga"
+    }
+}
