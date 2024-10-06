@@ -18,8 +18,8 @@
         "key": "dni",
         "addr": "Documento de identificación",
         "min": 2,
-        "max": 35,
-        "pattern": "A-Za-z0-9\\."
+        "max": 30,
+        "pattern": "0-9"
     },
     "TELEFONO": {
         "error" : 4,
@@ -78,5 +78,86 @@
         "max": 11,
         "type": "numeric",
         "pattern": "0-9"
+    },
+    "NOMBRE": {
+        "error" : 13,
+        "key": "nombre",
+        "addr": "nombre",
+        "min": 1,
+        "max": 50,
+        "pattern": "A-Za-z áéíóúñÑÁÉÍÓÚ"
+    },
+    "APELLIDO": {
+        "error" : 13,
+        "key": "apellido",
+        "addr": "apellido",
+        "min": 1,
+        "max": 50,
+        "pattern": "A-Za-z áéíóúñÑÁÉÍÓÚ"
+    },
+    "TDNI": {
+        "error" : 13,
+        "key": "tdni",
+        "addr": "tdni",
+        "min": 1,
+        "max": 10,
+        "pattern": "a-z"
+    },
+    "NACIMIENTO": {
+        "error" : 13,
+        "key": "nacimiento",
+        "addr": "nacimiento",
+        "min": 10,
+        "max": 10,
+        "pattern": "0-9\\-"
+    },
+    "SEXO": {
+        "error" : 13,
+        "key": "sexo",
+        "addr": "sexo",
+        "min": 1,
+        "max": 1,
+        "pattern": "mf"
+    },
+    "FECHA_INICIO": {
+        "error" : 13,
+        "key": "fecha_inicio",
+        "addr": "fecha_inicio",
+        "min": 10,
+        "max": 10,
+        "pattern": "0-9\\-"
+    },
+    "TALLA": {
+        "error" : 13,
+        "key": "talla",
+        "addr": "talla",
+        "min": 1,
+        "max": 3,
+        "type": "numeric",
+        "pattern": "0-9"
+    },
+    "PAIS": {
+        "error" : 13,
+        "key": "pais",
+        "addr": "país",
+        "min": 1,
+        "max": 100,
+        "pattern": "A-Za-z ñÑáéíóúüÁÉÍÓÚÜ"
+    },
+    "CIUDAD": {
+        "error" : 13,
+        "key": "ciudad",
+        "addr": "ciudad",
+        "min": 1,
+        "max": 100,
+        "pattern": "A-Za-z ñÑáéíóúüÁÉÍÓÚÜ"
+    },
+    "PARROQUIA": {
+        "error" : 13,
+        "key": "parroquia",
+        "addr": "parroquia",
+        "min": 1,
+        "max": 100,
+        "pattern": "A-Za-z ñÑáéíóúüÁÉÍÓÚÜ"
     }
 }

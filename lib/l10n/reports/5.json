@@ -1,0 +1,25 @@
+{
+  "code": 8,
+  "status": 500,
+  "serverName": "127.0.0.1:3333",
+  "url": "/cassiopeia/v1/new_patient/",
+  "file": "FSReqCallback.oncomplete (node:fs:188:23)",
+  "headers": {
+    "device": "c89208ec-d15e-4dbc-9936-8a4346ba4e4d",
+    "access": "$SSL-VGm4abxbb0OKVXN-248-3sichCWFygthoHfz6Y5kuEVrTizHfA5RNEYmkpVo-X0",
+    "accept-language": "es",
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.42.0",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "postman-token": "2417b9cf-9b0e-437f-8f01-7de6d389e8b4",
+    "host": "127.0.0.1:3333",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "16"
+  },
+  "body": {
+    "a": 1
+  },
+  "devTails": "La información del paciente es invalida"
+}
