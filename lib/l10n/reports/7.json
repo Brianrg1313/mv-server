@@ -1,0 +1,34 @@
+{
+  "code": 8,
+  "status": 500,
+  "serverName": "127.0.0.1:3333",
+  "url": "/cassiopeia/v1/member/create/",
+  "file": "FSReqCallback.oncomplete (node:fs:188:23)",
+  "headers": {
+    "device": "c89208ec-d15e-4dbc-9936-8a4346ba4e4d",
+    "access": "$SSL-wiFpvnbcujRdLY4-248-1xHPKhsLVccWkiMyrVH8k4HTrGE1zA0joAEPE9ft-X0",
+    "accept-language": "es",
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.42.0",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "postman-token": "d87b8a59-4e46-4a95-90a7-72510d1f4786",
+    "host": "127.0.0.1:3333",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "299"
+  },
+  "body": {
+    "NOMBRE": "Georgette",
+    "APELLIDO": "Johns",
+    "CORREO": "Lempi76@hotmail.com",
+    "USUARIO": "Kristoffer.Crooks",
+    "TELEFONO": "219-373-7876",
+    "TDNI": "rto",
+    "DNI": "165165561",
+    "NACIMIENTO": "1999-04-13",
+    "SEXO": "m",
+    "PROFESION": "gastroenterologo"
+  },
+  "devTails": "La información del nuevo integrante es invalida"
+}

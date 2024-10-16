@@ -41,3 +41,7 @@ Significado de los formatos de las variables en el dicionario
 - String: `1`
 - double: `2`
 - int: `3`
+
+La tabla de perimsos en administracion identifica los permisos que tiene un administrador sobre ciertas acciones y se ordena de esta manera: Son cuatros numeros los cuales pueden ser cero (0 false) o uno (1 true). Los permisos se ordenan de izquierda a derecha y significan lo siguiente:
+[1,   1,     1,      0]
+[ver, crear, editar, eliminar]

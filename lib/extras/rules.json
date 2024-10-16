@@ -159,5 +159,13 @@
         "min": 1,
         "max": 100,
         "pattern": "A-Za-z ñÑáéíóúüÁÉÍÓÚÜ"
+    },
+    "PROFESION": {
+        "error" : 13,
+        "key": "profesion",
+        "addr": "profesion",
+        "min": 1,
+        "max": 255,
+        "pattern": "A-Za-z ñÑáéíóúüÁÉÍÓÚÜ"
     }
 }
