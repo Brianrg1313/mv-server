@@ -1,0 +1,24 @@
+{
+    "usuarios": [
+        "nombre",
+        "apellido",
+        "correo",
+        "usuario",
+        "telefono",
+        "tdni",
+        "dni",
+        "nacimiento",
+        "sexo",
+        "fecha_inicio"
+    ],
+    "complementarios": [
+        "talla",
+        "pais",
+        "ciudad",
+        "parroquia",
+        "coordenadas",
+        "profesion",
+        "sangre",
+        "terminos"
+    ]
+}

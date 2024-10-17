@@ -142,7 +142,7 @@
         "addr": "país",
         "min": 1,
         "max": 100,
-        "pattern": "A-Za-z ñÑáéíóúüÁÉÍÓÚÜ"
+        "pattern": "A-Za-z ñÑáÁéÉíÍóÓúÚüÜ"
     },
     "CIUDAD": {
         "error" : 13,
@@ -150,7 +150,7 @@
         "addr": "ciudad",
         "min": 1,
         "max": 100,
-        "pattern": "A-Za-z ñÑáéíóúüÁÉÍÓÚÜ"
+        "pattern": "A-Za-z ñÑáÁéÉíÍóÓúÚüÜ"
     },
     "PARROQUIA": {
         "error" : 13,
@@ -158,7 +158,7 @@
         "addr": "parroquia",
         "min": 1,
         "max": 100,
-        "pattern": "A-Za-z ñÑáéíóúüÁÉÍÓÚÜ"
+        "pattern": "A-Za-z ñÑáÁéÉíÍóÓúÚüÜ"
     },
     "PROFESION": {
         "error" : 13,
@@ -166,6 +166,15 @@
         "addr": "profesion",
         "min": 1,
         "max": 255,
-        "pattern": "A-Za-z ñÑáéíóúüÁÉÍÓÚÜ"
+        "pattern": "A-Za-z ñÑáÁéÉíÍóÓúÚüÜ"
+    },
+    "GRUPO": {
+        "error" : 13,
+        "key": "gid",
+        "addr": "grupo",
+        "type": "numeric",
+        "min": 1,
+        "max": 11,
+        "pattern": "0-9"
     }
 }
