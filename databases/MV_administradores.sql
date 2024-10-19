@@ -30,7 +30,7 @@ SET time_zone = "+00:00";
 CREATE TABLE `administradores` (
   `id` int(11) NOT NULL,
   `old_id` int(11) NOT NULL,
-  `equipo` int(11) NOT NULL,
+  `eid` int(11) NOT NULL,
   `nombre` varchar(50) NOT NULL,
   `apellido` varchar(50) NOT NULL,
   `correo` varchar(100) NOT NULL,
@@ -49,7 +49,7 @@ CREATE TABLE `administradores` (
 -- Volcado de datos para la tabla `administradores`
 --
 
-INSERT INTO `administradores` (`id`, `old_id`, `equipo`, `nombre`, `apellido`, `correo`, `usuario`, `telefono`, `tdni`, `dni`, `nacimiento`, `sexo`, `lista`, `estado`, `fecha_registro`) VALUES
+INSERT INTO `administradores` (`id`, `old_id`, `eid`, `nombre`, `apellido`, `correo`, `usuario`, `telefono`, `tdni`, `dni`, `nacimiento`, `sexo`, `lista`, `estado`, `fecha_registro`) VALUES
 (1, 1, 1, 'fernando', 'vargas', 'synclifevargas@gmail.com', 'synclifevargas', '584143103694', 'v', '123456', '1952-05-09 00:00:00', 'm', 1, NULL, '2021-05-21 00:00:00'),
 (2, 2, 2, 'brian', 'rangel', 'brianrg1313@icloud.com', 'brianrg1313', '584149277243', 'v', '27107948', '1999-04-13 00:00:00', 'm', 1, NULL, '2021-05-21 00:00:00'),
 (3, 89, 1, 'maria', 'bilbao', 'dramagloria@outlook.com', 'dramagloria', '584242980548', 'v', '4090664', '1957-09-29 00:00:00', 'f', 2, NULL, '2021-07-07 00:00:00'),

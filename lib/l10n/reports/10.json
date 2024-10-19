@@ -1,0 +1,25 @@
+{
+  "code": 8,
+  "status": 500,
+  "serverName": "127.0.0.1:3333",
+  "url": "/cassiopeia/v1/authentication/",
+  "file": "FSReqCallback.oncomplete (node:fs:188:23)",
+  "headers": {
+    "device": "c89208ec-d15e-4dbc-9936-8a4346ba4e4d",
+    "accept-language": "es",
+    "content-type": "application/json",
+    "user-agent": "PostmanRuntime/7.42.0",
+    "accept": "*/*",
+    "cache-control": "no-cache",
+    "postman-token": "01c06a56-e9fc-4b0e-8d92-12ec7fbf4bd8",
+    "host": "127.0.0.1:3333",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "content-length": "75"
+  },
+  "body": {
+    "CONTRASENA": "87654321",
+    "USUARIO": "synclifevargas"
+  },
+  "devTails": "Información de inicio de sesión invalida"
+}

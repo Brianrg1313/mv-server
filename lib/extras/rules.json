@@ -85,6 +85,7 @@
         "addr": "nombre",
         "min": 1,
         "max": 50,
+        "lowerCase": false,
         "pattern": "A-Za-z áéíóúñÑÁÉÍÓÚ"
     },
     "APELLIDO": {
@@ -93,6 +94,7 @@
         "addr": "apellido",
         "min": 1,
         "max": 50,
+        "lowerCase": false,
         "pattern": "A-Za-z áéíóúñÑÁÉÍÓÚ"
     },
     "TDNI": {
