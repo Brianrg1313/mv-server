@@ -170,6 +170,92 @@
         "max": 255,
         "pattern": "A-Za-z ñÑáÁéÉíÍóÓúÚüÜ"
     },
+    "TITULO": {
+        "error" : 13,
+        "key": "titulo",
+        "addr": "titulo",
+        "min": 1,
+        "max": 125,
+        "pattern": "A-Za-z ñÑáÁéÉíÍóÓúÚüÜ"
+    },
+    "SUBTITULO": {
+        "error" : 13,
+        "key": "subtitulo",
+        "addr": "subtitulo",
+        "min": 1,
+        "max": 125,
+        "pattern": "A-Za-z ñÑáÁéÉíÍóÓúÚüÜ"
+    },
+    "BANDERA": {
+        "error" : 13,
+        "key": "bandera",
+        "addr": "bandera",
+        "min": 1,
+        "max": 10,
+        "pattern": "A-Za-z ñÑáÁéÉíÍóÓúÚüÜ%$£"
+    },
+    "TIPO": {
+        "error" : 13,
+        "key": "tipo",
+        "addr": "tipo de variable",
+        "type": "numeric",
+        "min": 1,
+        "max": 11,
+        "pattern": "0-9"
+    },
+    "FORMATO": {
+        "error" : 13,
+        "key": "formato",
+        "addr": "formato de la variable",
+        "type": "numeric",
+        "min": 1,
+        "max": 1,
+        "pattern": "0-9"
+    },
+    "COLECCION": {
+        "error" : 13,
+        "key": "coleccion",
+        "addr": "Colección",
+        "type": "numeric",
+        "min": 1,
+        "max": 11,
+        "pattern": "0-9"
+    },
+    "ABREVIACION": {
+        "error" : 13,
+        "key": "abreviacion",
+        "addr": "abreviación",
+        "min": 1,
+        "max": 6,
+        "pattern": "a-z"
+    },
+    "REFERENCIA": {
+        "error" : 13,
+        "key": "referencia",
+        "addr": "Referencia",
+        "type": "numeric",
+        "min": 1,
+        "max": 11,
+        "pattern": "0-9"
+    },
+    "ID": {
+        "error" : 13,
+        "key": "id",
+        "addr": "id",
+        "type": "numeric",
+        "min": 1,
+        "max": 11,
+        "pattern": "0-9"
+    },
+    "POSICION": {
+        "error" : 13,
+        "key": "posicion",
+        "addr": "posicion",
+        "type": "numeric",
+        "min": 1,
+        "max": 11,
+        "pattern": "0-9"
+    },
     "GRUPO": {
         "error" : 13,
         "key": "gid",

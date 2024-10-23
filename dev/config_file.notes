@@ -45,3 +45,9 @@ Significado de los formatos de las variables en el dicionario
 La tabla de perimsos en administracion identifica los permisos que tiene un administrador sobre ciertas acciones y se ordena de esta manera: Son cuatros numeros los cuales pueden ser cero (0 false) o uno (1 true). Los permisos se ordenan de izquierda a derecha y significan lo siguiente:
 [1,   1,     1,      0]
 [ver, crear, editar, eliminar]
+
+
+Tipos de variables
+- Semanal: `1` Las variables se reinician cada semana
+- Infinito: `2` Las variables replican el valor de la semana anterior
+- Inicial: `3` La variable usa el valor de la primera semana de otra variable, esta variable es la que se indica en el campo referencia
