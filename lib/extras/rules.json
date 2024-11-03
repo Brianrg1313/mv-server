@@ -176,7 +176,8 @@
         "addr": "titulo",
         "min": 1,
         "max": 125,
-        "pattern": "A-Za-z ñÑáÁéÉíÍóÓúÚüÜ"
+        "lowerCase": false,
+        "pattern": "A-Za-z0-9  áéíóúñÁÉÍÓÚÑ.,"
     },
     "SUBTITULO": {
         "error" : 13,
@@ -184,7 +185,8 @@
         "addr": "subtitulo",
         "min": 1,
         "max": 125,
-        "pattern": "A-Za-z ñÑáÁéÉíÍóÓúÚüÜ"
+        "lowerCase": false,
+        "pattern": "A-Za-z0-9  áéíóúñÁÉÍÓÚÑ.,"
     },
     "BANDERA": {
         "error" : 13,
@@ -192,7 +194,7 @@
         "addr": "bandera",
         "min": 1,
         "max": 10,
-        "pattern": "A-Za-z ñÑáÁéÉíÍóÓúÚüÜ%$£"
+        "pattern": "A-Za-z%$€'^#@&*!"
     },
     "TIPO": {
         "error" : 13,
