@@ -79,6 +79,15 @@
         "type": "numeric",
         "pattern": "0-9"
     },
+    "LISTA": {
+        "error" : 13,
+        "key": "lista",
+        "addr": "lista",
+        "min": 1,
+        "max": 11,
+        "type": "numeric",
+        "pattern": "0-9"
+    },
     "NOMBRE": {
         "error" : 13,
         "key": "nombre",
@@ -258,12 +267,21 @@
         "max": 11,
         "pattern": "0-9"
     },
+    "COLOR": {
+        "error" : 13,
+        "key": "color",
+        "addr": "color",
+        "type": "text",
+        "min": 1,
+        "max": 11,
+        "pattern": "A-Za-z0-9"
+    },
     "GRUPO": {
         "error" : 13,
         "key": "gid",
         "addr": "grupo",
         "type": "numeric",
-        "min": 1,
+        "min": 10,
         "max": 11,
         "pattern": "0-9"
     }
