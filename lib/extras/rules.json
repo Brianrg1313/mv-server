@@ -276,6 +276,16 @@
         "max": 11,
         "pattern": "A-Za-z0-9"
     },
+    "ORDEN": {
+        "error" : 13,
+        "key": "orden",
+        "addr": "orden",
+        "type": "list",
+        "lowerCase": false,
+        "min": 1,
+        "max": 11,
+        "pattern": "0-9"
+    },
     "GRUPO": {
         "error" : 13,
         "key": "gid",
