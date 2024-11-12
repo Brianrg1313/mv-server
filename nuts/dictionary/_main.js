@@ -1,4 +1,5 @@
 const mysql = require("mysql2/promise")
+const { intToAbc, nextAbbr } = require("../../lib/helpers/tools")
 
 async function main() {
     const collections = require("./collections")
@@ -32,6 +33,8 @@ async function main() {
         await connection.query("INSERT INTO `colecciones`(`id`, `es`,`en`) VALUES (" + collections[key].id + ",'" + collections[key].titulo + "','" + collections[key].titulo + "')")
     }
 
+    let nAbbr = 1
+
     let i = 0
     for (const key in variables) {
         console.clear()
@@ -39,18 +42,21 @@ async function main() {
         i++
         const item = variables[key]
 
-        if (!item.sg) {
-            item.sg = "NULL"
-        } else {
-            item.sg = "'" + item.sg + "'"
-        }
+        item.sg = nAbbr
+
+        nAbbr = nextAbbr(nAbbr)
 
         if (item.co === "formw") {
             continue
         }
 
+        if (item.co === "usuarios") {
+            item.co = "informacion_personal"
+        }
+
         if (!collections[item.co]) {
-            continue
+            collections.informacion_personal = 22
+            item.co = "informacion_personal"
         } else {
             if (collections[item.co].id) {
                 collections[item.co] = collections[item.co].id

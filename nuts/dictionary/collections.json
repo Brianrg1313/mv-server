@@ -145,5 +145,12 @@
         "titulo": "Antecedentes",
         "icono": null,
         "posicion": null
+    },
+    "informacion_personal": {
+        "id": 22,
+        "clave": "informacion_personal",
+        "titulo": "Información personal",
+        "icono": null,
+        "posicion": null
     }
 }

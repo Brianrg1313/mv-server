@@ -79,6 +79,15 @@
         "type": "numeric",
         "pattern": "0-9"
     },
+    "VARIABLE_VALOR": {
+        "error" : 12,
+        "key": "value",
+        "addr": "value",
+        "min": 1,
+        "max": 50,
+        "type": "text",
+        "pattern": "0-9."
+    },
     "LISTA": {
         "error" : 13,
         "key": "lista",
@@ -294,5 +303,32 @@
         "min": 10,
         "max": 11,
         "pattern": "0-9"
+    },
+    "PAGINA": {
+        "error" : 13,
+        "key": "page",
+        "addr": "page",
+        "type": "numeric",
+        "min": 1,
+        "max": 11,
+        "pattern": "0-9"
+    },
+    "F_NUMERO": {
+        "error" : 13,
+        "key": "f_numero",
+        "addr": "f_numero",
+        "type": "text",
+        "min": 1,
+        "max": 50,
+        "pattern": "+0-9.)(,-"
+    },
+    "OPERADOR": {
+        "error" : 13,
+        "key": "operator",
+        "addr": "operator",
+        "type": "text",
+        "min": 1,
+        "max": 2,
+        "pattern": "=><!"
     }
 }

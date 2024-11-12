@@ -32,3 +32,5 @@
 - Agregar iconos a las colecciones
 
 - Para aproximar los resultados de la balanza con los zeep life, se deben eliminar los coeficientes lbmSub de [C:\Users\brian\AppData\Local\Pub\Cache\hosted\pub.dev\xiaomi_scale-2.2.1\lib\src\model\mi_scale_extra_data.dart] de la clase [MiScaleBodyData] del paquete [xiaomi_scale] en el getter de [bodyFat] lineas 118 y 120
+
+- Cambiar los IDS de las variables main [helpers/tools.js]

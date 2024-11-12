@@ -51,3 +51,4 @@ Tipos de variables
 - Semanal: `1` Las variables se reinician cada semana
 - Infinito: `2` Las variables replican el valor de la semana anterior
 - Inicial: `3` La variable usa el valor de la primera semana de otra variable, esta variable es la que se indica en el campo referencia
+- Especial: `4` Variable que hace un calculo
