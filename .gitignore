@@ -6,3 +6,4 @@
 /nuts/static_images/*.jpg
 /nuts/static_images/*.svg
 /nuts/import_records/*.*
+/tmp/*
