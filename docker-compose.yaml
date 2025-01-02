@@ -1,0 +1,34 @@
+services:
+  mariadb:
+    image: mariadb:11.4.2
+    environment:
+      MYSQL_USER: clientes
+      MYSQL_PASSWORD: l5SceytlqAT3GDc6TvxO
+      MYSQL_ROOT_PASSWORD: l5SceytlqAT3GDc6TvxO
+    ports:
+      - "3306:3306"
+    volumes:
+      - mariadb:/var/lib/mysql
+  mongodb:
+    image: mongo:5.0.27
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: clientes
+      MONGO_INITDB_ROOT_PASSWORD: l5SceytlqAT3GDc6TvxO
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb:/data/db
+  redis:
+    image: redis:7.4-rc1
+    command: redis-server --appendonly yes
+    environment:
+      - REDIS_REPLICATION_MODE=master
+    ports:
+      - 6379:6379
+    volumes:
+      - redisdb:/data
+
+volumes:
+  mariadb:
+  mongodb:
+  redisdb:

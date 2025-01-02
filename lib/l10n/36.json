@@ -1,0 +1,4 @@
+{
+    "Comentario": "Un administrador intento acceder a un paciente que no existe o no está disponible (se uso el modelo de pacientes con el método `fromUsername`)",
+    "es" : "Este paciente no existe o no está disponible"
+}

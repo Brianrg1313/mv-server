@@ -1,0 +1,42 @@
+- La tabla `files` pasa a llamarse `archivos` y `folders` a `carpetas`.
+
+- Pasar los `id_usuario` a `uid`.
+
+- usar "SELECT * FROM `archivos` WHERE `area` NOT REGEXP '^[0-9]+$'" para buscar cualquier columna que no sea un id de una carpeta.
+
+- Correciones a la tabla de archvios
+"ALTER TABLE `archivos` CHANGE `area` `carpeta` INT(11) NULL DEFAULT NULL;"
+"ALTER TABLE `archivos` CHANGE `tipo` `tipo` INT(1) NULL DEFAULT NULL, CHANGE `estado` `estado` INT(1) NOT NULL DEFAULT '1';"
+
+- Correciones a la tabla de carpetas
+"ALTER TABLE `carpetas` CHANGE `estado` `estado` INT(1) NULL DEFAULT NUL L, CHANGE `color` `color` INT(1) NULL DEFAULT NULL;"
+
+- La forma en que se generan los path de imagenes debe actualizarse cuando se actualice el sistema de cargar archivos
+
+- Hay una discrepancia entre los resumenes del paciente y los resumenes de administrador, en pacientes las actitudes y emociones son un solo resumen, mientras que en administrador son dos resumenes separados, para manterer la integridad de la interfaz del paciente los resumenes estan juntos en la variable `149` resumen de actitudes
+
+- Cambiar las imagenes para respuestas de errores de archivos
+
+- Los pacientes tendran 15 semanas como limite para no responder, el administrador puede liberar todo los datos
+
+- Hay algunas imaganes de variables a trabajar esta semana que estan mal, no existen
+
+- Algunas imagenes de Carta alimentos que no se cargan correctamente
+
+- Agregar las imagenes de perfil de los administradores en las notas, tambien agregar el sexo del administrador
+
+- Comidas rapidas, Recetario y Menú personalizado son paginas web, y el dominio de metodovargas.com esta caido
+
+- Falta una grafica en Registro de perdida de peso
+
+- Agregar iconos a las colecciones
+
+- Para aproximar los resultados de la balanza con los zeep life, se deben eliminar los coeficientes lbmSub de [C:\Users\brian\AppData\Local\Pub\Cache\hosted\pub.dev\xiaomi_scale-2.2.1\lib\src\model\mi_scale_extra_data.dart] de la clase [MiScaleBodyData] del paquete [xiaomi_scale] en el getter de [bodyFat] lineas 118 y 120
+
+- Cambiar los IDS de las variables main [helpers/tools.js]
+
+- la rutina ./nust/import_records/_main.js hay variables que no estan en el diccionario y contienen datos
+
+- No tiene sentido agregar resumen de ejercicios, ya que el paciente solo reporta pasos (Consultar con Fernando)
+
+- Consultar los valores por defecto que deben tener las metas de grasa, por ejmeplo, para un paciente al cual no se se ha asignado una meta o semanas o para lograrlo

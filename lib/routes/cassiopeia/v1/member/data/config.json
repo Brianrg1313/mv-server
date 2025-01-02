@@ -1,0 +1,8 @@
+{
+    "GET": {
+        "params": ["USUARIO"]
+    },
+    "PUT": {
+        "params": ["USUARIO"]
+    }
+}

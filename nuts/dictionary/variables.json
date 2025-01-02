@@ -1,0 +1,6928 @@
+{
+    "nombre": {
+        "ti": "Nombre",
+        "to": "Nombre",
+        "rng": 1,
+        "ext": false,
+        "nu": true,
+        "ta": "usuarios",
+        "co": "usuarios",
+        "ed": true,
+        "va": {
+            "type": "text",
+            "addr": "nombre",
+            "min": 3,
+            "max": 50,
+            "pattern": "A-Za-zñÑáÁéÉíÍóÓúÚ "
+        }
+    },
+    "apellido": {
+        "ti": "Apellido",
+        "to": "Apellido",
+        "rng": 1,
+        "ext": false,
+        "nu": true,
+        "ta": "usuarios",
+        "co": "usuarios",
+        "ed": true,
+        "va": {
+            "type": "text",
+            "addr": "apellido",
+            "min": 3,
+            "max": 50,
+            "pattern": "A-Za-zñÑáÁéÉíÍóÓúÚ "
+        }
+    },
+    "correo": {
+        "ti": "Correo",
+        "to": "Correo electrónico",
+        "rng": 1,
+        "ext": false,
+        "nu": true,
+        "ta": "usuarios",
+        "co": "usuarios",
+        "ed": true,
+        "va": {
+            "type": "email",
+            "addr": "email",
+            "min": 3,
+            "max": 50,
+            "pattern": "A-Za-z0-9_\\-."
+        }
+    },
+    "usuario": {
+        "ti": "Usuario",
+        "to": "Nombre de usuario",
+        "rng": 1,
+        "ext": false,
+        "nu": true,
+        "ta": "usuarios",
+        "co": "usuarios",
+        "ed": true,
+        "va": {
+            "type": "text",
+            "addr": "Usuario",
+            "min": 3,
+            "max": 50,
+            "pattern": "A-Za-z0-9_."
+        }
+    },
+    "tdni": {
+        "ti": "Tipo de documento",
+        "to": "Tipo de documento",
+        "rng": 1,
+        "ext": false,
+        "nu": true,
+        "ta": "usuarios",
+        "co": "usuarios",
+        "ed": true,
+        "va": {
+            "type": "text",
+            "addr": "tipo",
+            "min": 1,
+            "max": 1,
+            "pattern": "a-z"
+        }
+    },
+    "dni": {
+        "ti": "Documento",
+        "to": "Documento de identidad",
+        "rng": 1,
+        "ext": false,
+        "nu": true,
+        "ta": "usuarios",
+        "co": "usuarios",
+        "ed": true,
+        "va": {
+            "type": "int",
+            "addr": "documento",
+            "min": 5,
+            "max": 20,
+            "pattern": "0-9"
+        }
+    },
+    "telefono": {
+        "ti": "Teléfono",
+        "to": "Número de teléfono",
+        "rng": 1,
+        "ext": false,
+        "nu": true,
+        "ta": "contacto",
+        "co": "contacto",
+        "ed": true,
+        "sg": "at",
+        "va": {
+            "type": "int",
+            "addr": "teléfono",
+            "min": 8,
+            "max": 16,
+            "pattern": "0-9"
+        }
+    },
+    "nacimiento": {
+        "ti": "Nacimiento",
+        "to": "Fecha de nacimiento",
+        "rng": 1,
+        "ext": false,
+        "nu": true,
+        "ta": "usuarios",
+        "co": "usuarios",
+        "ed": true,
+        "va": {
+            "type": "text",
+            "addr": "fecha de inicio",
+            "min": 8,
+            "max": 10,
+            "pattern": "0-9\\-"
+        }
+    },
+    "sexo": {
+        "ti": "Sexo",
+        "to": "Sexo",
+        "rng": 1,
+        "ext": false,
+        "nu": true,
+        "ta": "usuarios",
+        "co": "usuarios",
+        "ed": true,
+        "va": {
+            "type": "text",
+            "addr": "sexo",
+            "min": 1,
+            "max": 1,
+            "pattern": "mf"
+        }
+    },
+    "rool": {
+        "ti": "Rool",
+        "to": "Rool",
+        "rng": 1,
+        "ext": false,
+        "nu": true,
+        "ta": "usuarios",
+        "co": "usuarios",
+        "ed": true,
+        "va": false
+    },
+    "perfil": {
+        "ti": "Foto",
+        "to": "Foto de perfil",
+        "rng": 1,
+        "ext": false,
+        "nu": true,
+        "ta": "usuarios",
+        "co": "usuarios",
+        "ed": true,
+        "va": false
+    },
+    "fecha_inicio": {
+        "ti": "Fecha de inicio",
+        "to": "Fecha de inicio",
+        "rng": 1,
+        "ext": false,
+        "nu": true,
+        "ta": "usuarios",
+        "co": "usuarios",
+        "ed": true,
+        "va": {
+            "type": "text",
+            "addr": "fecha de inicio",
+            "min": 8,
+            "max": 10,
+            "pattern": "0-9\\-"
+        }
+    },
+    "fecha_r": {
+        "ti": "Fecha de registro",
+        "to": "Fecha de registro",
+        "rng": 1,
+        "ext": false,
+        "nu": true,
+        "ta": "usuarios",
+        "co": "usuarios",
+        "ed": true,
+        "va": {
+            "type": "text",
+            "addr": "fecha de inicio",
+            "min": 8,
+            "max": 10,
+            "pattern": "0-9\\-"
+        }
+    },
+    "id_equipo": {
+        "ti": "Equipo",
+        "to": "Equipo",
+        "rng": 1,
+        "ext": false,
+        "nu": true,
+        "ta": "usuarios",
+        "co": "usuarios",
+        "ed": true,
+        "va": {
+            "type": "int",
+            "addr": "doctor",
+            "min": 1,
+            "max": 11,
+            "pattern": "0-9"
+        }
+    },
+    "fav": {
+        "ti": "favorito",
+        "to": "favorito",
+        "rng": 1,
+        "ext": false,
+        "nu": true,
+        "ta": "usuarios",
+        "co": "listtable",
+        "ed": true,
+        "sg": "a",
+        "va": {
+            "type": "int",
+            "addr": "fav",
+            "min": 1,
+            "max": 11,
+            "pattern": "0-9"
+        }
+    },
+    "grupo": {
+        "ti": "Grupo",
+        "to": "Grupo",
+        "rng": 1,
+        "ext": false,
+        "nu": true,
+        "ta": "usuarios",
+        "co": "usuarios",
+        "ed": true,
+        "va": {
+            "type": "text",
+            "addr": "grupo",
+            "min": 1,
+            "max": 11,
+            "pattern": "0-9"
+        }
+    },
+    "general": {
+        "ti": "Nivel de s",
+        "to": "Nivel de salud",
+        "rng": 4,
+        "ext": false,
+        "nu": false,
+        "ta": "calificacion",
+        "co": "calificacion",
+        "ed": true,
+        "sg": "e",
+        "va": {
+            "type": "tinyi",
+            "addr": "salud",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "imv": {
+        "ti": "Índice MV",
+        "to": "Índice Método Vargas",
+        "rng": 4,
+        "ext": false,
+        "nu": false,
+        "ta": "calificacion",
+        "co": "calificacion",
+        "ed": true,
+        "sg": "bf",
+        "va": {
+            "type": "double",
+            "addr": "imv"
+        }
+    },
+    "cintura": {
+        "ti": "cintura/cadera",
+        "to": "cintura/cadera",
+        "rng": 1,
+        "abbr": "cintura/cadera",
+        "ext": true,
+        "nu": true,
+        "addr": "",
+        "ta": "mediciones",
+        "co": "mediciones",
+        "ed": true,
+        "sg": "ek",
+        "va": {
+            "type": "double",
+            "addr": "cintura/cadera"
+        }
+    },
+    "pesoperdido": {
+        "ti": "Peso perdido",
+        "to": "Peso perdido",
+        "rng": 1,
+        "abbr": "Peso perdido",
+        "ext": true,
+        "nu": true,
+        "addr": "kg",
+        "ta": "mediciones",
+        "co": "listtable",
+        "ed": false,
+        "sg": "dñ",
+        "va": {
+            "type": "double",
+            "addr": "peso perdido"
+        }
+    },
+    "grasaperdida": {
+        "ti": "grasa perdida",
+        "to": "grasa perdida",
+        "rng": 1,
+        "abbr": "grasa perdida",
+        "ext": true,
+        "nu": true,
+        "addr": "%",
+        "ta": "listtable",
+        "co": "listtable",
+        "ed": false,
+        "sg": "du",
+        "va": {
+            "type": "double",
+            "addr": "grasa perdida"
+        }
+    },
+    "peso": {
+        "ti": "Peso",
+        "to": "Peso corporal",
+        "rng": 1,
+        "abbr": "Peso",
+        "ext": false,
+        "nu": true,
+        "addr": "kg",
+        "ta": "mediciones",
+        "co": "mediciones",
+        "ed": true,
+        "sg": "p",
+        "va": {
+            "type": "double",
+            "addr": "índice mv"
+        }
+    },
+    "grasab": {
+        "ti": "Grasa Corporal",
+        "to": "Grasa Corporal",
+        "rng": 1,
+        "ext": false,
+        "nu": true,
+        "sg": "dp",
+        "addr": "%",
+        "ta": "mediciones",
+        "co": "mediciones",
+        "ed": true,
+        "va": {
+            "type": "double",
+            "addr": "Grasa Corporal"
+        }
+    },
+    "musculo": {
+        "ti": "Músculos",
+        "to": "Músculos en kilos",
+        "rng": 1,
+        "ext": false,
+        "nu": true,
+        "addr": "kg",
+        "ta": "mediciones",
+        "co": "mediciones",
+        "ed": true,
+        "va": {
+            "type": "double",
+            "addr": "músculos"
+        }
+    },
+    "pai": {
+        "ti": "PAI 2",
+        "to": "Inteligencia de Actividad Personal",
+        "rng": 1,
+        "ext": false,
+        "nu": true,
+        "addr": "",
+        "ta": "registros",
+        "co": "mediciones",
+        "ed": true,
+        "va": {
+            "type": "double",
+            "addr": "pai",
+            "min": 1,
+            "max": 11,
+            "pattern": "0-9"
+        }
+    },
+    "estres": {
+        "ti": "Estrés",
+        "to": "Estrés",
+        "rng": 1,
+        "ext": false,
+        "nu": true,
+        "addr": "",
+        "ta": "mediciones",
+        "co": "mediciones",
+        "ed": true,
+        "va": {
+            "type": "text",
+            "addr": "peso",
+            "min": 1,
+            "max": 11,
+            "pattern": "0-9"
+        }
+    },
+    "suenop": {
+        "ti": "Sueño",
+        "to": "Sueño",
+        "rng": 1,
+        "ext": false,
+        "nu": true,
+        "addr": "",
+        "ta": "mediciones",
+        "co": "mediciones",
+        "ed": true,
+        "va": {
+            "type": "text",
+            "addr": "peso",
+            "min": 1,
+            "max": 11,
+            "pattern": "0-9"
+        }
+    },
+    "pasos->": {
+        "ti": "Pasos 2",
+        "to": "Pasos diarios",
+        "rng": 1,
+        "ext": false,
+        "nu": true,
+        "addr": "",
+        "ta": "registros",
+        "co": null,
+        "ed": false,
+        "va": {
+            "type": "double",
+            "addr": "->",
+            "min": 1,
+            "max": 11,
+            "pattern": "0-9"
+        }
+    },
+    "alimentos": {
+        "ti": "Alimentación 2",
+        "to": "Resumen de Alimentación",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "listtable",
+        "co": "resumen",
+        "ed": false,
+        "va": {
+            "type": "tinyi",
+            "addr": "ALIMENTACIóN",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "actitudes": {
+        "ti": "Actitudes",
+        "to": "Resumen de Actitudes",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "listtable",
+        "co": "resumen",
+        "ed": false,
+        "va": {
+            "type": "tinyi",
+            "addr": "ACTITUDES",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "ambiente": {
+        "ti": "Medio ambiente",
+        "to": "Resumen de Medio ambiente",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "listtable",
+        "co": "resumen",
+        "ed": false,
+        "va": {
+            "type": "tinyi",
+            "addr": "MEDIO AMBIENTE",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "ejercicios": {
+        "ti": "Ejercicio",
+        "to": "Resumen de Ejercicios",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "listtable",
+        "co": "resumen",
+        "ed": false,
+        "sg": "g",
+        "va": {
+            "type": "tinyi",
+            "addr": "EJERCICIO",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "alimentacion": {
+        "ti": "alimentación",
+        "to": "alimentación",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "listtable",
+        "co": "listtable",
+        "ed": false,
+        "sg": "f",
+        "va": {
+            "type": "int",
+            "addr": "alimentación",
+            "min": 1,
+            "max": 11,
+            "pattern": "0-9"
+        }
+    },
+    "emociones": {
+        "ti": "emociones",
+        "to": "emociones",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "listtable",
+        "co": "listtable",
+        "ed": false,
+        "sg": "h",
+        "va": {
+            "type": "int",
+            "addr": "emociones",
+            "min": 1,
+            "max": 11,
+            "pattern": "0-9"
+        }
+    },
+    "eliminar": {
+        "ti": "Eliminar",
+        "to": "Eliminar",
+        "rng": 3,
+        "nu": false,
+        "ext": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "DEL",
+        "va": {
+            "type": "tinyi",
+            "addr": "Eliminar",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "aps": {
+        "ti": "A Psicólogo - APS",
+        "to": "Auditoria Psicólogo",
+        "rng": 3,
+        "ext": false,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "bh",
+        "va": {
+            "type": "tinyi",
+            "addr": "APS",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "ea": {
+        "ti": "Estudio administrador",
+        "to": "Estudio administrador",
+        "rng": 3,
+        "ext": false,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "eg",
+        "va": {
+            "type": "tinyi",
+            "addr": "Estudio administrador",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "tdp": {
+        "ti": "Tipo de procedimiento",
+        "to": "Tipo de procedimiento",
+        "rng": 3,
+        "ext": false,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "dn",
+        "va": {
+            "type": "tinyi",
+            "addr": "APS",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "rgest": {
+        "ti": "Revisión Seguimiento",
+        "to": "Revisión Seguimiento",
+        "rng": 3,
+        "ext": false,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "c",
+        "va": {
+            "type": "tinyi",
+            "addr": "Revisión Seguimiento",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "revision": {
+        "ti": "Auditoria de Seguimiento",
+        "to": "Auditoria de Seguimiento",
+        "rng": 3,
+        "ext": false,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "dw",
+        "va": {
+            "type": "tinyi",
+            "addr": "Revisión Seguimiento",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "seguimiento": {
+        "ti": "Peso Semanal",
+        "to": "Peso Semanal",
+        "rng": 3,
+        "ext": false,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "dx",
+        "va": {
+            "type": "tinyi",
+            "addr": "Peso Semanal",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "apsi": {
+        "ti": "AR metabólica - APSI",
+        "to": "Auditoria reprogramación metabólica",
+        "rng": 3,
+        "ext": false,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "bi",
+        "va": {
+            "type": "tinyi",
+            "addr": "APSI",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "anu": {
+        "ti": "A Nutrición - ANU",
+        "to": "Auditoria Nutrición",
+        "rng": 3,
+        "ext": false,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "bj",
+        "va": {
+            "type": "tinyi",
+            "addr": "ANU",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "aej": {
+        "ti": "A Ejercicios - AEJ",
+        "to": "Auditoria Ejercicios",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "bk",
+        "va": {
+            "type": "tinyi",
+            "addr": "AEJ",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "aea": {
+        "ti": "A Ejercicios A - AEA",
+        "to": "Auditoria Ejercicios Avanzado",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "AEA",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "amc": {
+        "ti": "A cita médica - AMC",
+        "to": "Auditoria cita médica",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "s",
+        "va": {
+            "type": "tinyi",
+            "addr": "AMC",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "amed": {
+        "ti": "A médica - AMED",
+        "to": "Auditoria médica",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "bm",
+        "va": {
+            "type": "tinyi",
+            "addr": "AMED",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "arel": {
+        "ti": "A Reloj - AREL",
+        "to": "Utiliza Reloj",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "bn",
+        "va": {
+            "type": "tinyi",
+            "addr": "AREL",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "abal": {
+        "ti": "A Balanza - ABAL",
+        "to": "Utiliza Balanza",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "bñ",
+        "va": {
+            "type": "tinyi",
+            "addr": "ABAL",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "awa": {
+        "ti": "A WhatsApp - AWHA",
+        "to": "Utiliza WhatsApp",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "o",
+        "va": {
+            "type": "tinyi",
+            "addr": "AWHA",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "eawa": {
+        "ti": "Estado auditoria WhatsApp",
+        "to": "Estado de la respuesta del paciente via WhatsApp",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "au",
+        "va": {
+            "type": "tinyi",
+            "addr": "Estado auditoria WhatsApp",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "aan": {
+        "ti": "A Ansiedad - AAN",
+        "to": "Siente Ansiedad",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "ba",
+        "va": {
+            "type": "tinyi",
+            "addr": "AAN",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "apc": {
+        "ti": "A paciente comp - APC",
+        "to": "Auditoria paciente complicado",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "bt",
+        "va": {
+            "type": "tinyi",
+            "addr": "APC",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "apr": {
+        "ti": "P rescatado - APR",
+        "to": "Auditoria paciente rescatado",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "bu",
+        "va": {
+            "type": "tinyi",
+            "addr": "APR",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "ali": {
+        "ti": "Tab litio/dia - ALI",
+        "to": "Tabletas de litio por día esta semana",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "cq",
+        "va": {
+            "type": "tinyi",
+            "addr": "ALI",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "abe": {
+        "ti": "Tab Berberina/dia - ABE",
+        "to": "Cuantas capsulas de berberina por dia esta semana",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "cp",
+        "va": {
+            "type": "tinyi",
+            "addr": "ABE",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "atb": {
+        "ti": "Tiempo berberina - ATB",
+        "to": "tiempo de berberina",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "cs",
+        "va": {
+            "type": "tinyi",
+            "addr": "ATB",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "atl": {
+        "ti": "Tiempo litio - ATL",
+        "to": "tiempo de litio",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "ct",
+        "va": {
+            "type": "tinyi",
+            "addr": "ATL",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "ttopiramoto": {
+        "ti": "Tiempo topiramato",
+        "to": "Tiempo topiramato",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "cu",
+        "va": {
+            "type": "tinyi",
+            "addr": "Tiempo topiramato",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "topiramotodosis": {
+        "ti": "Topiramato dosis",
+        "to": "Topiramato dosis",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "cr",
+        "va": {
+            "type": "tinyi",
+            "addr": "Topiramato dosis",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "alg": {
+        "ti": "Cuantas ligaduras - ALG",
+        "to": "Cuantas ligaduras",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "cv",
+        "va": {
+            "type": "tinyi",
+            "addr": "ALG",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "tlitt": {
+        "ti": "Disponibilidad litio - TLITT",
+        "to": "Disponibilidad de litio",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "cw",
+        "va": {
+            "type": "tinyi",
+            "addr": "TLITT",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "tber": {
+        "ti": "Disponibilidad Berberia - RBER",
+        "to": "Disponibilidad de Berberia",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "cx",
+        "va": {
+            "type": "tinyi",
+            "addr": "RBER",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "snac": {
+        "ti": "Ref Rep",
+        "to": "Referencia reprogramación",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "bd",
+        "va": {
+            "type": "tinyi",
+            "addr": "SNAKS",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "lab": {
+        "ti": "A laboratorio - LAB",
+        "to": "Auditorio laboratorio",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "LAB",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "atfb": {
+        "ti": "A flores B - ATFB",
+        "to": "Cuanto tiempo está tomado las flores de Bach",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "bc",
+        "va": {
+            "type": "tinyi",
+            "addr": "ATFB",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "pau": {
+        "ti": "Pac autorizados - PAU",
+        "to": "Pac autorizados",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "ñ",
+        "va": {
+            "type": "tinyi",
+            "addr": "PAU",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "par": {
+        "ti": "Pacientes referidos - PAR",
+        "to": "Pacientes referidos",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "bv",
+        "va": {
+            "type": "tinyi",
+            "addr": "PAR",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "ar": {
+        "ti": "Auditoria resumen - AR",
+        "to": "Auditoria resumen",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "bo",
+        "va": {
+            "type": "tinyi",
+            "addr": "AR",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "fpd": {
+        "ti": "FPD",
+        "to": "Flores de Bach pagaron o se le obsequió",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "bb",
+        "va": {
+            "type": "tinyi",
+            "addr": "FPD",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "afl": {
+        "ti": "AFL",
+        "to": "Auditorio flores",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "dc",
+        "va": {
+            "type": "tinyi",
+            "addr": "AFL",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "telomero": {
+        "ti": "Telomero",
+        "to": "Test de Telomero",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "cy",
+        "va": {
+            "type": "tinyi",
+            "addr": "AFL",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "estrellas": {
+        "ti": "Estrellas",
+        "to": "Estrellas",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "bp",
+        "va": {
+            "type": "tinyi",
+            "addr": "estrellas",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "c0": {
+        "ti": "WhatsApp Actitudes",
+        "to": "Inserción de datos vía WhatsApp",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "actitudes",
+        "co": "actitudes",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "C0",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "c1": {
+        "ti": "20 cosas a la vez",
+        "to": "Hacer 20 cosas a la vez",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "actitudes",
+        "co": "actitudes",
+        "ed": true,
+        "sg": "y",
+        "va": {
+            "type": "tinyi",
+            "addr": "C1",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "c2": {
+        "ti": "Todo perfecto",
+        "to": "Todo debe ser perfecto",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "actitudes",
+        "co": "actitudes",
+        "ed": true,
+        "sg": "z",
+        "va": {
+            "type": "tinyi",
+            "addr": "C2",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "c3": {
+        "ti": "Ocuparse y preocuparse",
+        "to": "Tendencia a no ocuparse y preocuparse",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "actitudes",
+        "co": "actitudes",
+        "ed": true,
+        "sg": "aa",
+        "va": {
+            "type": "tinyi",
+            "addr": "C3",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "c4": {
+        "ti": "Decir no",
+        "to": "No saber decir no",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "actitudes",
+        "co": "actitudes",
+        "ed": true,
+        "sg": "ab",
+        "va": {
+            "type": "tinyi",
+            "addr": "C4",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "c5": {
+        "ti": "Todo rápido",
+        "to": "Tendencia a hacer todo rápido",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "actitudes",
+        "co": "actitudes",
+        "ed": true,
+        "sg": "ac",
+        "va": {
+            "type": "tinyi",
+            "addr": "C5",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "b0": {
+        "ti": "WhatsApp Médio Ambiente",
+        "to": "Inserción de datos vía WhatsApp",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "ambiente",
+        "co": "ambiente",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "B0",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "b1": {
+        "ti": "Pareja",
+        "to": "Relación con su pareja",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "ambiente",
+        "co": "ambiente",
+        "ed": true,
+        "sg": "ad",
+        "va": {
+            "type": "tinyi",
+            "addr": "PAREJA",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "b2": {
+        "ti": "Hijos",
+        "to": "Relación con sus hijos",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "ambiente",
+        "co": "ambiente",
+        "ed": true,
+        "sg": "ae",
+        "va": {
+            "type": "tinyi",
+            "addr": "HIJOS",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "b3": {
+        "ti": "Familia",
+        "to": "Relación con su familia",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "ambiente",
+        "co": "ambiente",
+        "ed": true,
+        "sg": "af",
+        "va": {
+            "type": "tinyi",
+            "addr": "FAMILIA",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "b4": {
+        "ti": "Casa",
+        "to": "Comodidad en el hogar",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "ambiente",
+        "co": "ambiente",
+        "ed": true,
+        "sg": "ag",
+        "va": {
+            "type": "tinyi",
+            "addr": "CASA",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "b5": {
+        "ti": "Trabajo",
+        "to": "Relación en su trabajo",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "ambiente",
+        "co": "ambiente",
+        "ed": true,
+        "sg": "ah",
+        "va": {
+            "type": "tinyi",
+            "addr": "TRABAJO",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "b6": {
+        "ti": "Enfermedad 2",
+        "to": "Enfermedad",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "ambiente",
+        "co": "ambiente",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "Enfermedad",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "b7": {
+        "ti": "Política",
+        "to": "Preocupación por la situación actual política del país",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "ambiente",
+        "co": "ambiente",
+        "ed": true,
+        "sg": "bw",
+        "va": {
+            "type": "tinyi",
+            "addr": "POLíTICA",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "psc": {
+        "ti": "Citas PSI",
+        "to": "Citas PSI",
+        "rng": 3,
+        "ext": false,
+        "nu": false,
+        "ta": "reprogramacion",
+        "co": "reprogramacion",
+        "ed": true,
+        "sg": "ax",
+        "va": {
+            "type": "tinyi",
+            "addr": "PSC",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "rec": {
+        "ti": "Citas REP",
+        "to": "Citas REP",
+        "rng": 3,
+        "ext": true,
+        "nu": false,
+        "ta": "reprogramacion",
+        "co": "reprogramacion",
+        "ed": true,
+        "sg": "r",
+        "va": {
+            "type": "tinyi",
+            "addr": "REP",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "opsi": {
+        "ti": "Entrenador en reprogramación",
+        "to": "Entrenador en reprogramación",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "reprogramacion",
+        "co": "reprogramacion",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "OPSI",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "feom": {
+        "ti": "Familiar enfermo o muerto",
+        "to": "Familiar enfermo o muerto",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "reprogramacion",
+        "co": "reprogramacion",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "FEOM",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "infidelidad": {
+        "ti": "Infidelidad",
+        "to": "Infidelidad",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "reprogramacion",
+        "co": "reprogramacion",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "infidelidad",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "infertilidad": {
+        "ti": "Infertilidad",
+        "to": "Infertilidad",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "reprogramacion",
+        "co": "reprogramacion",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "Infertilidad",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "padreshijos": {
+        "ti": "padres hijos",
+        "to": "padres hijos",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "reprogramacion",
+        "co": "reprogramacion",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "padres hijos",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "trabajo": {
+        "ti": "Trabajo 2",
+        "to": "Trabajo",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "reprogramacion",
+        "co": "reprogramacion",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "Trabajo",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "traumasf": {
+        "ti": "Traumas familiares",
+        "to": "Traumas familiares",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "reprogramacion",
+        "co": "reprogramacion",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "Traumas familiares",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "nadva": {
+        "ti": "No aceptación de vida actual",
+        "to": "No aceptación de vida actual",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "reprogramacion",
+        "co": "reprogramacion",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "No aceptación de vida actual",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "enfpsi": {
+        "ti": "Enfermedad psiquiátrica",
+        "to": "Enfermedad psiquiátrica",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "reprogramacion",
+        "co": "reprogramacion",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "Enfermedad psiquiátrica",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "hppsi": {
+        "ti": "Hijo de padres psiquiátricos",
+        "to": "Hijo de padres psiquiátricos",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "reprogramacion",
+        "co": "reprogramacion",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "Hijo de padres psiquiátricos",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "anot": {
+        "ti": "otros",
+        "to": "otros",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "reprogramacion",
+        "co": "reprogramacion",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "otros",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "neepv": {
+        "ti": "No entendió el protocolo",
+        "to": "No entendió el protocolo",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "reprogramacion",
+        "co": "reprogramacion",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "No entendió el protocolo",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "rabia": {
+        "ti": "Está logrando desactivar los pensamientos rumiantes",
+        "to": "Está logrando desactivar los pensamientos rumiantes",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "reprogramacion",
+        "co": "reprogramacion",
+        "ed": true,
+        "sg": "bx",
+        "va": {
+            "type": "tinyi",
+            "addr": "Reprogramación rabia",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "ransiedad": {
+        "ti": "Los factores que generan emociones conflictivas están mejorando",
+        "to": "Los factores que generan emociones conflictivas están mejorando",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "reprogramacion",
+        "co": "reprogramacion",
+        "ed": true,
+        "sg": "by",
+        "va": {
+            "type": "tinyi",
+            "addr": "Reprogramación ansiedad",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "tristeza": {
+        "ti": "Miedo",
+        "to": "Reprogramación Miedo",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "reprogramacion",
+        "co": "reprogramacion",
+        "ed": true,
+        "sg": "bz",
+        "va": {
+            "type": "tinyi",
+            "addr": "Reprogramación Miedo",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "insight": {
+        "ti": "Insight",
+        "to": "Reprogramación insight",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "reprogramacion",
+        "co": "reprogramacion",
+        "ed": true,
+        "sg": "ai",
+        "va": {
+            "type": "tinyi",
+            "addr": "Reprogramación insight",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "holly": {
+        "ti": "holly",
+        "to": "holly",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "bach",
+        "co": "bach",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "holly",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "chicory": {
+        "ti": "chicory",
+        "to": "chicory",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "bach",
+        "co": "bach",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "chicory",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "agrimony": {
+        "ti": "agrimony",
+        "to": "agrimony",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "bach",
+        "co": "bach",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "agrimony",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "rock_water": {
+        "ti": "rock water",
+        "to": "rock water",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "bach",
+        "co": "bach",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "rock_water",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "aspen": {
+        "ti": "aspen",
+        "to": "aspen",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "bach",
+        "co": "bach",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "aspen",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "larch": {
+        "ti": "larch",
+        "to": "larch",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "bach",
+        "co": "bach",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "larch",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "gorse": {
+        "ti": "gorse",
+        "to": "gorse",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "bach",
+        "co": "bach",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "gorse",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "wild_oat": {
+        "ti": "wild oat",
+        "to": "wild oat",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "bach",
+        "co": "bach",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "wild_oat",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "heather": {
+        "ti": "heather",
+        "to": "heather",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "bach",
+        "co": "bach",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "heather",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "chesnut_bud": {
+        "ti": "chesnut bud",
+        "to": "chesnut bud",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "bach",
+        "co": "bach",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "chesnut_bud",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "white_chesnut": {
+        "ti": "white chesnut",
+        "to": "white chesnut",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "bach",
+        "co": "bach",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "white_chesnut",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "sweet_chesnut": {
+        "ti": "sweet chesnut",
+        "to": "sweet chesnut",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "bach",
+        "co": "bach",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "sweet_chesnut",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "red_chesnut": {
+        "ti": "red chesnut",
+        "to": "red chesnut",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "bach",
+        "co": "bach",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "red_chesnut",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "centaury": {
+        "ti": "centaury",
+        "to": "centaury",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "bach",
+        "co": "bach",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "centaury",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "cherry_plum": {
+        "ti": "cherry plum",
+        "to": "cherry plum",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "bach",
+        "co": "bach",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "cherry_plum",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "cerato": {
+        "ti": "cerato",
+        "to": "cerato",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "bach",
+        "co": "bach",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "cerato",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "clematis": {
+        "ti": "clematis",
+        "to": "clematis",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "bach",
+        "co": "bach",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "clematis",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "star_of_bethlehem": {
+        "ti": "star of bethlehem",
+        "to": "star of bethlehem",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "bach",
+        "co": "bach",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "star_of_bethlehem",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "gentian": {
+        "ti": "gentian",
+        "to": "gentian",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "bach",
+        "co": "bach",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "gentian",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "beech": {
+        "ti": "beech",
+        "to": "beech",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "bach",
+        "co": "bach",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "beech",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "rock_rose": {
+        "ti": "rock rose",
+        "to": "rock rose",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "bach",
+        "co": "bach",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "rock_rose",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "hornbeam": {
+        "ti": "hornbeam",
+        "to": "hornbeam",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "bach",
+        "co": "bach",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "hornbeam",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "impatiens": {
+        "ti": "impatiens",
+        "to": "impatiens",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "bach",
+        "co": "bach",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "impatiens",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "honeysuckle": {
+        "ti": "honeysuckle",
+        "to": "honeysuckle",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "bach",
+        "co": "bach",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "honeysuckle",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "crab_apple": {
+        "ti": "crab apple",
+        "to": "crab apple",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "bach",
+        "co": "bach",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "crab_apple",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "mimulus": {
+        "ti": "mimulus",
+        "to": "mimulus",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "bach",
+        "co": "bach",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "mimulus",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "mustard": {
+        "ti": "mustard",
+        "to": "mustard",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "bach",
+        "co": "bach",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "mustard",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "walnut": {
+        "ti": "walnut",
+        "to": "walnut",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "bach",
+        "co": "bach",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "walnut",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "olive": {
+        "ti": "olive",
+        "to": "olive",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "bach",
+        "co": "bach",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "olive",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "elm": {
+        "ti": "elm",
+        "to": "elm",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "bach",
+        "co": "bach",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "elm",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "pine": {
+        "ti": "pine",
+        "to": "pine",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "bach",
+        "co": "bach",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "pine",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "oak": {
+        "ti": "oak",
+        "to": "oak",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "bach",
+        "co": "bach",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "oak",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "wild_rose": {
+        "ti": "wild rose",
+        "to": "wild rose",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "bach",
+        "co": "bach",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "wild_rose",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "willow": {
+        "ti": "willow",
+        "to": "willow",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "bach",
+        "co": "bach",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "willow",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "scleranthus": {
+        "ti": "scleranthus",
+        "to": "scleranthus",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "bach",
+        "co": "bach",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "scleranthus",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "verbain": {
+        "ti": "verbain",
+        "to": "verbain",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "bach",
+        "co": "bach",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "verbain",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "vine": {
+        "ti": "vine",
+        "to": "vine",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "bach",
+        "co": "bach",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "vine",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "water_violet": {
+        "ti": "water violet",
+        "to": "water violet",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "bach",
+        "co": "bach",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "water_violet",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "rescue_remedy": {
+        "ti": "rescue remedy",
+        "to": "rescue remedy",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "bach",
+        "co": "bach",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "rescue_remedy",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "fase": {
+        "ti": "Fase",
+        "to": "Fase de alimentación",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "alimentos",
+        "co": null,
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "FASE",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "cumplimiento": {
+        "ti": "cumplimiento",
+        "to": "Cumplimiento del plan alimenticio",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "alimentos",
+        "co": "alimentos",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "CUMPLIMIENTO",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "citanut": {
+        "ti": "Cita nutrición",
+        "to": "Cita nutrición",
+        "rng": 3,
+        "ext": true,
+        "nu": false,
+        "ta": "alimentos",
+        "co": "alimentos",
+        "ed": true,
+        "sg": "av",
+        "va": {
+            "type": "tinyi",
+            "addr": "Cita nutrición",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "licnut": {
+        "ti": "Licenciada nutrición",
+        "to": "Licenciada nutrición",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "alimentos",
+        "co": "alimentos",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "Licenciada nutrición",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "lic1": {
+        "ti": "Nutricionista 1",
+        "to": "Licenciada Nutricionista nivel 1",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "alimentos",
+        "co": "alimentos",
+        "ed": true,
+        "sg": "t",
+        "va": {
+            "type": "tinyi",
+            "addr": "Nutricionista 1",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "lic2": {
+        "ti": "Nutrición 2",
+        "to": "Nutrición 2",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "alimentos",
+        "co": "alimentos",
+        "ed": true,
+        "sg": "az",
+        "va": {
+            "type": "tinyi",
+            "addr": "Nutricionista 2",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "lic3": {
+        "ti": "Nutricionista 3",
+        "to": "Licenciada Nutricionista nivel 3",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "alimentos",
+        "co": "alimentos",
+        "ed": true,
+        "sg": "bq",
+        "va": {
+            "type": "tinyi",
+            "addr": "Nutricionista 3",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "nf1": {
+        "ti": "Nutrición 1",
+        "to": "Nutrición 1",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "alimentos",
+        "co": "alimentos",
+        "ed": true,
+        "sg": "ay",
+        "va": {
+            "type": "tinyi",
+            "addr": "Nutrición F1",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "nf2": {
+        "ti": "Nutricionista 2",
+        "to": "Licenciada Nutricionista nivel 2",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "alimentos",
+        "co": "alimentos",
+        "ed": true,
+        "sg": "u",
+        "va": {
+            "type": "tinyi",
+            "addr": "Nutricionista 2",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "nf3": {
+        "ti": "Nutrición F3",
+        "to": "Nutrición Fase 3",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "alimentos",
+        "co": "alimentos",
+        "ed": true,
+        "sg": "br",
+        "va": {
+            "type": "tinyi",
+            "addr": "Nutrición F3",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "pharinas": {
+        "ti": "Adicción de harinas",
+        "to": "Adicción de harinas",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "alimentos",
+        "co": "alimentos",
+        "ed": true,
+        "sg": "w",
+        "va": {
+            "type": "tinyi",
+            "addr": "HARINAS",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "pdulces": {
+        "ti": "Adicción de dulces",
+        "to": "Adicción de dulces",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "alimentos",
+        "co": "alimentos",
+        "ed": true,
+        "sg": "v",
+        "va": {
+            "type": "tinyi",
+            "addr": "DULCES",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "apetito": {
+        "ti": "Apetito o Ansiedad",
+        "to": "Apetito o Ansiedad",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "alimentos",
+        "co": "alimentos",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "APETITO",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "atracones": {
+        "ti": "Atracones",
+        "to": "Atracones",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "alimentos",
+        "co": "alimentos",
+        "ed": true,
+        "sg": "bs",
+        "va": {
+            "type": "tinyi",
+            "addr": "POR LAS HARINAS",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "hiperuricemia": {
+        "ti": "Hiperuricemia",
+        "to": "Hiperuricemia",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "intolerancias",
+        "co": "alimentos",
+        "ed": true,
+        "va": {
+            "addr": "Hiperuricemia",
+            "type": "tinyi"
+        }
+    },
+    "lactosa": {
+        "ti": "Lactosa",
+        "to": "Intolerancia a la lactosa",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "intolerancias",
+        "co": "alimentos",
+        "ed": true,
+        "sg": "ca",
+        "va": {
+            "addr": "lactosa",
+            "type": "tinyi"
+        }
+    },
+    "fructosa": {
+        "ti": "Fructosa",
+        "to": "Intolerancia a la fructosa",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "intolerancias",
+        "co": "alimentos",
+        "ed": true,
+        "sg": "cb",
+        "va": {
+            "addr": "fructosa",
+            "type": "tinyi"
+        }
+    },
+    "gluten": {
+        "ti": "Gluten",
+        "to": "Intolerancia al gluten",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "intolerancias",
+        "co": "alimentos",
+        "ed": true,
+        "sg": "cc",
+        "va": {
+            "addr": "Gluten",
+            "type": "tinyi"
+        }
+    },
+    "rambiente": {
+        "ti": "Resumen Ambiente",
+        "to": "Resumen Ambiente",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "listtable",
+        "co": "listtable",
+        "ed": false,
+        "sg": "dz",
+        "va": {
+            "addr": "Ambiente",
+            "type": "tinyi"
+        }
+    },
+    "ralimentos": {
+        "ti": "Resumen Alimentos",
+        "to": "Resumen Alimentos",
+        "rng": 1,
+        "nu": false,
+        "ext": false,
+        "ta": "listtable",
+        "co": "listtable",
+        "ed": false,
+        "sg": "ea",
+        "va": {
+            "addr": "Alimentos",
+            "type": "tinyi"
+        }
+    },
+    "rejercicios": {
+        "ti": "Resumen Ejercicios",
+        "to": "Resumen Ejercicios",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "listtable",
+        "co": "listtable",
+        "ed": false,
+        "sg": "eb",
+        "va": {
+            "addr": "Ejercicios",
+            "type": "tinyi"
+        }
+    },
+    "ractitudes": {
+        "ti": "Resumen Actitudes",
+        "to": "Resumen Actitudes",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "listtable",
+        "co": "listtable",
+        "ed": false,
+        "sg": "eh",
+        "va": {
+            "addr": "Actitudes",
+            "type": "tinyi"
+        }
+    },
+    "a1": {
+        "ti": "Por los dulces",
+        "to": "Adición a los dulces",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "adiciones",
+        "co": null,
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "POR LOS DULCES",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "a2": {
+        "ti": "Por las harinas",
+        "to": "Adición a las harinas",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "adiciones",
+        "co": null,
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "POR LAS HARINAS",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "a3": {
+        "ti": "Comer por ansiedad",
+        "to": "Comer por ansiedad",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "adiciones",
+        "co": "alimentos",
+        "ed": true,
+        "sg": "x",
+        "va": {
+            "type": "tinyi",
+            "addr": "COMER POR ANSIEDAD",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "ejenba": {
+        "ti": "Ejercicios N básico",
+        "to": "Ejercicios N básico",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "ejercicios",
+        "co": "listtable",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "Ejercicios N básico",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "citaeje": {
+        "ti": "CitaJb (Cita entrenador básico)",
+        "to": "CitaJb (Cita entrenador básico)",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "ejercicios",
+        "co": "listtable",
+        "ed": true,
+        "sg": "aw",
+        "va": {
+            "type": "tinyi",
+            "addr": "CitaJb (Cita entrenador básico)",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "nivel": {
+        "ti": "N de ejercicios (Niv)",
+        "to": "Nivel maximo de ejército",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "ejercicios",
+        "co": "ejercicios",
+        "ed": true,
+        "sg": "dd",
+        "va": {
+            "type": "tinyi",
+            "addr": "NIVEL",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "caminar": {
+        "ti": "Pasos P",
+        "to": "Pasos P",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "ejercicios",
+        "co": "ejercicios",
+        "ed": true,
+        "sg": "em",
+        "va": {
+            "type": "tinyi",
+            "addr": "Pasos",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "pasose": {
+        "ti": "Pasos",
+        "to": "Pasos",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "ejercicios",
+        "co": "listtable",
+        "ed": true,
+        "sg": "aq",
+        "va": {
+            "type": "tinyi",
+            "addr": "Pasos",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "pdiario": {
+        "ti": "Peso diario",
+        "to": "Progreso de peso diario",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ed": false,
+        "ta": "listtable",
+        "co": "listtable",
+        "sg": "d",
+        "va": {
+            "type": "tinyi",
+            "addr": "Pesos diario",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "pesocolor": {
+        "ti": "Peso diario 2",
+        "to": "Perdida de peso diario",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ed": false,
+        "ta": "listtable",
+        "co": "listtable",
+        "va": {
+            "type": "tinyi",
+            "addr": "Pesos con color diario",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "avance": {
+        "ti": "Avance",
+        "to": "Pacientes que avanzaron en su plan",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ed": false,
+        "ta": "listtable",
+        "co": "listtable",
+        "va": {
+            "type": "tinyi",
+            "addr": "Avance",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "ejercicio": {
+        "ti": "Reporte de ejercicios",
+        "to": "Reporte de ejercicios",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "listtable",
+        "co": "listtable",
+        "ed": false,
+        "va": {
+            "addr": "Reporte de ejercicios",
+            "type": "tinyi"
+        }
+    },
+    "avancejercicio": {
+        "ti": "Avance en ejercicios",
+        "to": "Pacientes que avanzaron en ejercicios",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ed": false,
+        "ta": "listtable",
+        "co": "listtable",
+        "va": {
+            "type": "tinyi",
+            "addr": "Avance ejercicios",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "peso_diario": {
+        "ti": "Peso a perder diario",
+        "to": "Peso a perder diario",
+        "nu": true,
+        "addr": "g",
+        "ext": true,
+        "ta": "listtable",
+        "co": "listtable",
+        "sg": "dv",
+        "rng": 1,
+        "ed": false,
+        "va": {
+            "type": "double",
+            "addr": "Peso corporal"
+        }
+    },
+    "gd": {
+        "ti": "Grasa a perder diario",
+        "to": "Grasa a perder diario",
+        "rng": 1,
+        "ext": true,
+        "nu": true,
+        "addr": "%",
+        "ta": "listtable",
+        "co": "listtable",
+        "ed": false,
+        "sg": "dt",
+        "va": {
+            "type": "tinyi",
+            "addr": "Pasos",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "recalcular": {
+        "ti": "Semana de recalculo",
+        "to": "Semana de recalculo",
+        "rng": 1,
+        "ext": true,
+        "nu": true,
+        "ta": "listtable",
+        "co": "listtable",
+        "ed": false,
+        "sg": "j",
+        "va": {
+            "type": "tinyi",
+            "addr": "Recalcular",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "bandas": {
+        "ti": "Bandas",
+        "to": "Día",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "ejercicios",
+        "co": "listtable",
+        "ed": true,
+        "sg": "ar",
+        "va": {
+            "type": "tinyi",
+            "addr": "Bansas",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "token": {
+        "ti": "Notificaciones",
+        "to": "Disponibilidad para Notificaciones",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "firebase_token",
+        "co": "administracion",
+        "ed": false,
+        "sg": "be",
+        "va": {
+            "type": "tinyi",
+            "addr": "Notificaciones",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "paie": {
+        "ti": "Pai",
+        "to": "Pai",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "ejercicios",
+        "co": "listtable",
+        "ed": true,
+        "sg": "as",
+        "va": {
+            "type": "tinyi",
+            "addr": "Pai",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "pisose": {
+        "ti": "Pisos",
+        "to": "Pisos",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "ejercicios",
+        "co": "listtable",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "Pisos",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "suenoe": {
+        "ti": "Sueño EJ",
+        "to": "Sueño EJ",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "ejercicios",
+        "co": "ejercicios",
+        "ed": true,
+        "sg": "de",
+        "va": {
+            "type": "tinyi",
+            "addr": "Sueño",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "ejeavz": {
+        "ti": "Cita EjAv",
+        "to": "Cita para ejercicios avanzados",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "ejercicios",
+        "co": "ejercicios",
+        "ed": true,
+        "sg": "bl",
+        "va": {
+            "type": "tinyi",
+            "addr": "Cita para ejercicios avanzados",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "calee": {
+        "ti": "CalE",
+        "to": "CalE",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "ejercicios",
+        "co": "listtable",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "CalE",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "fche": {
+        "ti": "Frecuencia cardiaca máxima",
+        "to": "FC max",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "ejercicios",
+        "co": "listtable",
+        "ed": true,
+        "sg": "df",
+        "va": {
+            "type": "tinyi",
+            "addr": "FC max",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "fcme": {
+        "ti": "Frecuencia cardiaca media",
+        "to": "FC Media",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "ejercicios",
+        "co": "listtable",
+        "ed": true,
+        "sg": "dg",
+        "va": {
+            "type": "tinyi",
+            "addr": "FC Media",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "fcre": {
+        "ti": "Frecuencia cardiaca en reposo",
+        "to": "FC Reposo",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "ejercicios",
+        "co": "listtable",
+        "ed": true,
+        "sg": "dh",
+        "va": {
+            "type": "tinyi",
+            "addr": "FC Reposo",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "hhda": {
+        "ti": "Historial del día A",
+        "to": "Historial del día A",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "ejercicios",
+        "co": "listtable",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "Historial del día A",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "kmr": {
+        "ti": "Km recorridos",
+        "to": "Km recorridos",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "ejercicios",
+        "co": "listtable",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "Km recorridos",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "hhdb": {
+        "ti": "Historial del día B",
+        "to": "Historial del día B",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "ejercicios",
+        "co": "listtable",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "Historial del día B",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "exie": {
+        "ti": "Oxi",
+        "to": "Oxi",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "ejercicios",
+        "co": "listtable",
+        "ed": true,
+        "sg": "dk",
+        "va": {
+            "type": "tinyi",
+            "addr": "Oxi",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "mmdor": {
+        "ti": "Medidor",
+        "to": "Medidor",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "ejercicios",
+        "co": "listtable",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "Medidor",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "hhdc": {
+        "ti": "Historial del día C",
+        "to": "Historial del día C",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "ejercicios",
+        "co": "listtable",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "Historial del día C",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "caloe": {
+        "ti": "Calorias",
+        "to": "Calorias",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "ejercicios",
+        "co": "listtable",
+        "ed": true,
+        "sg": "di",
+        "va": {
+            "type": "tinyi",
+            "addr": "Calorias",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "minle": {
+        "ti": "Min 1",
+        "to": "Min 1",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "ejercicios",
+        "co": "listtable",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "Min 1",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "neste": {
+        "ti": "N Est",
+        "to": "N Est",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "ejercicios",
+        "co": "listtable",
+        "ed": true,
+        "sg": "dj",
+        "va": {
+            "type": "tinyi",
+            "addr": "N Est",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "vo2e": {
+        "ti": "VO2 Max",
+        "to": "VO2 Max",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "ejercicios",
+        "co": "listtable",
+        "ed": true,
+        "sg": "dl",
+        "va": {
+            "type": "tinyi",
+            "addr": "VO2 Max",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "movimiento": {
+        "ti": "De pie",
+        "to": "Tiempo de pie",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "ejercicios",
+        "co": "listtable",
+        "ed": true,
+        "sg": "dy",
+        "va": {
+            "type": "tinyi",
+            "addr": "De pie",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "entreavanza": {
+        "ti": "Entrenador avanzado",
+        "to": "Entrenador avanzado",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "ejercicios",
+        "co": null,
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "Entrenador avanzado",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "entrenador": {
+        "ti": "Entrenador nivel básico",
+        "to": "Entrenador nivel básico",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "ejercicios",
+        "co": null,
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "Entrenador nivel básico",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "cefalea": {
+        "ti": "Cefalea",
+        "to": "Cefalea",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "sintomas",
+        "co": "sintomas",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "Cefalea",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "acidez": {
+        "ti": "Acidez",
+        "to": "Acidez",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "sintomas",
+        "co": "sintomas",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "ACIDEZ",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "flatulencias": {
+        "ti": "Flatulencia",
+        "to": "Flatulencia",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "sintomas",
+        "co": "sintomas",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "FLATULENCIA",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "estrenimiento": {
+        "ti": "Estreñimiento",
+        "to": "Estreñimiento",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "sintomas",
+        "co": "sintomas",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "ESTREñIMIENTO",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "ronquidos": {
+        "ti": "Ronquidos",
+        "to": "Ronquidos",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "sintomas",
+        "co": "sintomas",
+        "ed": true,
+        "sg": "an",
+        "va": {
+            "type": "tinyi",
+            "addr": "RONQUIDOS",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "rodillas": {
+        "ti": "Rodillas",
+        "to": "Rodillas",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "sintomas",
+        "co": "sintomas",
+        "ed": true,
+        "sg": "añ",
+        "va": {
+            "type": "tinyi",
+            "addr": "RODILLAS",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "insomnio": {
+        "ti": "Insomnio",
+        "to": "Insomnio",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "sintomas",
+        "co": "sintomas",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "INSOMNIO",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "piernas": {
+        "ti": "Piernas",
+        "to": "Piernas",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "sintomas",
+        "co": "sintomas",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "PIERNAS",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "reflujo": {
+        "ti": "Reflujo",
+        "to": "Reflujo",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "sintomas",
+        "co": "sintomas",
+        "ed": true,
+        "sg": "ao",
+        "va": {
+            "addr": "Reflujo",
+            "type": "tinyi"
+        }
+    },
+    "tiroides": {
+        "ti": "Tiroides",
+        "to": "Tiroides",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "organos",
+        "co": "organos",
+        "ed": true,
+        "sg": "aj",
+        "va": {
+            "type": "tinyi",
+            "addr": "TIROIDES",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "duodeno": {
+        "ti": "duodeno",
+        "to": "duodeno",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "organos",
+        "co": "organos",
+        "ed": true,
+        "sg": "ch",
+        "va": {
+            "type": "tinyi",
+            "addr": "duodeno",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "carotida": {
+        "ti": "Carótida",
+        "to": "Carótida",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "organos",
+        "co": "organos",
+        "ed": true,
+        "sg": "ce",
+        "va": {
+            "type": "tinyi",
+            "addr": "CAROTIDA",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "higado": {
+        "ti": "Hígado",
+        "to": "Hígado",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "organos",
+        "co": "organos",
+        "ed": true,
+        "sg": "ci",
+        "va": {
+            "type": "tinyi",
+            "addr": "HíGADO",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "faringe": {
+        "ti": "Faringe",
+        "to": "Faringe",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "organos",
+        "co": "organos",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "FARINGE",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "laringe": {
+        "ti": "Laringe",
+        "to": "LAringe",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "organos",
+        "co": "organos",
+        "ed": true,
+        "sg": "cd",
+        "va": {
+            "type": "tinyi",
+            "addr": "LARINGE",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "hiato": {
+        "ti": "Hiato esofágico",
+        "to": "Hiato esofágico",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "organos",
+        "co": "organos",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "HIATO ESOFáGICO",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "esofago": {
+        "ti": "Esófago",
+        "to": "Esófago",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "organos",
+        "co": "organos",
+        "ed": true,
+        "sg": "cf",
+        "va": {
+            "type": "tinyi",
+            "addr": "ESóFAGO",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "estomago": {
+        "ti": "Estómago",
+        "to": "Estómago",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "organos",
+        "co": "organos",
+        "ed": true,
+        "sg": "cg",
+        "va": {
+            "type": "tinyi",
+            "addr": "ESTóMAGO",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "vesicula": {
+        "ti": "Vesícula biliar",
+        "to": "Vesícula biliar",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "organos",
+        "co": "organos",
+        "ed": true,
+        "sg": "ak",
+        "va": {
+            "type": "tinyi",
+            "addr": "VESíCULA BILIAR",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "pancreas": {
+        "ti": "Páncreas",
+        "to": "Páncreas",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "organos",
+        "co": "organos",
+        "ed": true,
+        "sg": "cl",
+        "va": {
+            "type": "tinyi",
+            "addr": "PáNCREAS",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "rinones": {
+        "ti": "Riñones",
+        "to": "Riñones",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "organos",
+        "co": "organos",
+        "ed": true,
+        "sg": "cj",
+        "va": {
+            "type": "tinyi",
+            "addr": "RIñONES",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "bazo": {
+        "ti": "Bazo",
+        "to": "Bazo",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "organos",
+        "co": "organos",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "BAZO",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "colon": {
+        "ti": "Colon",
+        "to": "Colon",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "organos",
+        "co": "organos",
+        "ed": true,
+        "sg": "ck",
+        "va": {
+            "type": "tinyi",
+            "addr": "COLON",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "mamas": {
+        "ti": "Mamas",
+        "to": "Mamas",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "organos",
+        "co": "organos",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "MAMAS",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "prostata": {
+        "ti": "Próstata",
+        "to": "Próstata",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "organos",
+        "co": "organos",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "PRóSTATA",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "sexual": {
+        "ti": "Ovarios/Testículo",
+        "to": "Ovarios/Testículo",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "organos",
+        "co": "organos",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "OVARIOS/TESTíCULO",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "rodilla": {
+        "ti": "Rodilla",
+        "to": "Rodilla",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "organos",
+        "co": "organos",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "RODILLA",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "columna": {
+        "ti": "Columna",
+        "to": "Columna vertebral",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "organos",
+        "co": "organos",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "COLUMNA",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "hipertension": {
+        "to": "Hipertensión arterial",
+        "rng": 1,
+        "ext": true,
+        "ti": "Hipertensión arterial",
+        "nu": false,
+        "ta": "enfermedades",
+        "co": "enfermedades",
+        "ed": true,
+        "sg": "al",
+        "va": {
+            "type": "tinyi",
+            "addr": "miocardio",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "miocardio": {
+        "to": "Infarto de miocardio",
+        "rng": 1,
+        "ext": true,
+        "ti": "Infarto de miocardio",
+        "nu": false,
+        "ta": "enfermedades",
+        "co": "enfermedades",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "miocardio",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "diabetes": {
+        "ti": "Diabetes / hiperinsulinismo",
+        "to": "Diabetes / hiperinsulinismo",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "enfermedades",
+        "co": "enfermedades",
+        "ed": true,
+        "sg": "am",
+        "va": {
+            "type": "tinyi",
+            "addr": "DIABETES",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "apnea": {
+        "ti": "Apnea",
+        "to": "Apnea del sueño",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "enfermedades",
+        "co": "enfermedades",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "APNEA",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "higado_graso": {
+        "ti": "Hígado Graso",
+        "to": "Hígado Graso, cirrosis",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "enfermedades",
+        "co": "enfermedades",
+        "ed": true,
+        "va": {
+            "addr": "Hígado Graso",
+            "type": "tinyi"
+        }
+    },
+    "hipotiroidismo": {
+        "ti": "Hipotiroidismo 2",
+        "to": "Hipotiroidismo",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "enfermedades",
+        "co": "enfermedades",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "HIPOTIROIDISMO",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "cancer": {
+        "ti": "Cáncer",
+        "to": "Cáncer",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "enfermedades",
+        "co": "enfermedades",
+        "ed": true,
+        "sg": "cm",
+        "va": {
+            "type": "tinyi",
+            "addr": "CáNCER",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "familiarcancer": {
+        "to": "Familiar con cáncer",
+        "rng": 1,
+        "ext": true,
+        "ti": "Familiar con cáncer",
+        "nu": false,
+        "ta": "enfermedades",
+        "co": "enfermedades",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "Familiar con cáncer",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "bariatricaprevia": {
+        "to": "Bariátrica previa",
+        "rng": 1,
+        "ext": true,
+        "ti": "Bariátrica previa",
+        "nu": false,
+        "ta": "enfermedades",
+        "co": "enfermedades",
+        "ed": true,
+        "sg": "ap",
+        "va": {
+            "type": "tinyi",
+            "addr": "Bariátrica previa",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "cita": {
+        "ti": "Revisión",
+        "to": "Revisión de esta semana",
+        "rng": 1,
+        "abbr": "REV",
+        "ext": false,
+        "nu": false,
+        "ta": "listtable",
+        "co": "auditorias",
+        "ed": false,
+        "sg": "b",
+        "va": {
+            "type": "tinyi",
+            "addr": "REVISIÓN",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "pi": {
+        "ti": "Peso inicial",
+        "to": "Peso inicial",
+        "rng": 1,
+        "abbr": "PI",
+        "ext": false,
+        "nu": true,
+        "addr": "kg",
+        "ta": "listtable",
+        "co": "listtable",
+        "ed": false,
+        "sg": "k",
+        "va": {
+            "type": "tinyi",
+            "addr": "PI",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "gi": {
+        "ti": "Grasa inicial",
+        "to": "Grasa inicial",
+        "rng": 1,
+        "abbr": "GI",
+        "ext": false,
+        "nu": true,
+        "addr": "%",
+        "ta": "listtable",
+        "co": "listtable",
+        "ed": false,
+        "sg": "dq",
+        "va": {
+            "type": "tinyi",
+            "addr": "PI",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "gm": {
+        "ti": "Grasa Meta",
+        "to": "Grasa Meta",
+        "rng": 1,
+        "abbr": "GM",
+        "ext": false,
+        "nu": true,
+        "addr": "%",
+        "ta": "listtable",
+        "co": "listtable",
+        "ed": false,
+        "sg": "dr",
+        "va": {
+            "type": "tinyi",
+            "addr": "PI",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "pp": {
+        "ti": "Peso programado",
+        "to": "Peso programado",
+        "rng": 1,
+        "abbr": "PP",
+        "addr": "kg",
+        "ext": false,
+        "nu": true,
+        "ta": "listtable",
+        "co": "mediciones",
+        "ed": false,
+        "sg": "l",
+        "va": {
+            "type": "tinyi",
+            "addr": "PP",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "peso_color": {
+        "ti": "Peso color",
+        "to": "Peso color",
+        "rng": 1,
+        "abbr": "Peso color",
+        "ext": false,
+        "nu": false,
+        "ta": "listtable",
+        "co": "listtable",
+        "ed": false,
+        "sg": "ei",
+        "va": {
+            "type": "tinyi",
+            "addr": "peso color",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "grasab_color": {
+        "ti": "Grasa color",
+        "to": "Grasa color",
+        "rng": 1,
+        "abbr": "Grasa color",
+        "ext": false,
+        "nu": false,
+        "ta": "listtable",
+        "co": "listtable",
+        "ed": false,
+        "sg": "ej",
+        "va": {
+            "type": "tinyi",
+            "addr": "Grasa color",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "gp": {
+        "ti": "Grasa programada",
+        "to": "Grasa programada",
+        "rng": 1,
+        "abbr": "GP",
+        "addr": "%",
+        "ext": false,
+        "nu": true,
+        "ta": "listtable",
+        "co": "mediciones",
+        "ed": false,
+        "sg": "ds",
+        "va": {
+            "type": "tinyi",
+            "addr": "GP",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "pm": {
+        "ti": "Peso meta",
+        "to": "Peso meta",
+        "rng": 1,
+        "abbr": "PM",
+        "ext": false,
+        "nu": true,
+        "addr": "kg",
+        "ta": "listtable",
+        "co": "listtable",
+        "ed": false,
+        "sg": "m",
+        "va": {
+            "type": "tinyi",
+            "addr": "PM",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "aeereported": {
+        "ti": "Dias reportados",
+        "to": "Dias reportados",
+        "rng": 1,
+        "abbr": "Dias reportados",
+        "ext": false,
+        "nu": true,
+        "addr": "",
+        "ta": "listtable",
+        "co": "listtable",
+        "ed": false,
+        "sg": "i",
+        "va": {
+            "type": "tinyi",
+            "addr": "Dias reportados",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "diasemana": {
+        "ti": "Dia de reporte",
+        "to": "Dia de reporte",
+        "rng": 1,
+        "abbr": "Dia de reporte",
+        "ext": false,
+        "nu": true,
+        "addr": "",
+        "ta": "listtable",
+        "co": "listtable",
+        "ed": false,
+        "sg": "iel",
+        "va": {
+            "type": "tinyi",
+            "addr": "Dias reportados",
+            "min": 2,
+            "max": 2,
+            "pattern": "a-z"
+        }
+    },
+    "diaspesados": {
+        "ti": "Dias pesados",
+        "to": "Dias pesados",
+        "rng": 1,
+        "abbr": "Dias pesados",
+        "ext": false,
+        "nu": true,
+        "addr": "",
+        "ta": "listtable",
+        "co": "listtable",
+        "ed": false,
+        "sg": "n",
+        "va": {
+            "type": "tinyi",
+            "addr": "Dias pesados",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "balon": {
+        "ti": "Balón",
+        "to": "Balón gástrico",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "antecedentes",
+        "co": "antecedentes",
+        "ed": true,
+        "va": {
+            "addr": "balón",
+            "type": "tinyi"
+        }
+    },
+    "bypass": {
+        "ti": "Bypass",
+        "to": "Bypass gástrico",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "antecedentes",
+        "co": "antecedentes",
+        "ed": true,
+        "va": {
+            "addr": "Bypass",
+            "type": "tinyi"
+        }
+    },
+    "plicatura": {
+        "ti": "Plicatura",
+        "to": "Plicatura gástrica",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "antecedentes",
+        "co": "antecedentes",
+        "ed": true,
+        "va": {
+            "addr": "Plicatura",
+            "type": "tinyi"
+        }
+    },
+    "manga": {
+        "ti": "Manga",
+        "to": "Manga gástrica",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "antecedentes",
+        "co": "antecedentes",
+        "ed": true,
+        "va": {
+            "addr": "Manga",
+            "type": "tinyi"
+        }
+    },
+    "infarto": {
+        "ti": "Infarto",
+        "to": "Infarto",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "enfermedades",
+        "co": null,
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "INFARTO",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "litio": {
+        "ti": "Litio",
+        "to": "Litio",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "tratamiento",
+        "co": "tratamiento",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "LITIO",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "metfotmina": {
+        "ti": "Metformina",
+        "to": "Metformina",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "tratamiento",
+        "co": "tratamiento",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "METFORMINA",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "topiramato": {
+        "ti": "Topiramato",
+        "to": "Topiramato",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "tratamiento",
+        "co": "tratamiento",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "Topiramato",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "chtp": {
+        "ti": "5htp",
+        "to": "5htp",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "tratamiento",
+        "co": "tratamiento",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "5HTP",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "tberberina": {
+        "ti": "Berberina",
+        "to": "Berberina",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "tratamiento",
+        "co": "tratamiento",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "BERBERINA",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "veltrix": {
+        "ti": "Veltryx",
+        "to": "Veltryx",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "tratamiento",
+        "co": "tratamiento",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "VELTRYX",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "selenio": {
+        "ti": "selenio 2",
+        "to": "selenio",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "tratamiento",
+        "co": "tratamiento",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "selenio",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "zinc": {
+        "ti": "zinc 3",
+        "to": "zinc",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "tratamiento",
+        "co": "tratamiento",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "zinc",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "tmagnecio": {
+        "ti": "Magnesio",
+        "to": "Magnesio",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "tratamiento",
+        "co": "tratamiento",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "MAGNESIO",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "espironolactona": {
+        "ti": "Espironolactona",
+        "to": "Espironolactona",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "tratamiento",
+        "co": "tratamiento",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "Espironolactona",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "euthirox": {
+        "ti": "Euthirox",
+        "to": "Euthirox",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "tratamiento",
+        "co": "tratamiento",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "EUTHIROX",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "ligadura": {
+        "ti": "Ligadura",
+        "to": "Ligadura",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "tratamiento",
+        "co": "tratamiento",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "LIGADURA",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "aldactone": {
+        "ti": "Aldactone",
+        "to": "Aldactone",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "tratamiento",
+        "co": "tratamiento",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "ALDACTONE",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "gastroscopia": {
+        "ti": "Gastroscopia",
+        "to": "Gastroscopia",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "evaluaciones",
+        "co": "evaluaciones",
+        "ed": true,
+        "sg": "cn",
+        "va": {
+            "type": "tinyi",
+            "addr": "GASTROSCOPIA",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "ultrasonido": {
+        "ti": "Ultrasonido",
+        "to": "Ultrasonido",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "evaluaciones",
+        "co": "evaluaciones",
+        "ed": true,
+        "sg": "co",
+        "va": {
+            "type": "tinyi",
+            "addr": "Ultrasonido",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "colonoscopia": {
+        "ti": "Colonoscopia",
+        "to": "Colonoscopia",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "evaluaciones",
+        "co": "evaluaciones",
+        "ed": true,
+        "sg": "cñ",
+        "va": {
+            "type": "tinyi",
+            "addr": "COLONOSCOPIA",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "ecosonograma": {
+        "ti": "Ecosonograma",
+        "to": "Ecosonograma",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "evaluaciones",
+        "co": "evaluaciones",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "Ecosonograma",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "laboratorio": {
+        "ti": "Laboratorio entrega",
+        "to": "Laboratorio entrega",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "evaluaciones",
+        "co": "evaluaciones",
+        "ed": true,
+        "sg": "da",
+        "va": {
+            "type": "tinyi",
+            "addr": "Entrega de laboratorio",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "laboratorior": {
+        "ti": "Laboratorio revisado",
+        "to": "Laboratorio revisado",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "evaluaciones",
+        "co": "evaluaciones",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "revisión de laboratorio",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "abdominal": {
+        "ti": "Abdominal",
+        "to": "Abdominal",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "evaluaciones",
+        "co": "evaluaciones",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "ABDOMINAL",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "tidoidese": {
+        "ti": "Tiroides 2",
+        "to": "Tiroides",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "evaluaciones",
+        "co": "evaluaciones",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "TIROIDES",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "elastografia": {
+        "ti": "Elastografía",
+        "to": "Elastografía",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "evaluaciones",
+        "co": "evaluaciones",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "ELASTOGRAFíA",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "etiroides": {
+        "ti": "Elastografía tiroides",
+        "to": "Elastografía de tiroides",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "evaluaciones",
+        "co": "evaluaciones",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "ELASTOGRAFíA TIROIDES",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "ehigado": {
+        "ti": "Elastografía hígado",
+        "to": "Elastografía de hígado",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "evaluaciones",
+        "co": "evaluaciones",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "ELASTOGRAFíA HíGADO",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "epancreas": {
+        "ti": "Elastografía páncreas",
+        "to": "Elastografía de páncreas",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "evaluaciones",
+        "co": "evaluaciones",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "ELASTOGRAFíA PáNCREAS",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "cardiologia": {
+        "ti": "Cardiología",
+        "to": "Cardiología",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "interconsultas",
+        "co": "interconsultas",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "CARDIOLOGíA",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "medicionainterna": {
+        "ti": "Medicina interna",
+        "to": "Medicina interna",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "interconsultas",
+        "co": "interconsultas",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "MEDICINA INTERNA",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "cirujia": {
+        "ti": "Cirugía",
+        "to": "Cirugía",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "interconsultas",
+        "co": "interconsultas",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "Cirugía",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "traumatologo": {
+        "ti": "Traumatólogo",
+        "to": "Traumatólogo",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "interconsultas",
+        "co": "interconsultas",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "TRAUMATóLOGO",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "fisiatria": {
+        "ti": "Fisiatría",
+        "to": "Fisiatría",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "interconsultas",
+        "co": "interconsultas",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "FISIATRíA",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "psiquiatria": {
+        "ti": "Psiquiatría",
+        "to": "Psiquiatría",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "interconsultas",
+        "co": "interconsultas",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "Psiquiatría",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "tpemocional": {
+        "ti": "Terapeuta emocional",
+        "to": "Terapeuta emocional",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "interconsultas",
+        "co": "interconsultas",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "Terapeuta emocional",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "ginecologia": {
+        "ti": "Ginecología",
+        "to": "Ginecología",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "interconsultas",
+        "co": "interconsultas",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "GINECOLOGíA",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "obstetricia": {
+        "ti": "Obstetricia",
+        "to": "Obstetricia",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "interconsultas",
+        "co": "interconsultas",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "OBSTETRICIA",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "pediatria": {
+        "ti": "Pediatría",
+        "to": "pediatría",
+        "rng": 1,
+        "ext": true,
+        "nu": false,
+        "ta": "interconsultas",
+        "co": "interconsultas",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "PEDIATRíA",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "tipodepaciente": {
+        "ti": "Tipo de paciente",
+        "to": "Tipo de paciente",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "administracion",
+        "co": "administracion",
+        "ed": true,
+        "sg": "bg",
+        "va": {
+            "type": "tinyi",
+            "addr": "Tipo de paciente",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "a_kit1": {
+        "ti": "kit 1 mes",
+        "to": "kit 1 mes",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "administracion",
+        "co": "administracion",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "kit 1 mes",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "a_kit3": {
+        "ti": "kit 3 meses",
+        "to": "kit 3 meses",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "administracion",
+        "co": "administracion",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "kit 3 meses",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "a_lig": {
+        "ti": "Ligadura 2",
+        "to": "Ligadura",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "administracion",
+        "co": "administracion",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "Ligadura",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "a_consultm": {
+        "ti": "Consulta Médica",
+        "to": "Consulta Médica",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "administracion",
+        "co": "administracion",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "Consulta Médica",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "a_consultn": {
+        "ti": "Consulta Nutrición",
+        "to": "Consulta Nutrición",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "administracion",
+        "co": "administracion",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "Consulta Nutrición",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "a_consultp": {
+        "ti": "Consulta Psícologo",
+        "to": "Consulta Psícologo",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "administracion",
+        "co": "administracion",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "Consulta Psícologo",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "a_gym": {
+        "ti": "Gimnasio",
+        "to": "Gimnasio",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "administracion",
+        "co": "administracion",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "Gimnasio",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "testnutri": {
+        "ti": "Test nutrigenetico",
+        "to": "Test nutrigenetico",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "administracion",
+        "co": "administracion",
+        "ed": true,
+        "sg": "cz",
+        "va": {
+            "type": "tinyi",
+            "addr": "Test nutrigenetico",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "a_litio": {
+        "ti": "Litio 2",
+        "to": "Litio",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "administracion",
+        "co": "administracion",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "Litio",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "a_ber": {
+        "ti": "Berberina 3",
+        "to": "Berberina",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "administracion",
+        "co": "administracion",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "Berberina",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "a_sel": {
+        "ti": "Selenio",
+        "to": "Selenio",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "administracion",
+        "co": "administracion",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "Selenio",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "a_zinc": {
+        "ti": "Zinc",
+        "to": "Zinc",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "administracion",
+        "co": "administracion",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "Zinc",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "topiromatoadmin": {
+        "ti": "Topiramato 1",
+        "to": "Topiramato",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "administracion",
+        "co": "administracion",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "Topiramato",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "a_mag": {
+        "ti": "Magnesio 2",
+        "to": "Magnesio",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "administracion",
+        "co": "administracion",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "Magnesio",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "pedido": {
+        "ti": "Pedido",
+        "to": "Pedido",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "tienda",
+        "co": "tienda",
+        "ed": true,
+        "sg": "db",
+        "va": {
+            "type": "tinyi",
+            "addr": "Pedido",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "gomas": {
+        "ti": "gomas",
+        "to": "gomas",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "tienda",
+        "co": "tienda",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "gomas",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "chocolat": {
+        "ti": "Chocolate",
+        "to": "Chocolate",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "tienda",
+        "co": "tienda",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "Chocolate",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "harinaalm": {
+        "ti": "Harina ALM",
+        "to": "Harina ALM",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "tienda",
+        "co": "tienda",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "Harina ALM",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "merengada": {
+        "ti": "Merengada",
+        "to": "Merengada",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "tienda",
+        "co": "tienda",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "Merengada",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "clasificacion": {
+        "ti": "Clasificación",
+        "to": "Clasificación",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "permisos",
+        "co": "permisos",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "CLASIFICACIóN",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "time": {
+        "ti": "Tiempo",
+        "to": "Tiempo de acceso",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "permisos",
+        "co": "permisos",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "Tiempo de acceso",
+            "min": 1,
+            "max": 11,
+            "pattern": "0-9"
+        }
+    },
+    "talla": {
+        "ti": "Talla",
+        "to": "Altura",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "complementarios",
+        "co": "listtable",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "talla",
+            "min": 2,
+            "max": 6,
+            "pattern": "0-9."
+        }
+    },
+    "anna": {
+        "ti": "Ana B1",
+        "to": "Ana B1",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "do",
+        "va": {
+            "type": "tinyi",
+            "addr": "talla",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "aud_p": {
+        "ti": "Psicólogo B3",
+        "to": "Psicólogo B3",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "ec",
+        "va": {
+            "type": "tinyi",
+            "addr": "talla",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "aud_m": {
+        "ti": "Medicina B5",
+        "to": "Medicina B5",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "ed",
+        "va": {
+            "type": "tinyi",
+            "addr": "Medicina B5",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "aud_e": {
+        "ti": "Ejercicios B4",
+        "to": "Ejercicios B4",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "ee",
+        "va": {
+            "type": "tinyi",
+            "addr": "Ejercicios",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "ag1": {
+        "ti": "auditoría de  uso de App y accesorios",
+        "to": "auditoría de  uso de App y accesorios",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "en",
+        "va": {
+            "type": "tinyi",
+            "addr": "auditoría de  uso de App y accesorios",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "ag2": {
+        "ti": "auditoría de medicina",
+        "to": "auditoría de medicina",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "eñ",
+        "va": {
+            "type": "tinyi",
+            "addr": "auditoría de medicina",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "ag3": {
+        "ti": "auditoría de Nutrición",
+        "to": "auditoría de Nutrición",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "eo",
+        "va": {
+            "type": "tinyi",
+            "addr": "auditoría de Nutrición",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "ag4": {
+        "ti": "auditoría Vaneska",
+        "to": "auditoría Vaneska",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "ep",
+        "va": {
+            "type": "tinyi",
+            "addr": "auditoría  Vaneska",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "ag5": {
+        "ti": "auditoría psicológica",
+        "to": "auditoría psicológica",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "eq",
+        "va": {
+            "type": "tinyi",
+            "addr": "auditoría psicológica",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "ag6": {
+        "ti": "auditoría Juli",
+        "to": "auditoría Juli",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "er",
+        "va": {
+            "type": "tinyi",
+            "addr": "auditoría Juli",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "ag7": {
+        "ti": "Auditoría Jazmin",
+        "to": "Auditoría Jazmin",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "es",
+        "va": {
+            "type": "tinyi",
+            "addr": "Auditoría Jazmin",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "ag8": {
+        "ti": "Auditoría Rosibel",
+        "to": "Auditoría Rosibel",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "et",
+        "va": {
+            "type": "tinyi",
+            "addr": "Auditoría Rosibel",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "ag9": {
+        "ti": "Auditoría Jenny",
+        "to": "Auditoría Jenny",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "eu",
+        "va": {
+            "type": "tinyi",
+            "addr": "Auditoría Jenny",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "ag10": {
+        "ti": "Auditoría Maribel",
+        "to": "Auditoría Maribel",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "ev",
+        "va": {
+            "type": "tinyi",
+            "addr": "Auditoría Maribel",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "ag11": {
+        "ti": "Auditoría Enilda",
+        "to": "Auditoría Enilda",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "ew",
+        "va": {
+            "type": "tinyi",
+            "addr": "Auditoría Enilda",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "ag12": {
+        "ti": "Auditoría Ana",
+        "to": "Auditoría Ana",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "ex",
+        "va": {
+            "type": "tinyi",
+            "addr": "Auditoría Ana",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "aud_n": {
+        "ti": "Nutrición B2",
+        "to": "Nutrición B2",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "auditorias",
+        "co": "auditorias",
+        "ed": true,
+        "sg": "ef",
+        "va": {
+            "type": "tinyi",
+            "addr": "Nutrición",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "os": {
+        "ti": "Sistema operativo",
+        "to": "El Sistema operativo que usa el paciente",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "complementarios",
+        "co": "auditorias",
+        "ed": false,
+        "sg": "dm",
+        "va": {
+            "type": "text",
+            "addr": "os",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-9."
+        }
+    },
+    "pais": {
+        "ti": "Pais",
+        "to": "Pais",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "complementarios",
+        "co": "complementarios",
+        "ed": true,
+        "va": {
+            "type": "text",
+            "addr": "pais",
+            "min": 0,
+            "max": 50,
+            "pattern": "A-Za-zñÑáÁéÉíÍóÓúÚ "
+        }
+    },
+    "ciudad": {
+        "ti": "Ciudad",
+        "to": "Ciudad",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "complementarios",
+        "co": "complementarios",
+        "ed": true,
+        "va": {
+            "type": "text",
+            "addr": "ciudad",
+            "min": 0,
+            "max": 50,
+            "pattern": "A-Za-zñÑáÁéÉíÍóÓúÚ "
+        }
+    },
+    "parroquia": {
+        "ti": "Parroquia",
+        "to": "Parroquia",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "complementarios",
+        "co": "complementarios",
+        "ed": true,
+        "va": {
+            "type": "text",
+            "addr": "parroquia",
+            "min": 0,
+            "max": 50,
+            "pattern": "A-Za-zñÑáÁéÉíÍóÓúÚ "
+        }
+    },
+    "profesion": {
+        "ti": "Profesión",
+        "to": "Profesión",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "complementarios",
+        "co": "complementarios",
+        "ed": true,
+        "va": {
+            "type": "text",
+            "addr": "profesión",
+            "min": 0,
+            "max": 50,
+            "pattern": "A-Za-zñÑáÁéÉíÍóÓúÚ "
+        }
+    },
+    "honorarios": {
+        "ti": "Honorarios",
+        "to": "Honorarios",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "material",
+        "co": "administracion",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "HONORARIOS",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "reloj": {
+        "ti": "Reloj",
+        "to": "Reloj",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "material",
+        "co": "material",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "RELOJ",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "balanza": {
+        "ti": "Balanza",
+        "to": "Balanza",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "material",
+        "co": "material",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "BALANZA",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "ligasc": {
+        "ti": "Ligas",
+        "to": "Ligas",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "material",
+        "co": "material",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "LIGAS",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "litioc": {
+        "ti": "Litio Comprimidos",
+        "to": "Litio Comprimidos",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "material",
+        "co": "material",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "LITIO COMPRIMIDOS",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "mberberina": {
+        "ti": "Berberina 2",
+        "to": "Berberina",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "material",
+        "co": "material",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "BERBERINA",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "mcelenio": {
+        "ti": "Selenio 3",
+        "to": "Selenio",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "material",
+        "co": "material",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "SELENIO",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "mzinc": {
+        "ti": "Zinc 2",
+        "to": "Zinc",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "material",
+        "co": "material",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "ZINC",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "mmagnecio": {
+        "ti": "Magnesio 3",
+        "to": "Magnesio",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "material",
+        "co": "material",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "MAGNESIO",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "medulcorante": {
+        "ti": "Edulcorante",
+        "to": "Edulcorante",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "material",
+        "co": "material",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "EDULCORANTE",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "otros": {
+        "ti": "Otros 2",
+        "to": "Otros",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "material",
+        "co": "material",
+        "ed": true,
+        "va": {
+            "type": "tinyi",
+            "addr": "OTROS",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-5"
+        }
+    },
+    "direccion": {
+        "ti": "Dirección",
+        "to": "Dirección de domicilio",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "type": "tinyi",
+            "addr": "dirección",
+            "pattern": "IGNORE"
+        }
+    },
+    "edad": {
+        "ti": "Edad",
+        "to": "Edad",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "type": "text",
+            "addr": "edad",
+            "min": 1,
+            "max": 3,
+            "pattern": "0-9"
+        }
+    },
+    "edadi": {
+        "ti": "Edad de inicio",
+        "to": "Edad de inicio de la obesidad",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "type": "text",
+            "addr": "edad",
+            "min": 1,
+            "max": 3,
+            "pattern": "0-9"
+        }
+    },
+    "dp": {
+        "ti": "Dieta de los puntos",
+        "to": "Dieta de los puntos",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "type": "tinyi",
+            "addr": "dieta"
+        }
+    },
+    "dz": {
+        "ti": "Dieta de la zona",
+        "to": "Dieta de la zona",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "type": "tinyi",
+            "addr": "dieta"
+        }
+    },
+    "dai": {
+        "to": "Dieta de ayuno intermitente",
+        "rng": 1,
+        "ext": false,
+        "ti": "Dieta de ayuno intermitente",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "type": "tinyi",
+            "addr": "dieta"
+        }
+    },
+    "dk": {
+        "to": "Dieta keto",
+        "rng": 1,
+        "ext": false,
+        "ti": "Dieta keto",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "type": "tinyi",
+            "addr": "dieta"
+        }
+    },
+    "dv": {
+        "to": "Dieta vegetariana",
+        "rng": 1,
+        "ext": false,
+        "ti": "Dieta vegetariana",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "type": "tinyi",
+            "addr": "dieta"
+        }
+    },
+    "dm": {
+        "to": "Dieta mediterránea",
+        "rng": 1,
+        "ext": false,
+        "ti": "Dieta mediterránea",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "type": "tinyi",
+            "addr": "dieta"
+        }
+    },
+    "vicios": {
+        "to": "Vicios",
+        "rng": 1,
+        "ext": false,
+        "ti": "Vicios",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "type": "text",
+            "addr": "vicios",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-2"
+        }
+    },
+    "medicamentos": {
+        "to": "medicamentos",
+        "rng": 1,
+        "ext": false,
+        "ti": "medicamentos",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "type": "text",
+            "addr": "vicios",
+            "pattern": "IGNORE"
+        }
+    },
+    "hipotiroidismo2": {
+        "to": "Hipotiroidismo",
+        "rng": 1,
+        "ext": false,
+        "ti": "Hipotiroidismo",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Hipotiroidismo",
+            "type": "tinyi"
+        }
+    },
+    "hashimoto": {
+        "to": "Tiroiditis de Hashimoto",
+        "rng": 1,
+        "ext": false,
+        "ti": "Tiroiditis de Hashimoto",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Tiroiditis de Hashimoto",
+            "type": "tinyi"
+        }
+    },
+    "bipsia_tiroides": {
+        "to": "Biopsia de tiroides",
+        "rng": 1,
+        "ext": false,
+        "ti": "Biopsia de tiroides",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Biopsia de tiroides",
+            "type": "tinyi"
+        }
+    },
+    "cirujia_tiroides": {
+        "to": "Cirugía de tiroides",
+        "rng": 1,
+        "ext": false,
+        "ti": "Cirugía de tiroides",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Cirugía de tiroides",
+            "type": "tinyi"
+        }
+    },
+    "diabetes2": {
+        "to": "Diábetes",
+        "rng": 1,
+        "ext": false,
+        "ti": "Diábetes",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Diábetes",
+            "type": "tinyi"
+        }
+    },
+    "insulina": {
+        "to": "Resistencia a la insulina",
+        "rng": 1,
+        "ext": false,
+        "ti": "Resistencia a la insulina",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Resistencia a la insulina",
+            "type": "tinyi"
+        }
+    },
+    "pancreas2": {
+        "to": "Pàncreas infiltrado de grasa",
+        "rng": 1,
+        "ext": false,
+        "ti": "Pàncreas infiltrado de grasa",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Pàncreas infiltrado de grasa",
+            "type": "tinyi"
+        }
+    },
+    "vesicula2": {
+        "to": "Cirugía de vesícula biliar",
+        "rng": 1,
+        "ext": false,
+        "ti": "Cirugía de vesícula biliar",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Cirugía de vesícula biliar",
+            "type": "tinyi"
+        }
+    },
+    "hepatitis": {
+        "to": "Hepatitis",
+        "rng": 1,
+        "ext": false,
+        "ti": "Hepatitis",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Hepatitis",
+            "type": "tinyi"
+        }
+    },
+    "quistes_ovarios": {
+        "to": "Quistes en los ovarios",
+        "rng": 1,
+        "ext": false,
+        "ti": "Quistes en los ovarios",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Quistes en los ovarios",
+            "type": "tinyi"
+        }
+    },
+    "fibromatosis": {
+        "to": "Fibromatosis Uterina",
+        "rng": 1,
+        "ext": false,
+        "ti": "Fibromatosis Uterina",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Fibromatosis Uterina",
+            "type": "tinyi"
+        }
+    },
+    "mamas2": {
+        "to": "Nódulos en mamas",
+        "rng": 1,
+        "ext": false,
+        "ti": "Nódulos en mamas",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Nódulos en mamas",
+            "type": "tinyi"
+        }
+    },
+    "bipsia_mamas2": {
+        "to": "Biopsia de nódulos en mamas",
+        "rng": 1,
+        "ext": false,
+        "ti": "Biopsia de nódulos en mamas",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Biopsia de nódulos en mamas",
+            "type": "tinyi"
+        }
+    },
+    "cancer_prostata": {
+        "to": "Cáncer de próstata",
+        "rng": 1,
+        "ext": false,
+        "ti": "Cáncer de próstata",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Cáncer de próstata",
+            "type": "tinyi"
+        }
+    },
+    "prostatico": {
+        "to": "Crecimiento prostatico",
+        "rng": 1,
+        "ext": false,
+        "ti": "Crecimiento prostatico",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Crecimiento prostatico",
+            "type": "tinyi"
+        }
+    },
+    "migrana": {
+        "to": "Migraña",
+        "rng": 1,
+        "ext": false,
+        "ti": "Migraña",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Migraña",
+            "type": "tinyi"
+        }
+    },
+    "estrenimiento2": {
+        "to": "Estreñimiento",
+        "rng": 1,
+        "ext": false,
+        "ti": "Estreñimiento 2",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Estreñimiento",
+            "type": "tinyi"
+        }
+    },
+    "flatulencia": {
+        "to": "Flatulencia, distersión abdominal",
+        "rng": 1,
+        "ext": false,
+        "ti": "Flatulencia, distersión abdominal",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Flatulencia, distersión abdominal",
+            "type": "tinyi"
+        }
+    },
+    "aqngt": {
+        "to": "Antecedente de quistes o nódulos en glándula tiroides",
+        "rng": 1,
+        "ext": false,
+        "ti": "Antecedente de quistes o nódulos en glándula tiroides",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Antecedente de quistes o nódulos en glándula tiroides",
+            "type": "tinyi"
+        }
+    },
+    "cabello": {
+        "to": "Caída de cabello",
+        "rng": 1,
+        "ext": false,
+        "ti": "Caída de cabello",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Caída de cabello",
+            "type": "tinyi"
+        }
+    },
+    "unas_quebradizas": {
+        "to": "Uñas quebradizas",
+        "rng": 1,
+        "ext": false,
+        "ti": "Uñas quebradizas",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Uñas quebradizas",
+            "type": "tinyi"
+        }
+    },
+    "piel": {
+        "to": "Piel reseca",
+        "rng": 1,
+        "ext": false,
+        "ti": "Piel reseca",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Piel reseca",
+            "type": "tinyi"
+        }
+    },
+    "aliento": {
+        "to": "Mal aliento",
+        "rng": 1,
+        "ext": false,
+        "ti": "Mal aliento",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Mal aliento",
+            "type": "tinyi"
+        }
+    },
+    "sinusitis": {
+        "to": "Sinusitis, dolores de cabeza",
+        "rng": 1,
+        "ext": false,
+        "ti": "Sinusitis, dolores de cabeza",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Sinusitis, dolores de cabeza",
+            "type": "tinyi"
+        }
+    },
+    "ronquidos2": {
+        "to": "Ronquidos fuertes",
+        "rng": 1,
+        "ext": false,
+        "ti": "Ronquidos fuertes",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Ronquidos fuertes",
+            "type": "tinyi"
+        }
+    },
+    "apnea2": {
+        "to": "Apnea del sueño",
+        "rng": 1,
+        "ext": false,
+        "ti": "Apnea del sueño",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Apnea del sueño",
+            "type": "tinyi"
+        }
+    },
+    "dormirse_sentado": {
+        "to": "Tendencia a dormirse sentado",
+        "rng": 1,
+        "ext": false,
+        "ti": "Tendencia a dormirse sentado",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Tendencia a dormirse sentado",
+            "type": "tinyi"
+        }
+    },
+    "covid": {
+        "ti": "COVID-19",
+        "to": "COVID-19",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "type": "text",
+            "addr": "COVID-19",
+            "pattern": "IGNORE"
+        }
+    },
+    "hospitalizado_covid": {
+        "ti": "Hospitalizado por COVID-19",
+        "to": "Hospitalizado por COVID-19",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Hospitalizado por COVID-19",
+            "type": "tinyi"
+        }
+    },
+    "colonoscopia2": {
+        "ti": "última colonoscopia",
+        "to": "última colonoscopia",
+        "rng": 1,
+        "ext": false,
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "type": "text",
+            "addr": "última colonoscopia",
+            "pattern": "IGNORE"
+        }
+    },
+    "hipertension_arterial": {
+        "to": "Hipertensión arterial familiar",
+        "rng": 1,
+        "ext": false,
+        "ti": "Hipertensión arterial familiar",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": true,
+        "va": {
+            "addr": "Hipertensión arterial familiar",
+            "type": "tinyi"
+        }
+    },
+    "diabetes_familiar": {
+        "to": "Diabetes familiar",
+        "rng": 1,
+        "ext": false,
+        "ti": "Diabetes familiar",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Diabetes familiar",
+            "type": "tinyi"
+        }
+    },
+    "cancer_familiar": {
+        "to": "Cáncer familiar",
+        "rng": 1,
+        "ext": false,
+        "ti": "Cáncer familiar",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Cáncer familiar",
+            "type": "tinyi"
+        }
+    },
+    "polipos": {
+        "to": "Pólipos en el colon",
+        "rng": 1,
+        "ext": false,
+        "ti": "Pólipos en el colon",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Pólipos en el colon",
+            "type": "tinyi"
+        }
+    },
+    "fallecimiento_covid": {
+        "to": "Familiares director que fallecieron por covid-19",
+        "rng": 1,
+        "ext": false,
+        "ti": "Familiares director que fallecieron por covid-19",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Familiares director que fallecieron por covid-19",
+            "type": "tinyi"
+        }
+    },
+    "familiares_covid": {
+        "to": "Familiares gravementes enfermos de covid-19",
+        "rng": 1,
+        "ext": false,
+        "ti": "Familiares gravementes enfermos de covid-19",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Familiares gravementes enfermos de covid-19",
+            "type": "tinyi"
+        }
+    },
+    "x1": {
+        "to": "Tiene tendencia a hacer varias cosas a la vez y en ocasiones siente que son demasiadas",
+        "rng": 1,
+        "ext": false,
+        "ti": "Tiene tendencia a hacer varias cosas a la vez y en ocasiones siente que son demasiadas",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Tiene tendencia a hacer varias cosas a la vez y en ocasiones siente que son demasiadas",
+            "type": "tinyi"
+        }
+    },
+    "x2": {
+        "to": "Tiende a ser algo rígido y se altera cuando no se hace como piensa que se debe hacer",
+        "rng": 1,
+        "ext": false,
+        "ti": "Tiende a ser algo rígido y se altera cuando no se hace como piensa que se debe hacer",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Tiende a ser algo rígido y se altera cuando no se hace como piensa que se debe hacer",
+            "type": "tinyi"
+        }
+    },
+    "x3": {
+        "to": "Tiende a ocuparse y preocuparse a la vez",
+        "rng": 1,
+        "ext": false,
+        "ti": "Tiende a ocuparse y preocuparse a la vez",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Tiende a ocuparse y preocuparse a la vez",
+            "type": "tinyi"
+        }
+    },
+    "x4": {
+        "to": "Le cuesta decir que no",
+        "rng": 1,
+        "ext": false,
+        "ti": "Le cuesta decir que no",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Le cuesta decir que no",
+            "type": "tinyi"
+        }
+    },
+    "x5": {
+        "to": "Quiere que todo sea rápido o vive con alguien que es así y se altera",
+        "rng": 1,
+        "ext": false,
+        "ti": "Quiere que todo sea rápido o vive con alguien que es así y se altera",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Quiere que todo sea rápido o vive con alguien que es así y se altera",
+            "type": "tinyi"
+        }
+    },
+    "x6": {
+        "to": "Situación económica",
+        "rng": 1,
+        "ext": false,
+        "ti": "Situación económica",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Situación económica",
+            "type": "tinyi"
+        }
+    },
+    "x7": {
+        "to": "Enfermedad",
+        "rng": 1,
+        "ext": false,
+        "ti": "Enfermedad",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Enfermedad",
+            "type": "tinyi"
+        }
+    },
+    "x8": {
+        "to": "no se puede dejar de comer en abundancia",
+        "rng": 1,
+        "ext": false,
+        "ti": "no se puede dejar de comer en abundancia",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "no se puede dejar de comer en abundancia",
+            "type": "tinyi"
+        }
+    },
+    "frecuencia_ejercicio": {
+        "to": "Con que frecuencia realiza actividad física",
+        "rng": 1,
+        "ext": false,
+        "ti": "Con que frecuencia realiza actividad física",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Con que frecuencia realiza actividad física",
+            "type": "text",
+            "min": 1,
+            "max": 1,
+            "pattern": "1-3"
+        }
+    },
+    "tiempo_ejercicio": {
+        "to": "Tiene tiempo para realizar el ejercicio",
+        "rng": 1,
+        "ext": false,
+        "ti": "Tiene tiempo para realizar el ejercicio",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Tiene tiempo para realizar el ejercicio",
+            "type": "text",
+            "min": 1,
+            "max": 1,
+            "pattern": "0-2"
+        }
+    },
+    "tipo_ejercicio": {
+        "to": "Qué actividad física le gusta realizar",
+        "rng": 1,
+        "ext": false,
+        "ti": "Qué actividad física le gusta realizar",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Qué actividad física le gusta realizar",
+            "type": "text",
+            "pattern": "IGNORE"
+        }
+    },
+    "pulsometro": {
+        "to": "Usa algún pulsometro de muñeca",
+        "rng": 1,
+        "ext": false,
+        "ti": "Usa algún pulsometro de muñeca",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Usa algún pulsometro de muñeca",
+            "type": "tinyi"
+        }
+    },
+    "applicacion": {
+        "to": "Utiliza alguna aplicación móvil que registre sus pasos",
+        "rng": 1,
+        "ext": false,
+        "ti": "Utiliza alguna aplicación móvil que registre sus pasos",
+        "nu": false,
+        "ta": "formulario_web",
+        "co": "formw",
+        "ed": false,
+        "va": {
+            "addr": "Utiliza alguna aplicación móvil que registre sus pasos",
+            "type": "tinyi"
+        }
+    }
+}

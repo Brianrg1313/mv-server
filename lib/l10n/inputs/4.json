@@ -1,0 +1,9 @@
+{
+    "Comentario": "TEL\u00c9FONO",
+    "es": {
+        "1": "Debe ingresar su tel\u00e9fono",
+        "2": "Su tel\u00e9fono contiene caracteres inv\u00e1lidos",
+        "3": "Su tel\u00e9fono es muy corto",
+        "4": "Su tel\u00e9fono es muy largo"
+    }
+}

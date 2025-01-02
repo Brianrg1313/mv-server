@@ -1,0 +1,8 @@
+{
+    "POST": {
+        "params": ["patient"]
+    },
+    "GET": {
+        "params": ["patient"]
+    }
+}

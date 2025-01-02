@@ -1,0 +1,25 @@
+[{
+  "_id": "17f7a5341354422baeb5bc0909cbc5b4",
+  "p": "e1/635009f0efe746b8/17f7a5341354422baeb5bc0909cbc5b4.webp",
+  "c": 1,
+  "o": "4F12B4FC-01CD-4A3E-9710-401F5E474E85.jpeg",
+  "t": "imagen",
+  "s": 85154,
+  "f": "635009f0efe746b8",
+  "fecha": {
+    "$date": "2024-12-22T16:22:31.771Z"
+  },
+  "m": {
+    "format": "jpeg",
+    "width": 608,
+    "height": 1080,
+    "space": "srgb",
+    "channels": 3,
+    "depth": "uchar",
+    "density": 72,
+    "chromaSubsampling": "4:2:0",
+    "isProgressive": true,
+    "hasProfile": false,
+    "hasAlpha": false
+  }
+}]

@@ -1,0 +1,28 @@
+{
+    "administradores": [
+        "eid",
+        "nombre",
+        "apellido",
+        "correo",
+        "usuario",
+        "telefono",
+        "tdni",
+        "dni",
+        "nacimiento",
+        "sexo"
+    ],
+    "extras": [
+        "pais",
+        "ciudad",
+        "parroquia",
+        "coordenadas",
+        "profesion",
+        "terminos"
+    ],
+    "grupos_administradores": [
+        "gid"
+    ],
+    "permisos": [
+        "eid"
+    ]
+}

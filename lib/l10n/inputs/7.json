@@ -1,0 +1,9 @@
+{
+    "Comentario": "TOKEN",
+    "es": {
+        "1": "Debe ingresar su token",
+        "2": "Su token contiene caracteres inv\u00e1lidos",
+        "3": "Su token es muy corto",
+        "4": "Su token es muy largo"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "POST": {
+        "fileManager": true
+    },
+    "GET": {
+        "params": ["CARPETA_ID", "USUARIO?"]
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "Comentario": "CORREO",
+    "es": {
+        "1": "Debe ingresar un correo electrónico",
+        "2": "Correo electrónico inválido",
+        "3": "Este correo electrónico es muy corto",
+        "4": "Este correo electrónico es muy largo",
+        "5": "El correo electrónico solo debe contener un signo \"@\"",
+        "6": "El usuario de su correo electrónico es inválido (antes del \"@\")",
+        "7": "El dominio de su correo electrónico es inválido (después del \"@\")"
+    }
+}

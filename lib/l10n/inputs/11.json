@@ -1,0 +1,9 @@
+{
+    "Comentario": "Error general para campos con validador en mysql",
+    "es": {
+        "1": "Hubo un error al validar la semana",
+        "2": "La semana es invalida",
+        "3": "Semana muy corta",
+        "4": "Semana muy larga"
+    }
+}

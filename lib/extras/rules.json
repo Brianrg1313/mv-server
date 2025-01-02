@@ -1,0 +1,433 @@
+{
+    "CORREO": {
+        "error" : 1,
+        "key": "correo",
+        "type": "email",
+        "addr": "correo"
+    },
+    "USUARIO": {
+        "error" : 2,
+        "key": "usuario",
+        "addr": "usuario",
+        "min": 2,
+        "max": 125,
+        "pattern": "A-Za-z0-9_\\-."
+    },
+    "DNI": {
+        "error" : 3,
+        "key": "dni",
+        "addr": "Documento de identificación",
+        "min": 2,
+        "max": 30,
+        "pattern": "0-9"
+    },
+    "TELEFONO": {
+        "error" : 4,
+        "key": "telefono",
+        "addr": "teléfono",
+        "min": 10,
+        "max": 15,
+        "pattern": "+)(0-9\\-"
+    },
+    "CONTRASENA": {
+        "error" : 5,
+        "key": "contrasena",
+        "addr": "contraseña",
+        "min": 8,
+        "max": 50,
+        "pattern": "IGNORE"
+    },
+    "CODIGO": {
+        "error" : 6,
+        "key": "codigo",
+        "addr": "Código de verificación",
+        "type": "numeric",
+        "min": 6,
+        "max": 6
+    },
+    "PRIVADO": {
+        "error" : 13,
+        "key": "privado",
+        "addr": "privado",
+        "type": "boolean"
+    },
+    "TOKEN": {
+        "error" : 7,
+        "key": "token",
+        "addr": "token",
+        "min": 10,
+        "max": 2000,
+        "pattern": "IGNORE"
+    },
+    "TEXTO": {
+        "error" : 8,
+        "key": "texto",
+        "addr": "texto",
+        "min": 1,
+        "max": 200,
+        "pattern": "A-Za-z0-9\\. ,"
+    },
+    "SEMANA": {
+        "error" : 11,
+        "key": "semana",
+        "addr": "Semana",
+        "min": 1,
+        "max": 11,
+        "type": "numeric",
+        "pattern": "0-9"
+    },
+    "VARIABLE": {
+        "error" : 12,
+        "key": "variable",
+        "addr": "variable",
+        "min": 1,
+        "max": 11,
+        "type": "numeric",
+        "pattern": "0-9"
+    },
+    "VARIABLE_VALOR": {
+        "error" : 12,
+        "key": "value",
+        "addr": "value",
+        "min": 1,
+        "max": 50,
+        "type": "numeric",
+        "pattern": "0-9."
+    },
+    "LISTA": {
+        "error" : 13,
+        "key": "lista",
+        "addr": "lista",
+        "min": 1,
+        "max": 11,
+        "type": "numeric",
+        "pattern": "0-9"
+    },
+    "NOMBRE": {
+        "error" : 13,
+        "key": "nombre",
+        "addr": "nombre",
+        "min": 1,
+        "max": 50,
+        "lowerCase": false,
+        "pattern": "A-Za-z áéíóúñÑÁÉÍÓÚ"
+    },
+    "APELLIDO": {
+        "error" : 13,
+        "key": "apellido",
+        "addr": "apellido",
+        "min": 1,
+        "max": 50,
+        "lowerCase": false,
+        "pattern": "A-Za-z áéíóúñÑÁÉÍÓÚ"
+    },
+    "TDNI": {
+        "error" : 13,
+        "key": "tdni",
+        "addr": "tdni",
+        "min": 1,
+        "max": 10,
+        "pattern": "a-z"
+    },
+    "NACIMIENTO": {
+        "error" : 13,
+        "key": "nacimiento",
+        "addr": "nacimiento",
+        "min": 10,
+        "max": 10,
+        "pattern": "0-9\\-"
+    },
+    "SEXO": {
+        "error" : 13,
+        "key": "sexo",
+        "addr": "sexo",
+        "min": 1,
+        "max": 1,
+        "pattern": "mf"
+    },
+    "FECHA_INICIO": {
+        "error" : 13,
+        "key": "fecha_inicio",
+        "addr": "fecha_inicio",
+        "min": 10,
+        "max": 10,
+        "pattern": "0-9\\-"
+    },
+    "TALLA": {
+        "error" : 13,
+        "key": "talla",
+        "addr": "talla",
+        "min": 1,
+        "max": 3,
+        "type": "numeric",
+        "pattern": "0-9"
+    },
+    "PAIS": {
+        "error" : 13,
+        "key": "pais",
+        "addr": "país",
+        "min": 1,
+        "max": 100,
+        "pattern": "A-Za-z ñÑáÁéÉíÍóÓúÚüÜ"
+    },
+    "CIUDAD": {
+        "error" : 13,
+        "key": "ciudad",
+        "addr": "ciudad",
+        "min": 1,
+        "max": 100,
+        "pattern": "A-Za-z ñÑáÁéÉíÍóÓúÚüÜ"
+    },
+    "PARROQUIA": {
+        "error" : 13,
+        "key": "parroquia",
+        "addr": "parroquia",
+        "min": 1,
+        "max": 100,
+        "pattern": "A-Za-z ñÑáÁéÉíÍóÓúÚüÜ"
+    },
+    "PROFESION": {
+        "error" : 13,
+        "key": "profesion",
+        "addr": "profesion",
+        "min": 1,
+        "max": 255,
+        "pattern": "A-Za-z ñÑáÁéÉíÍóÓúÚüÜ"
+    },
+    "TITULO": {
+        "error" : 13,
+        "key": "titulo",
+        "addr": "titulo",
+        "min": 1,
+        "max": 125,
+        "lowerCase": false,
+        "pattern": "A-Za-z0-9  áéíóúñÁÉÍÓÚÑ.,"
+    },
+    "DESCRIPCION": {
+        "error" : 13,
+        "key": "descripcion",
+        "addr": "descripcion",
+        "min": 1,
+        "max": 125,
+        "lowerCase": false,
+        "pattern": "A-Za-z0-9  áéíóúñÁÉÍÓÚÑ.,"
+    },
+    "SUBTITULO": {
+        "error" : 13,
+        "key": "subtitulo",
+        "addr": "subtitulo",
+        "min": 1,
+        "max": 125,
+        "lowerCase": false,
+        "pattern": "A-Za-z0-9  áéíóúñÁÉÍÓÚÑ.,"
+    },
+    "BANDERA": {
+        "error" : 13,
+        "key": "bandera",
+        "addr": "bandera",
+        "min": 1,
+        "max": 10,
+        "pattern": "A-Za-z%$€'^#@&*!"
+    },
+    "TIPO": {
+        "error" : 13,
+        "key": "tipo",
+        "addr": "tipo de variable",
+        "type": "numeric",
+        "min": 1,
+        "max": 11,
+        "pattern": "0-9"
+    },
+    "FORMATO": {
+        "error" : 13,
+        "key": "formato",
+        "addr": "formato de la variable",
+        "type": "numeric",
+        "min": 1,
+        "max": 1,
+        "pattern": "0-9"
+    },
+    "COLECCION": {
+        "error" : 13,
+        "key": "coleccion",
+        "addr": "Colección",
+        "type": "numeric",
+        "min": 1,
+        "max": 11,
+        "pattern": "0-9"
+    },
+    "ABREVIACION": {
+        "error" : 13,
+        "key": "abreviacion",
+        "addr": "abreviación",
+        "min": 1,
+        "max": 6,
+        "pattern": "a-z"
+    },
+    "REFERENCIA": {
+        "error" : 13,
+        "key": "referencia",
+        "addr": "Referencia",
+        "type": "numeric",
+        "min": 1,
+        "max": 11,
+        "pattern": "0-9"
+    },
+    "ID": {
+        "error" : 13,
+        "key": "id",
+        "addr": "id",
+        "type": "numeric",
+        "min": 1,
+        "max": 11,
+        "pattern": "0-9"
+    },
+    "UUID": {
+        "error" : 13,
+        "key": "uuid",
+        "addr": "uuid",
+        "type": "text",
+        "min": 1,
+        "max": 100,
+        "pattern": "A-Za-z0-9\\-"
+    },
+    "ICONO": {
+        "error" : 13,
+        "key": "icono",
+        "addr": "icono",
+        "type": "text",
+        "min": 1,
+        "max": 50,
+        "pattern": "A-Za-z0-9\\-"
+    },
+    "POSICION": {
+        "error" : 13,
+        "key": "posicion",
+        "addr": "posicion",
+        "type": "numeric",
+        "min": 1,
+        "max": 11,
+        "pattern": "0-9"
+    },
+    "COLOR": {
+        "error" : 13,
+        "key": "color",
+        "addr": "color",
+        "type": "text",
+        "min": 1,
+        "max": 11,
+        "pattern": "A-Za-z0-9"
+    },
+    "CARPETA": {
+        "error" : 13,
+        "key": "carpeta",
+        "addr": "carpeta",
+        "type": "numeric",
+        "min": 1,
+        "max": 11,
+        "pattern": "0-9"
+    },
+    "CARPETA_ID": {
+        "error" : 13,
+        "key": "carpeta",
+        "addr": "carpeta",
+        "type": "text",
+        "min": 1,
+        "max": 100,
+        "pattern": "A-Za-z0-9"
+    },
+    "ORDEN": {
+        "error" : 13,
+        "key": "orden",
+        "addr": "orden",
+        "type": "list",
+        "lowerCase": false,
+        "min": 1,
+        "max": 11,
+        "pattern": "0-9"
+    },
+    "GRUPO": {
+        "error" : 13,
+        "key": "gid",
+        "addr": "grupo",
+        "type": "numeric",
+        "min": 1,
+        "max": 11,
+        "pattern": "0-9"
+    },
+    "PAGINA": {
+        "error" : 13,
+        "key": "page",
+        "addr": "page",
+        "type": "numeric",
+        "min": 1,
+        "max": 11,
+        "pattern": "0-9"
+    },
+    "F_NUMERO": {
+        "error" : 13,
+        "key": "f_numero",
+        "addr": "f_numero",
+        "type": "text",
+        "min": 1,
+        "max": 50,
+        "pattern": "+0-9.)(,-"
+    },
+    "OPERADOR": {
+        "error" : 13,
+        "key": "operator",
+        "addr": "operator",
+        "type": "numeric",
+        "min": 1,
+        "max": 1,
+        "pattern": "123"
+    },
+    "PERMISO": {
+        "error" : 13,
+        "key": "permiso",
+        "addr": "permiso",
+        "type": "text",
+        "min": 1,
+        "max": 50,
+        "pattern": "a-zA-Z_"
+    },
+    "VER": {
+        "error" : 13,
+        "key": "watch",
+        "addr": "watch",
+        "type": "boolean"
+    },
+    "EDITAR": {
+        "error" : 13,
+        "key": "edit",
+        "addr": "edit",
+        "type": "boolean"
+    },
+    "CREAR": {
+        "error" : 13,
+        "key": "create",
+        "addr": "create",
+        "type": "boolean"
+    },
+    "ELIMINAR": {
+        "error" : 13,
+        "key": "delete",
+        "addr": "delete",
+        "type": "boolean"
+    },
+    "EDITABLE": {
+        "error" : 13,
+        "key": "editable",
+        "addr": "editable",
+        "type": "boolean"
+    },
+    "TAMANO": {
+        "error" : 13,
+        "key": "tamano",
+        "addr": "tamano",
+        "type": "numeric",
+        "min": 1,
+        "max": 1,
+        "pattern": "123"
+    }
+}

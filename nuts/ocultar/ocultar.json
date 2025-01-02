@@ -1,0 +1,611 @@
+[
+    {
+        "id": "1",
+        "id_usuario": "0",
+        "area": "honorarios",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "2",
+        "id_usuario": "0",
+        "area": "reloj",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "3",
+        "id_usuario": "0",
+        "area": "balanza",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "4",
+        "id_usuario": "0",
+        "area": "ligasc",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "5",
+        "id_usuario": "0",
+        "area": "litioc",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "6",
+        "id_usuario": "0",
+        "area": "mberberina",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "7",
+        "id_usuario": "0",
+        "area": "mcelenio",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "8",
+        "id_usuario": "0",
+        "area": "mzinc",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "9",
+        "id_usuario": "0",
+        "area": "mmagnecio",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "10",
+        "id_usuario": "0",
+        "area": "medulcorante",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "11",
+        "id_usuario": "0",
+        "area": "otros",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "12",
+        "id_usuario": "0",
+        "area": "a_kit1",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "13",
+        "id_usuario": "0",
+        "area": "a_kit3",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "14",
+        "id_usuario": "0",
+        "area": "a_lig",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "15",
+        "id_usuario": "0",
+        "area": "a_consultm",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "16",
+        "id_usuario": "0",
+        "area": "a_consultn",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "17",
+        "id_usuario": "0",
+        "area": "a_consultp",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "18",
+        "id_usuario": "0",
+        "area": "a_gym",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "19",
+        "id_usuario": "0",
+        "area": "testnutri",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "20",
+        "id_usuario": "0",
+        "area": "a_litio",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "21",
+        "id_usuario": "0",
+        "area": "a_ber",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "22",
+        "id_usuario": "0",
+        "area": "a_sel",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "23",
+        "id_usuario": "0",
+        "area": "a_zinc",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "24",
+        "id_usuario": "0",
+        "area": "topiromatoadmin",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "25",
+        "id_usuario": "0",
+        "area": "a_mag",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "26",
+        "id_usuario": "0",
+        "area": "pisose",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "27",
+        "id_usuario": "0",
+        "area": "feom",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "28",
+        "id_usuario": "0",
+        "area": "infidelidad",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "29",
+        "id_usuario": "0",
+        "area": "infertilidad",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "30",
+        "id_usuario": "0",
+        "area": "padreshijos",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "31",
+        "id_usuario": "0",
+        "area": "trabajo",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "32",
+        "id_usuario": "0",
+        "area": "traumasf",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "33",
+        "id_usuario": "0",
+        "area": "nadva",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "34",
+        "id_usuario": "0",
+        "area": "enfpsi",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "35",
+        "id_usuario": "0",
+        "area": "hppsi",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "36",
+        "id_usuario": "0",
+        "area": "anot",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "37",
+        "id_usuario": "0",
+        "area": "neepv",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "57",
+        "id_usuario": "0",
+        "area": "peso",
+        "estado": "0",
+        "editable": "1"
+    },
+    {
+        "id": "74",
+        "id_usuario": "0",
+        "area": "peso",
+        "estado": "0",
+        "editable": "0"
+    },
+    {
+        "id": "75",
+        "id_usuario": "0",
+        "area": "b0",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "76",
+        "id_usuario": "0",
+        "area": "c0",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "77",
+        "id_usuario": "0",
+        "area": "fase",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "78",
+        "id_usuario": "0",
+        "area": "citanut",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "79",
+        "id_usuario": "0",
+        "area": "licnut",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "80",
+        "id_usuario": "0",
+        "area": "lic1",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "81",
+        "id_usuario": "0",
+        "area": "lic2",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "82",
+        "id_usuario": "0",
+        "area": "lic3",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "83",
+        "id_usuario": "0",
+        "area": "nf1",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "84",
+        "id_usuario": "0",
+        "area": "nf2",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "85",
+        "id_usuario": "0",
+        "area": "nf3",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "86",
+        "id_usuario": "0",
+        "area": "hiperuricemia",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "87",
+        "id_usuario": "0",
+        "area": "lactosa",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "88",
+        "id_usuario": "0",
+        "area": "fructosa",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "89",
+        "id_usuario": "0",
+        "area": "gluten",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "90",
+        "id_usuario": "0",
+        "area": "ejenba",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "91",
+        "id_usuario": "0",
+        "area": "citaeje",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "92",
+        "id_usuario": "0",
+        "area": "pasose",
+        "estado": "0",
+        "editable": "1"
+    },
+    {
+        "id": "93",
+        "id_usuario": "0",
+        "area": "paie",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "94",
+        "id_usuario": "0",
+        "area": "pisose",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "95",
+        "id_usuario": "0",
+        "area": "ejeavz",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "96",
+        "id_usuario": "0",
+        "area": "calee",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "97",
+        "id_usuario": "0",
+        "area": "hhda",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "98",
+        "id_usuario": "0",
+        "area": "kmr",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "99",
+        "id_usuario": "0",
+        "area": "hhdb",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "100",
+        "id_usuario": "0",
+        "area": "exie",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "101",
+        "id_usuario": "0",
+        "area": "mmdor",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "102",
+        "id_usuario": "0",
+        "area": "hhdc",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "103",
+        "id_usuario": "0",
+        "area": "minle",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "104",
+        "id_usuario": "0",
+        "area": "neste",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "105",
+        "id_usuario": "0",
+        "area": "vo2e",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "106",
+        "id_usuario": "0",
+        "area": "entreavanza",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "107",
+        "id_usuario": "0",
+        "area": "entrenador",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "108",
+        "id_usuario": "0",
+        "area": "peso",
+        "estado": "0",
+        "editable": "1"
+    },
+    {
+        "id": "109",
+        "id_usuario": "0",
+        "area": "peso",
+        "estado": "0",
+        "editable": "0"
+    },
+    {
+        "id": "112",
+        "id_usuario": "0",
+        "area": "peso",
+        "estado": "0",
+        "editable": "0"
+    },
+    {
+        "id": "116",
+        "id_usuario": "0",
+        "area": "peso",
+        "estado": "0",
+        "editable": "1"
+    },
+    {
+        "id": "117",
+        "id_usuario": "0",
+        "area": "pasose",
+        "estado": "0",
+        "editable": "1"
+    },
+    {
+        "id": "118",
+        "id_usuario": "0",
+        "area": "pasose",
+        "estado": "0",
+        "editable": "1"
+    },
+    {
+        "id": "120",
+        "id_usuario": "0",
+        "area": "pasose",
+        "estado": "0",
+        "editable": "1"
+    },
+    {
+        "id": "121",
+        "id_usuario": "0",
+        "area": "fcre",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "122",
+        "id_usuario": "0",
+        "area": "fcme",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "123",
+        "id_usuario": "0",
+        "area": "fche",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "124",
+        "id_usuario": "0",
+        "area": "suenoe",
+        "estado": "0",
+        "editable": "1"
+    },
+    {
+        "id": "135",
+        "id_usuario": "0",
+        "area": "bandas",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "136",
+        "id_usuario": "0",
+        "area": "suenoe",
+        "estado": "0",
+        "editable": "1"
+    },
+    {
+        "id": "137",
+        "id_usuario": "0",
+        "area": "caloe",
+        "estado": "1",
+        "editable": "1"
+    },
+    {
+        "id": "138",
+        "id_usuario": "0",
+        "area": "movimiento",
+        "estado": "1",
+        "editable": "1"
+    }
+]

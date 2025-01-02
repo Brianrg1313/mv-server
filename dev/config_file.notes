@@ -1,0 +1,55 @@
+El archivo "config.json" dentro de cada *PATH* indica la configuración previa a la cargar de los *controladores*.
+Cada método recibe su configuración individual, sin importar si los *controladores* comparten un mismo *PATH* o *URL* por lo que si todos los *controladores* de un mismo *PATH* reciben la misma configuración esta deberá incluirse para cada método.
+
+Definiciones
+
+*PATH*: Ruta absoluta de los directorios donde se alvergan los controladores.
+*Controladores*: Archivos JS que ejecutaran el código final de la petición, cada controlador debe llamarse como el método que ejecutara su código [ post.js, get.js, put.js, delete.js ] (En minusculas).
+*URL*: Url que consulta el cliente, es igual al PATH sin incluir las carpetas de sistema (lib y routes) puede ser cambiado en *rewrite* para una url mas amigable, si la url esta siendo usa por otros controladores el controlador será remplazado.
+
+Estructura y configuración del archivo "config.json"
+
+- METHOD: [String] Es el método de la petición: [ POST, GET, PUT, DELETE ]. Todas las demas configuraciones
+deben estar dentro de un método (LOS MÉTODOS DEBEN ESTAR ESCRITOS EN MAYÚSCULAS).
+
+- params: [Array<String>] Son los parametros que recibira esta petrición en su *URL* ordenados por índice.
+    -- Ejemplo: "/url_de_ejemplo/:USUARIO/:EDAD?" -> "/url_de_ejemplo/brian/25"
+
+- exclude: [Array<String>] Hay middlewares que se aplican a todos los controladores, como el middlewares de validar sesiones; ya que el 90% de la aplicación require validación, pero si se necesita ignorar uno de estos middlewares debe agregarse en este parametro
+    -- TODO: Agregar documentación sobre que middlewares se usan en cada circustancias
+
+- rewrite: cambia toda la url de un PATH, esta URL sigue dirigiendo al mismo controlador del PATH en el que se encuenta 
+    -- Ejemplo: "/usuarios/filtrar/mas_nuevos" -> "/usuarios_nuevos"
+{
+    "MOTHOD": {
+        "params": ["USUARIO", "EDAD?"]
+        "rewrite": "/nueva_url_para_el_controlador"
+    }
+}
+
+
+Significado de colores en la imagen de error
+
+- Amarillo: `1` Error de validación de token de sesión del paciente
+- Rojo: `2` Error de validación de device
+- Naranja: `3` Error al buscar la imagen en los archivos
+- Morado: `4` Origen de la petición no tiene permisos para acceder a los datos
+- verde: `5` El modo de imagen no es correcto
+
+Significado de los formatos de las variables en el dicionario
+
+- String: `1`
+- double: `2`
+- int: `3`
+
+La tabla de perimsos en administracion identifica los permisos que tiene un administrador sobre ciertas acciones y se ordena de esta manera: Son cuatros numeros los cuales pueden ser cero (0 false) o uno (1 true). Los permisos se ordenan de izquierda a derecha y significan lo siguiente:
+[1,   1,     1,      0]
+[ver, crear, editar, eliminar]
+
+
+Tipos de variables (La C antes del tipo indica que la variable es constante)
+- Semanal: `1` Las variables se reinician cada semana
+- Infinito: `2` Las variables replican el valor de la semana anterior
+- Inicial: C `3` La variable usa el valor de la primera semana de otra variable, esta variable es la que se indica en el campo referencia
+- Especial: `4` Variable que hace un calculo
+- Dato único: C `5` variable que solo puede tener un valor, el tiempo no influye en ella y tampoco necesita calculos

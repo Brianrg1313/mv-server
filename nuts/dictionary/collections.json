@@ -1,0 +1,149 @@
+{
+    "calificacion": {
+        "id": 1,
+        "clave": "calificacion",
+        "titulo": "Estado de salud",
+        "icono": null,
+        "posicion": null
+    },
+    "mediciones": {
+        "id": 2,
+        "clave": "mediciones",
+        "titulo": "Mediciones biológicas",
+        "icono": null,
+        "posicion": null
+    },
+    "resumen": {
+        "id": 3,
+        "clave": "resumen",
+        "titulo": "Promedio semanal",
+        "icono": null,
+        "posicion": null
+    },
+    "auditorias": {
+        "id": 4,
+        "clave": "auditorias",
+        "titulo": "Auditorias",
+        "icono": null,
+        "posicion": null
+    },
+    "actitudes": {
+        "id": 5,
+        "clave": "actitudes",
+        "titulo": "Actitudes",
+        "icono": null,
+        "posicion": null
+    },
+    "ambiente": {
+        "id": 6,
+        "clave": "ambiente",
+        "titulo": "Medio ambiente",
+        "icono": null,
+        "posicion": null
+    },
+    "reprogramacion": {
+        "id": 7,
+        "clave": "reprogramacion",
+        "titulo": "Reprogramación",
+        "icono": null,
+        "posicion": null
+    },
+    "bach": {
+        "id": 8,
+        "clave": "bach",
+        "titulo": "PSI (Flores)",
+        "icono": null,
+        "posicion": null
+    },
+    "alimentos": {
+        "id": 9,
+        "clave": "alimentos",
+        "titulo": "Nutrición",
+        "icono": null,
+        "posicion": null
+    },
+    "ejercicios": {
+        "id": 10,
+        "clave": "ejercicios",
+        "titulo": "Ejercicios",
+        "icono": null,
+        "posicion": null
+    },
+    "sintomas": {
+        "id": 11,
+        "clave": "sintomas",
+        "titulo": "Síntomas",
+        "icono": null,
+        "posicion": null
+    },
+    "organos": {
+        "id": 12,
+        "clave": "organos",
+        "titulo": "Órganos",
+        "icono": null,
+        "posicion": null
+    },
+    "enfermedades": {
+        "id": 13,
+        "clave": "enfermedades",
+        "titulo": "Enfermedades",
+        "icono": null,
+        "posicion": null
+    },
+    "tratamiento": {
+        "id": 14,
+        "clave": "tratamiento",
+        "titulo": "Tratamientos",
+        "icono": null,
+        "posicion": null
+    },
+    "evaluaciones": {
+        "id": 15,
+        "clave": "evaluaciones",
+        "titulo": "Estudios pendientes",
+        "icono": null,
+        "posicion": null
+    },
+    "interconsultas": {
+        "id": 16,
+        "clave": "interconsultas",
+        "titulo": "Interconsultas",
+        "icono": null,
+        "posicion": null
+    },
+    "administracion": {
+        "id": 17,
+        "clave": "administracion",
+        "titulo": "Administración",
+        "icono": null,
+        "posicion": null
+    },
+    "tienda": {
+        "id": 18,
+        "clave": "tienda",
+        "titulo": "Tienda virtual",
+        "icono": null,
+        "posicion": null
+    },
+    "material": {
+        "id": 19,
+        "clave": "material",
+        "titulo": "Material utilizado",
+        "icono": null,
+        "posicion": null
+    },
+    "listtable": {
+        "id": 20,
+        "clave": "listtable",
+        "titulo": "Lista de pacientes",
+        "icono": null,
+        "posicion": null
+    },
+    "antecedentes": {
+        "id": 21,
+        "clave": "antecedentes",
+        "titulo": "Antecedentes",
+        "icono": null,
+        "posicion": null
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "Comentario": "TIPO DE IDENTIFICADOR",
+    "es": {
+        "1": "Debe ingresar su tipo de identificador",
+        "2": "Su tipo de identificador contiene caracteres inv\u00e1lidos",
+        "3": "Su tipo de identificador es muy corto",
+        "4": "Su tipo de identificador es muy largo"
+    }
+}

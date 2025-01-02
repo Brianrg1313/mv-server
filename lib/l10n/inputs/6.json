@@ -1,0 +1,9 @@
+{
+    "Comentario": "C\u00d3DIGO DE VERIFICACI\u00d3N",
+    "es": {
+        "1": "Debe ingresar el c\u00f3digo de verificaci\u00f3n que recibió",
+        "2": "Su c\u00f3digo de verificaci\u00f3n contiene caracteres inv\u00e1lidos (solo 6 números)",
+        "3": "Su c\u00f3digo de verificaci\u00f3n es muy corto",
+        "4": "Su c\u00f3digo de verificaci\u00f3n es muy largo"
+    }
+}

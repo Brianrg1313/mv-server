@@ -1,0 +1,9 @@
+{
+    "Comentario": "USUARIO",
+    "es": {
+        "1": "Debe ingresar su usuario",
+        "2": "Su usuario contiene caracteres inv\u00e1lidos",
+        "3": "Su usuario es muy corto",
+        "4": "Su usuario es muy largo"
+    }
+}

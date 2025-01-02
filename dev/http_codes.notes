@@ -1,0 +1,75 @@
+*100* Continuar
+*101* protocolos de conmutación
+*102* Procesamiento (WebDAV)
+*103* primeros consejos
+
+" Éxito "
+
+*200* bien
+*201* creado
+*202* Aceptado
+*203* Información no autorizada
+*204* Sin contenido
+*205* Restablecer contenido
+*206* Contenido parcial
+*207* multiestado (WebDAV)
+*208* ya informados (WebDAV)
+*226* IM utilizado (codificación HTTP Delta)
+
+" Redirección "
+
+*300* opciones múltiples
+*301* Movido Permanentemente
+*302* encontrado (anteriormente movido temporalmente)
+*303* Ver Otros
+*304* No modificado
+*305* Usar proxy
+*306* (sin usar)
+*307* Redirección Temporal
+*308* Redirección Permanente
+
+" Error del cliente "
+
+*400* Petición Incorrecta
+*401* No autorizado
+*402* Pago requerido
+*403* Prohibido
+*404* No encontrado
+*405* Método no permitido
+*406* No Aceptable
+*407* Se requiere autenticación de proxy
+*408* Tiempo de espera de solicitud
+*409* Conflicto
+*410* desaparecido
+*411* Longitud requerida
+*412* Condición previa fallida
+*413* Carga útil demasiado grande
+*414* URI demasiado largo
+*415* Tipo de medio no admitido
+*416* Rango no satisfactorio
+*417* Expectativa fallida
+*418* Soy una tetera (RFC 2324, RFC 7168)
+*421* Solicitud mal dirigida
+*422* Entidad no procesable (WebDAV)
+*423* bloqueado (WebDAV)
+*424* Dependencia fallida (WebDAV)
+*425* Demasiado temprano
+*426* Actualización requerida
+*428* Condición previa requerida
+*429* Demasiadas solicitudes
+*431* Campos de encabezado de solicitud demasiado grandes
+*451* No disponible por razones legales
+
+" Error del servidor "
+
+*500* Error interno de servidor
+*501* no implementado
+*502* Puerta de enlace no válida
+*503* Servicio no Disponible
+*504* Tiempo de espera de puerta de enlace
+*505* Versión HTTP no compatible
+*506* La variante también negocia
+*507* Almacenamiento insuficiente (WebDAV)
+*508* Bucle detectado (WebDAV)
+*510* No extendido
+*511* Se requiere autenticación de red

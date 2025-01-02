@@ -1,0 +1,9 @@
+{
+    "Comentario": "Error general para campos con validador en mysql",
+    "es": {
+        "1": "Hubo un error al validar ({name})",
+        "2": "Uno de los datos es inválido ({name})",
+        "3": "Uno de los datos es muy corto ({name})",
+        "4": "Uno de los datos es muy largo ({name})"
+    }
+}

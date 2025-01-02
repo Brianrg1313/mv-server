@@ -1,0 +1,4 @@
+{
+    "Comentario": "Se intento crear un paciente con un numero de identificación que ya está siendo usado por otro usuario",
+    "es" : "Ya hay una cuenta usando este DNI (Número de identificación)"
+}

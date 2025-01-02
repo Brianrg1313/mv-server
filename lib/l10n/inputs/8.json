@@ -1,0 +1,9 @@
+{
+    "Comentario": "TEXTO",
+    "es": {
+        "1": "Debe ingresar su texto",
+        "2": "Su texto contiene caracteres inv\u00e1lidos",
+        "3": "Su texto es muy corto",
+        "4": "Su texto es muy largo"
+    }
+}

@@ -1,0 +1,56 @@
+[{
+  "_id": "programmedWeight",
+  "resultado": 247,
+  "recursos": {
+    "weight": 22
+  }
+},
+{
+  "_id": "weightColor",
+  "resultado": 248,
+  "recursos": {
+    "weight": 22,
+    "programmed": 247,
+    "lostWeight": 20
+  }
+},
+{
+  "_id": "avgFood",
+  "resultado": 164,
+  "recursos": [
+    169,
+    155,
+    156
+  ]
+},
+{
+  "_id": "avgEnvironment",
+  "recursos": [
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87
+  ],
+  "resultado": 163
+},
+{
+  "_id": "avgAttitudes",
+  "resultado": 166,
+  "recursos": [
+    75,
+    76,
+    77,
+    78,
+    79
+  ]
+},
+{
+  "_id": "programmedFat",
+  "recursos": {
+    "fat": 23
+  },
+  "resultado": 250
+}]
