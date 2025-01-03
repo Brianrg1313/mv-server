@@ -1247,7 +1247,7 @@
         "area": "laboratorio",
         "texto": "no entrego \/ no fue revisado",
         "color": "5",
-        "estado": "1",
+        "estado": "0",
         "fecha_r": "2023-09-26 00:00:00"
     },
     {
@@ -1256,7 +1256,7 @@
         "area": "laboratorio",
         "texto": "Si lo entrego \/ si se reviso",
         "color": "1",
-        "estado": "1",
+        "estado": "0",
         "fecha_r": "2023-09-26 00:00:00"
     },
     {
@@ -3371,7 +3371,7 @@
         "area": "anna",
         "texto": "paciente contactado",
         "color": "5",
-        "estado": "1",
+        "estado": "0",
         "fecha_r": "2024-02-27 00:00:00"
     },
     {
@@ -3380,7 +3380,7 @@
         "area": "anna",
         "texto": "En alerta para ser contactado ",
         "color": "3",
-        "estado": "1",
+        "estado": "0",
         "fecha_r": "2024-02-27 00:00:00"
     },
     {
@@ -3389,7 +3389,7 @@
         "area": "anna",
         "texto": "No fue contactado ",
         "color": "1",
-        "estado": "1",
+        "estado": "0",
         "fecha_r": "2024-02-27 00:00:00"
     },
     {
@@ -3740,7 +3740,7 @@
         "area": "laboratorio",
         "texto": "Se toma muestra  \/ pendiente resultados ",
         "color": "4",
-        "estado": "1",
+        "estado": "0",
         "fecha_r": "2024-04-01 00:00:00"
     },
     {
@@ -4768,5 +4768,104 @@
         "color": "2",
         "estado": "1",
         "fecha_r": "2024-09-03 00:00:00"
+    },
+    {
+        "id": "571",
+        "id_creador": "1561",
+        "area": "laboratorio",
+        "texto": "NO ENTREGÓ\/ NO FUE REVISADO",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-09-26 00:00:00"
+    },
+    {
+        "id": "572",
+        "id_creador": "1561",
+        "area": "laboratorio",
+        "texto": "SE TOMA MUESTRA \/ PENDIENTE RESULTADOS",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2024-09-26 00:00:00"
+    },
+    {
+        "id": "573",
+        "id_creador": "1561",
+        "area": "laboratorio",
+        "texto": "SI LO ENTREGÓ\/ SI SE REVISO",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-09-26 00:00:00"
+    },
+    {
+        "id": "574",
+        "id_creador": "1322",
+        "area": "psc",
+        "texto": "Consulta interrumpida por motivos de señal, wifi o electricidad por alguna de las dos partes",
+        "color": "3",
+        "estado": "1",
+        "fecha_r": "2024-10-02 00:00:00"
+    },
+    {
+        "id": "575",
+        "id_creador": "724",
+        "area": "pancreas",
+        "texto": "P2 097",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-10-03 00:00:00"
+    },
+    {
+        "id": "576",
+        "id_creador": "724",
+        "area": "pancreas",
+        "texto": "P2 097",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-10-03 00:00:00"
+    },
+    {
+        "id": "577",
+        "id_creador": "1322",
+        "area": "aud_p",
+        "texto": "Px no contesto a la atención brindada\nDejando en visto o simplemente no viendo el mensaje al cabo de un tiempo",
+        "color": "2",
+        "estado": "1",
+        "fecha_r": "2024-10-12 00:00:00"
+    },
+    {
+        "id": "578",
+        "id_creador": "1561",
+        "area": "anna",
+        "texto": "Aún NO ha sido contactado",
+        "color": "1",
+        "estado": "0",
+        "fecha_r": "2024-10-23 00:00:00"
+    },
+    {
+        "id": "579",
+        "id_creador": "1561",
+        "area": "anna",
+        "texto": "Paciente Aún NO ha sido contactado",
+        "color": "1",
+        "estado": "1",
+        "fecha_r": "2024-10-23 00:00:00"
+    },
+    {
+        "id": "580",
+        "id_creador": "1561",
+        "area": "anna",
+        "texto": "Paciente Atendido por la Señorita Vaneska",
+        "color": "4",
+        "estado": "1",
+        "fecha_r": "2024-10-23 00:00:00"
+    },
+    {
+        "id": "581",
+        "id_creador": "1561",
+        "area": "anna",
+        "texto": "Paciente Atendido por la Dra. Amneris",
+        "color": "5",
+        "estado": "1",
+        "fecha_r": "2024-10-23 00:00:00"
     }
 ]
